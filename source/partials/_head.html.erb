@@ -1,0 +1,45 @@
+<!-- head -->
+<meta name='description' content= '<%= page_description %>' >
+
+<meta name='twitter:title' content= '<%= page_title %>' >
+<meta name='twitter:description' content= '<%= page_description%>' >
+
+<meta property='og:url' content= '<%= current_page_url %>' >
+
+<meta property='og:title' content= '<%= page_title %>' >
+<meta property='og:description' content= '<%= page_description %>' >
+<meta property='og:site_name' content= '<%= page_title %>' >
+
+<meta itemprop='name' content= '<%= page_title %>' >
+<meta itemprop='description' content= '<%= page_description %>' >
+
+<title><%= page_title %></title>
+
+<%# Add favicons 
+
+<link rel="apple-touch-icon-precomposed" href="/images/path/to/image">
+
+<meta name="msapplication-TileColor" content="#3F4EFF">
+<meta name="msapplication-TileImage" content="/images/path/to/image">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/path/to/image">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/path/to/image">
+
+<link rel="icon" href="/images/path/to/image" sizes="32x32">
+
+%>
+
+<%= stylesheet_link_tag :site %>
+
+<%# Add Google tracking
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=<GA-ID-here>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '<GA-ID-here>');
+</script>
+
+%>

@@ -1,0 +1,28 @@
+# Required
+
+# human readable site name, for SEO
+name: ''
+
+# site description, for SEO results
+description: ''
+
+# human readable site title, for SEO and default page title
+title: ''
+
+# site's twitter handle, for attributing Twitter shares
+twitter_handle: ''
+
+# for attributing Facebook shares to your page/app
+facebook_app_id: ''
+
+# image to use for social sharing, by default
+seo_banner: ''
+
+# Universal Google Analytics ID with "Enhanced Link Attribution" turned on
+google_analytics_id: ''
+
+facebook_url: 'https://www.facebook.com'
+youtube_url: 'https://www.youtube.com'
+
+contact_number: '310-937-2007' #with spacing/formatting (e.g. xxx-xxx-xxxx or (xxx) xxx-xxxx)
+contact_email: ''

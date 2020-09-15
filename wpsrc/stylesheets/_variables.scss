@@ -1,0 +1,56 @@
+/******************************************************
+  FONTS
+*******************************************************/
+// @font-face {
+//   font-family: 'Calibre';
+//   src: url('/fonts/CalibreWeb-Regular.eot');
+//   src: url('/fonts/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'),
+//        url('/fonts/CalibreWeb-Regular.woff2') format('woff2'),
+//        url('/fonts/CalibreWeb-Regular.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+// }
+
+// set base font size
+body {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******************************************************
+  COLORS
+*******************************************************/
+$text-white: #ffffff;
+$text-gray: #878787;
+$text-light-gray: #585858;
+$text-dark-gray: #474747;
+$text-black: #000000;
+
+$black: #000000;
+$darkest-gray: #1a1a1a;
+$dark-gray: #8F8F8F;
+$mid-gray: #CBCBCB;
+$light-gray: #F5F5F5;
+$white: #FFFFFF;
+
+$accent-blue: #3F4EFF;
+
+/******************************************************
+  SCREEN
+*******************************************************/
+$tablet: new-breakpoint(min-width 720px);
+$desktop: new-breakpoint(min-width 1020px);
+
+/******************************************************
+  BORDERS
+*******************************************************/
+$mobile-side: 6%;
+$tablet-side: 40px;
+
+/******************************************************
+  TRANSITIONS
+*******************************************************/
+$link-transition: cubic-bezier(0.165, 0.84, 0.44, 1);
