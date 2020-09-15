@@ -1,5 +1,11 @@
-import * as $ from 'jquery'
+import * as $ from 'jquery';
+import Foundation from 'foundation-sites';
 
 $(function(){
-// some javascript
+  $(document).foundation();
+
+  $(".callout.feature.expandable").on( "click touch", function (e) {
+    e.preventDefault();
+    $(this).toggleClass( "is-expanded" );
+  });
 });

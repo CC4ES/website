@@ -3,4 +3,11 @@
 
 @include foundation-everything(true);
 
-@import 'all';
+@import 'nav';
+@import 'footer';
+
+.page-container {
+  @include breakpoint(medium) {
+    min-height: 60vh;
+  }
+}

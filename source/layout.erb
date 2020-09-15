@@ -8,7 +8,9 @@
   </head>
   <body class="<%= page_classes %>">
     <%= partial 'partials/header' %>
-    <%= yield %>
+    <div class="page-container">
+      <%= yield %>
+    </div>
     <%= partial 'partials/footer' %>
     <%= javascript_include_tag :all %>
   </body>
