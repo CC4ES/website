@@ -1,31 +1,6 @@
-// @import '~path/to/npm/assets';
+@import 'settings';
+@import '~foundation-sites/scss/foundation.scss';
 
-@import 'variables';
-@import 'mixins';
+@include foundation-everything(true);
+
 @import 'all';
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-    background-color: #ffffff;
-    margin: 0;
-    color: #000000;
-}
-
-a {
-    text-decoration: none;
-}
-
-body {
-    margin: 0;
-}
-
-p, h1, h2, h3, h4, h5 {
-    margin: 0;
-}
