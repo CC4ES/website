@@ -80,6 +80,9 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$accent-orange: #dd9933;
+$light-yellow: #edf7ca;
+$brown: #413502;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -872,7 +875,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 1rem 0.5rem;
-$topbar-background: #edf7ca;
+$topbar-background: $light-yellow;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

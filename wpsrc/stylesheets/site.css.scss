@@ -5,6 +5,7 @@
 
 @import 'nav';
 @import 'footer';
+@import 'homepage';
 
 .page-container {
   @include breakpoint(medium) {

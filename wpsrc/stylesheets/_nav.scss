@@ -1,6 +1,6 @@
 .title-bar {
   padding: 1rem 0.5rem;
-  background: #edf7ca;
+  background: $light-yellow;
 
   .title-bar-title img {
     width: 150px;
@@ -27,8 +27,7 @@
 }
 
 .top-bar {
-  border-bottom: 5px solid #dd9933;
-  margin-bottom: 1rem;
+  border-bottom: 5px solid $accent-orange;
 
   @include breakpoint(small down) {
     padding: 0 0.5rem;
