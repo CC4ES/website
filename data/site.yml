@@ -26,3 +26,35 @@ youtube_url: 'https://www.youtube.com'
 
 contact_number: '310-937-2007' #with spacing/formatting (e.g. xxx-xxx-xxxx or (xxx) xxx-xxxx)
 contact_email: ''
+
+main_nav: # text name matches file names in /source directory
+  - slug: about-us
+    text: "About Us"
+  - slug: contact
+    text: "Contact"
+  - slug: six-modules
+    text: "Six Modules"
+    subnav:
+      - slug: how-to-navigate-six-modules
+        text: "How to Navigate Six Modules"
+      - slug: environmental-justice-diversity
+        text: "1. Environment Justice &amp; Diversity"
+      - slug: environmental-literacy-fundamentals
+        text: "2. Environmental Literacy Fundamentals"
+      - slug: sustainable-food-systems
+        text: "3. Sustainable Food Systems"
+      - slug: regenerative-technologies
+        text: "4. Regenerative Technologies"
+      - slug: sustainable-business-practices
+        text: "5. Sustainable Business Practices"
+      - slug: resilient-community-building
+        text: "6. Resilient Community Building"
+  - slug: cc4es-circles
+    text: "CC4ES Circles"
+    subnav:
+      - slug: urban-school-gardeners
+        text: "Urban School Gardeners"
+  - slug: cc4es-maps
+    text: "CC4ES Maps"
+  - slug: library
+    text: "Library"

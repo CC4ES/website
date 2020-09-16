@@ -12,3 +12,12 @@
     min-height: 60vh;
   }
 }
+
+.dropdown.menu>li.is-active>a {
+  color: $black;
+}
+
+.coming-soon {
+  text-align: center;
+  padding: 3rem 2rem;
+}

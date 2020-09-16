@@ -8,24 +8,22 @@
   </div>
   <div class="top-bar-right" id="main-nav">
     <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown" >
-      <li><%= link_to "Home", "/" %></li>
-      <li><%= link_to "About Us", "/about-us/" %></li>
-      <li><%= link_to "Contact", "/contact-cc4es/" %></li>
-      <li>
-        <a>Six Modules</a>
-        <ul class="menu vertical">
-          <li><%= link_to "How to Navigate Six Modules", "#" %></li>
-          <li><%= link_to "Environmental Justice and Diversity", "#" %></li>
-          <li><%= link_to "Environmental Literacy Fundamentals", "#" %></li>
-          <li><%= link_to "Sustainable Food Systems", "#" %></li>
-          <li><%= link_to "Regenerative Technologies", "#" %></li>
-          <li><%= link_to "Sustainable Business Practices", "#" %></li>
-          <li><%= link_to "Resilient Community Building", "#" %></li>
-        </ul>
+    <% data.site.main_nav.each do |item| %>
+      <li class="<%= current_page.page_id == item[:slug] ? 'is-active' : '' %>">
+        <% unless item.has_key? :subnav %>
+          <%= link_to(item[:text], item[:slug]) %>
+        <% else %>
+          <a><%= item[:text] %></a>
+          <ul class="menu vertical">
+          <% item[:subnav].each do |subitem| %>
+            <li class="<%= current_page.page_id == subitem[:slug] ? 'is-active' : '' %>">
+              <%= link_to(subitem[:text], subitem[:slug]) %>
+            </li>
+          <% end %>
+          </ul>
+        <% end %>
       </li>
-      <li><%= link_to "CC4ES Circles", "#" %></li>
-      <li><%= link_to "CC4ES Maps", "#" %></li>
-      <li><%= link_to "Library", "#" %></li>
+    <% end %>
     </ul>
   </div>
 </div>
