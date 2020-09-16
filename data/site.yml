@@ -38,7 +38,9 @@ main_nav: # text name matches file names in /source directory
     text: "Six Modules"
     subnav:
       - slug: how-to-navigate-six-modules
-        text: "How to Navigate Six Modules"
+        text: "Background"
+      - slug: six-modules
+        text: "0. Introduction"
       - slug: environmental-justice-diversity
         text: "1. Environment Justice &amp; Diversity"
       - slug: environmental-literacy-fundamentals
@@ -60,3 +62,59 @@ main_nav: # text name matches file names in /source directory
     text: "CC4ES Maps"
   - slug: library
     text: "Library"
+
+modules:
+
+  - image: hands.jpg
+    module_id: 1
+    label: module
+    title: Environmental Justice &amp; Diversity
+    subtitle: >
+      We are all interconnected
+    cta_text: "Learn More"
+    cta_page_key: environmental-justice-diversity
+
+  - image: seedlings.jpg
+    module_id: 2
+    label: module
+    title: Environmental Literacy Fundamentals
+    subtitle: >
+      Environmental health &amp; our well-being
+    cta_text: "Learn More"
+    cta_page_key: environmental-literacy-fundamentals
+
+  - image: beets.jpg
+    module_id: 3
+    label: module
+    title: Sustainable Food Systems
+    subtitle: >
+      Sustainable lifestyle
+    cta_text: "Learn More"
+    cta_page_key: sustainable-food-systems
+
+  - image: vertical_garden.jpg
+    module_id: 4
+    label: module
+    title: Regenerative Technologies
+    subtitle: >
+      Mimic nature
+    cta_text: "Learn More"
+    cta_page_key: regenerative-technologies
+
+  - image: seedlings_in_jars.jpg
+    module_id: 5
+    label: module
+    title: Sustainable Business Practices
+    subtitle: >
+      Green on a large scale
+    cta_text: "Learn More"
+    cta_page_key: sustainable-business-practices
+
+  - image: hands_with_plants.jpg
+    module_id: 6
+    label: module
+    title: Resilient community building
+    subtitle: >
+      Invest locally to build a resilient community
+    cta_text: "Learn More"
+    cta_page_key: resilient-community-building

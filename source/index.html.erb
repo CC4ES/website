@@ -13,54 +13,41 @@ description: "CC4ES is a grassroots, non-profit environmental organization dedic
 </div>
 
 <article class="grid-container">
-  <div class="grid-x grid-margin-x">
+  <div class="grid-x">
     <div class="text-center cell small-12">
       <h2><strong>A Web-Based Center To Cultivate<br>Sustainable Lifestyle In All Walks Of Life</strong></h2>
       <p>Ever emerging environmental, social and economic challenges necessitate a lifestyle that fosters sustainability. Cultivation of a sustainable lifestyle entails continual learning and diligent practices. CC4ES Mapping facilitates collective shift by connecting those interested to learn with entities that have established sustainable practices.</p>
       <p>CC4ES categorizes the complexity of sustainability into Six Interconnected Modules. Each of the CC4ES Modules explores how our actions impact the environment.</p>
+    </div>
+  </div>
+  <div class="grid-x grid-padding-x grid-margin-x">
+  <% data.site.modules.each do |card| %>
+    <div class="grid-card cell small-12 medium-6 large-4">
+      <% if card.image %>
+        <div class="image-wrapper"><%= image_tag card.image %></div>
+      <% end %>
+      <div class="card-content">
+        <% if card.module_id && card.module_id >= 0
+            label_text = "#{card.label}" + " #{card.module_id}"
+          else
+            label_text = card.label
+          end
+        %>
+        <div>
+          <span class="tool-id-label"><%= label_text %></span>
+        </div>
+        <h3><%= card.title %></h3>
+        <% if card.subtitle %><p><%= card.subtitle %></p><% end %>
+      </div>
+      <% link_to card.cta_page_key, :class => "button" do %>
+        <%= card.cta_text %>
+      <% end %>
+    </div>
+  <% end %>
+  </div>
+  <div class="grid-x">
+    <div class="text-center cell small-12">
       <p>The Environmental Justice &amp; Diversity module is the key as success can only be achieved through individual perceptional change.</p>
-    </div>
-    <div class="cell small-12 medium-6 large-4">
-      <h4>1. Environmental Justice &amp; Diversity</h4>
-      <img class="module-image" src="/images/hands.jpg" alt="hands touching in collaboration" />
-      <p class="image-caption">We Are All Interconnected</p>
-      <p class="module-teaser">Social and environmental justice intersect. There is a longstanding history of racial discrimination with respect to environmental justice. Environmental justice is the right of every citizen to adequate protection from environmental hazard. This right entitles equal access to environmental literacy, and equal benefits from governmental clean-up programs. Communities of color and/or low income are more likely to have chemical plants. hazardous waste facilities, sanitary landfills, sewage treatment plants, and incinerators within their neighborhood. We must openly discuss how race and socioeconomic class impact environmental equity in order to tackle environmental challenges.</p>
-      <%= link_to("Learn More", 'environmental-justice-diversity', :class => "button") %>
-    </div>
-    <div class="cell small-12 medium-6 large-4">
-      <h4>2. Environmental Literacy Fundamentals</h4>
-      <img class="module-image" src="/images/seedlings.jpg" alt="seedlings in order" />
-      <p class="image-caption">Environmental Health &amp; Our Well-Being</p>
-      <p>This module provides environmental literacy resources to help us adopt our own sustainable activities. We will explore how each of us is interconnected with other species and non-living matter in the environment. Realize that our daily activities impact our surrounding environment, and in effect cascades into sustainability of the whole ecosystem. Supporting a sustainable ecosystem will ensure our well-being.</p>
-      <%= link_to("Learn More", 'environmental-literacy-fundamentals', :class => "button") %>
-    </div>
-    <div class="cell small-12 medium-6 large-4">
-      <h4>3. Sustainable<br>Food Systems</h4>
-      <img class="module-image" src="/images/beets.jpg" alt="beet roots" />
-      <p class="image-caption">Sustainable Lifestyle</p>
-      <p>Food systems are the basis in the foundation of local, regional, national and global economies. In order to achieve a sustainable food system, we need to understand the complexities involved. Food’s journey from the farm to our table is anything but simple. This module explores how to grow food sustainably, reduce food waste, and create/support sustainable food businesses.</p>
-      <%= link_to("Learn More", 'sustainable-food-systems', :class => "button") %>
-    </div>
-    <div class="cell small-12 medium-6 large-4">
-      <h4>4. Regenerative Technologies</h4>
-      <img class="module-image" src="/images/vertical_garden.jpg" alt="vertical garden of edible plants" />
-      <p class="image-caption">Mimic Nature</p>
-      <p>Most of us are familiar with the term renewable energy, such as solar and wind energy. We are going to now focus on regenerative technology. Living things in nature regenerate — regrow themselves. Regenerative approaches work by mimicing nature. When looking at regenerative approaches, we view a broader context which encompasses checks and balances that affect whole ecosystem social, economic and environmental sustainability. This includes incorporating sustainable designs for gardening/farming, design architecture and landscape, transportation, and more.</p>
-      <%= link_to("Learn More", 'regenerative-technologies', :class => "button") %>
-    </div>
-    <div class="cell small-12 medium-6 large-4">
-      <h4>5. Sustainable Business Practices</h4>
-      <img class="module-image" src="/images/seedlings_in_jars.jpg" alt="seedlings in jars of coins" />
-      <p class="image-caption">Green On A Larger Scale</p>
-      <p>Sustainability starts at the individual level – everything that each of us contributes makes a difference. We must broaden the effort to include each workplace/business. Scaling up does not need to be expensive, small efforts at work can make a significant impact. With a small investment, businesses can use recycle bins, energy efficient lighting, and implement water conservation techniques. Decreasing waste can have cost savings, consider repairing and sharing tools and equipment. Sustainable business practice invests locally and creates resilient communities. This module showcases local and regional businesses practicing sustainability.</p>
-      <%= link_to("Learn More", 'sustainable-business-practices', :class => "button") %>
-    </div>
-    <div class="cell small-12 medium-6 large-4">
-      <h4>6. Resilient Community Building</h4>
-      <img class="module-image" src="/images/hands_with_plants.jpg" alt="hands holding plants" />
-      <p class="image-caption">Invest Locally To BuildA Resilient Community</p>
-      <p>This is our only planet, we need to protect it. This protection starts locally. Businesses need to invest social capital into the local community. This entails building relationships, supporting local initiatives and developing trust. The community reciprocates by supporting the businesses, a positive feedback loop that creates a resilient community.</p>
-      <%= link_to("Learn More", 'resilient-community-building', :class => "button") %>
     </div>
   </div>
 </article>
