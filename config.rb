@@ -1,8 +1,3 @@
-
-# Markdown Options
-# If you'd like GitHub-style code fencing, check out https://github.com/middleman/middleman-syntax
-set :markdown_engine, :redcarpet
-
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
