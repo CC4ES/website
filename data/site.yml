@@ -28,6 +28,8 @@ contact_number: '310-937-2007' #with spacing/formatting (e.g. xxx-xxx-xxxx or (x
 contact_email: ''
 
 main_nav: # text name matches file names in /source directory
+  - slug: index
+    text: "Home"
   - slug: about-us
     text: "About Us"
   - slug: contact
