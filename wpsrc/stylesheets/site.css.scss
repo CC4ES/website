@@ -173,6 +173,7 @@ blockquote {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  margin-bottom: 1rem;
 }
 
 .videoWrapper iframe {
@@ -203,6 +204,27 @@ img.focus-on-sustainability-diagram {
   height: auto;
   display: block;
   margin: 0 auto 0.5rem auto;
+}
+
+img.diagram-food-system {
+  max-width: 430px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+img.diagram-reduce-food-waste {
+  max-width: 240px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+img.diagram-sustainable-food-habits {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
 }
 
 img.full-width-photo {
