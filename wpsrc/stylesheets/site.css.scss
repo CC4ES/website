@@ -141,14 +141,6 @@ article {
   }
 }
 
-img.members-diagram {
-  margin-bottom: 1rem;
-
-  @include breakpoint(medium) {
-    margin-bottom: 2rem;
-  }
-}
-
 blockquote {
   font-size: 1.5rem;
   font-weight: bold;
@@ -189,4 +181,31 @@ blockquote {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+img.members-diagram, img.full-width-photo {
+  margin-bottom: 1rem;
+
+  @include breakpoint(medium) {
+    margin-bottom: 2rem;
+  }
+}
+
+img.hydrogen-bonding-diagram {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+img.focus-on-sustainability-diagram {
+  max-width: 750px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+img.full-width-photo {
+  width: 100%;
+  height: auto;
 }
