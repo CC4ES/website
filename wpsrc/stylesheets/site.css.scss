@@ -231,3 +231,15 @@ img.full-width-photo {
   width: 100%;
   height: auto;
 }
+
+.contact-form {
+  .red-text {
+    color: red;
+  }
+
+  fieldset.topics-list {
+    .topics-item {
+      display: block;
+    }
+  }
+}

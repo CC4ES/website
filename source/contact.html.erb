@@ -8,4 +8,72 @@ hero_subtitle: ""
 ---
 
 <%= partial 'partials/header' %>
-<%= partial 'partials/coming-soon' %>
+
+<article class='grid-container'>
+  <div class='grid-x grid-margin-x'>
+    <div class='cell small-12 text-center'>
+      <h2>Contact Form</h2>
+      <p class="big-text">Please fill out the form below and we will contact you as soon as possible.</p>
+    </div>
+  </div>
+  <form name="contact" method="POST" data-netlify="true" class='contact-form'>
+    <div class='grid-x grid-padding-x'>
+      <div class='medium-6 cell'>
+        <label >First Name<span class="red-text">*</span>
+          <input type='text' name="first_name" required>
+        </label>
+      </div>
+      <div class='medium-6 cell'>
+        <label >Last Name<span class='red-text'>*</span>
+          <input type='text' name="last_name" required>
+        </label>
+      </div>
+      <div class='cell'>
+        <label >Email<span class='red-text'>*</span>
+          <input type='email' name='email' required>
+        </label>
+      </div>
+      <div class='cell'>
+        <label>Affiliated Organization
+          <input type='text' name='organization'>
+        </label>
+      </div>
+      <fieldset class="cell topics-list">
+        <legend>Select the CC4ES Six Modules that are relevant to you (topics of interest.)</legend>
+        <div class="topics-item">
+        <input id="module1" name='module1' type="checkbox"><label for="module1">1. Environmental Justice &amp; Diversity</label>
+        </div>
+        <div class="topics-item">
+        <input id="module2" name='module2' type="checkbox"><label for="module2">2. Environmental Literacy Fundamentals</label>
+        </div>
+        <div class="topics-item">
+        <input id="module3" name='module3' type="checkbox"><label for="module3">3. Sustainable Food Systems</label>
+        </div>
+        <div class="topics-item">
+        <input id="module4" name='module4' type="checkbox"><label for="module4">4. Regenerative Technologies</label>
+        </div>
+        <div class="topics-item">
+        <input id="module5" name='module5' type="checkbox"><label for="module5">5. Sustainable Business Practices</label>
+        </div>
+        <div class="topics-item">
+        <input id="module6" name='module6' type="checkbox"><label for="module6">6. Resilient Community Building</label>
+        </div>
+      </fieldset>
+      <fieldset class="cell">
+        <legend>CC4ES Mailing List</legend>
+        <input id="mailing_list" name='mailing_list' type="checkbox" checked><label for="mailing_list">Please add me to your mailing list.</label>
+      </fieldset>
+      <fieldset class="cell">
+        <legend>Become a CC4ES Dot to collaborate with CC4ES projects as a member of our community</legend>
+        <input id="dot_signup" name='dot_signup' type="checkbox"><label for="dot_signup">I am interested in becoming a CC4ES Dot.</label>
+      </fieldset>
+      <label class='cell'>
+        Comment or Message
+        <textarea rows="5" name='message'></textarea>
+      </label>
+      <div class='cell'>
+        <button type="submit" class="button">Submit</button>
+      </div>
+    </div>
+  </form>
+</article>
