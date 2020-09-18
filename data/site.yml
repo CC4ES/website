@@ -38,9 +38,9 @@ main_nav: # text name matches file names in /source directory
     text: "Six Modules"
     subnav:
       - slug: how-to-navigate-six-modules
-        text: "Background"
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Background"
       - slug: six-modules
-        text: "0. Introduction"
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Introduction"
       - slug: environmental-justice-diversity
         text: "1. Environment Justice &amp; Diversity"
       - slug: environmental-literacy-fundamentals
