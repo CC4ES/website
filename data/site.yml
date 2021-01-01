@@ -1,36 +1,27 @@
-# Required
+###########################################
+#
+# Main Navigation Configuration
+#
+# The _nav.erb partial loops over this data to create the HTML markup for the
+# global/main navigation.
+#
+# Modify the `main_nav` Collection below to modify the global/main navigation
+# for the website. Adding a `subnav` key to any top-level collection will
+# automatically generate a drop-down menu for that navigation item. The order
+# of the collections and subnav collections is the order it will be generated.
+#
+# Each collection item is required to have a `slug` and `text`:
+#
+# - slug: filename in the /source directory to link to without the .html.erb
+#   extension. Or, you can link to any valid URL (e.g. "https://google.com")
+# - text: text that the website user will see in the main navigation.
+# - subnav: Add a `subnav` key to any top-level collection to create a dropdown
+#   list for the collection you add for the subnav.
 
-# human readable site name, for SEO
-name: ''
-
-# site description, for SEO results
-description: ''
-
-# human readable site title, for SEO and default page title
-title: ''
-
-# site's twitter handle, for attributing Twitter shares
-twitter_handle: ''
-
-# for attributing Facebook shares to your page/app
-facebook_app_id: ''
-
-# image to use for social sharing, by default
-seo_banner: ''
-
-# Universal Google Analytics ID with "Enhanced Link Attribution" turned on
-google_analytics_id: ''
-
-facebook_url: 'https://www.facebook.com'
-youtube_url: 'https://www.youtube.com'
-
-contact_number: '310-937-2007' #with spacing/formatting (e.g. xxx-xxx-xxxx or (xxx) xxx-xxxx)
-contact_email: ''
-
-main_nav: # text name matches file names in /source directory
+main_nav:
   - slug: index
     text: "Home"
-  - slug: about-us
+  - slug: "about-us"
     text: "About Us"
   - slug: contact
     text: "Contact"
@@ -63,8 +54,23 @@ main_nav: # text name matches file names in /source directory
   - slug: library
     text: "Library"
 
-modules:
+###########################################
+#
+# Homepage Six Modules Grid Configuration
+#
+# To modify the cards that appear on the homepage for each of the six modules,
+# modify the `modules` collection below.
+#
+# Each collection item requires:
+# - image: filename of the image located in /source/images/
+# - module_id: <number> number that appears in the text after the label
+# - label: the label text displayed at the top of the card
+# - title: text for the bold title of the card
+# - subtitle: optional subtitle for the card.
+# - cta_text: button text
+# - cta_page_key: filename (without the .html.erb) for a file in /source
 
+modules:
   - image: hands.jpg
     module_id: 1
     label: module

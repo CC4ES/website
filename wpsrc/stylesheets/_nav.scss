@@ -43,3 +43,7 @@
     height: 39px;
   }
 }
+
+.dropdown.menu>li.is-active>a {
+  color: $black;
+}

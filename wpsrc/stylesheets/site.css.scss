@@ -6,21 +6,17 @@
 @import 'nav';
 @import 'footer';
 @import 'grid-card';
+@import 'video-fix';
+@import 'content-images';
 @import 'homepage';
+@import 'about-us';
+
+// Global styles
 
 .page-container {
   @include breakpoint(medium) {
     min-height: 60vh;
   }
-}
-
-.dropdown.menu>li.is-active>a {
-  color: $black;
-}
-
-.coming-soon {
-  text-align: center;
-  padding: 3rem 2rem;
 }
 
 article {
@@ -30,6 +26,37 @@ article {
   p, li {
     font-size: 1.2rem;
   }
+}
+
+img.full-width-photo {
+  width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.big-text {
+  font-size: 1.5rem;
+}
+
+%cc4es-box-shadow {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04),
+    0px 0px 15px rgba(0, 0, 0, 0.04),
+    0px 0px 10px rgba(0, 0, 0, 0.04),
+    0px 0px 5px rgba(0, 0, 0, 0.06),
+    0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+
+// Shared Content Page Styles
+
+.coming-soon {
+  text-align: center;
+  padding: 3rem 2rem;
 }
 
 .green-section-heading {
@@ -60,87 +87,6 @@ article {
   margin-bottom: 0.5rem;
 }
 
-.image-caption {
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.big-text {
-  font-size: 1.5rem;
-}
-
-%cc4es-box-shadow {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04),
-    0px 0px 15px rgba(0, 0, 0, 0.04),
-    0px 0px 10px rgba(0, 0, 0, 0.04),
-    0px 0px 5px rgba(0, 0, 0, 0.06),
-    0px 0px 2px rgba(0, 0, 0, 0.12);
-}
-
-.image-with-overlay {
-  @extend %cc4es-box-shadow;
-  max-width: 360px;
-  max-height: 500px;
-  background: 
-  linear-gradient(
-    0deg,
-    rgba(0,0,0,0.8) 0%,
-    rgba(0,0,0,0.5) 58%,
-    rgba(0,0,0,0) 100%),
-    url('/images/leaf_over_water.jpg');
-  background-size: cover;
-  background-position: top center;
-  color: $white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-
-  .quote {
-    padding-top: 18rem;
-    font-size: 1.4rem;
-    line-height: 1.3em;
-    display: block;
-  }
-
-  .author {
-    display: block;
-    font-size: 1em;
-    padding: 0.5em 0;
-  }
-}
-
-.title-with-photo {
-  padding-bottom: 1rem;
-  text-align: center;
-
-  @include breakpoint(medium) {
-    text-align: left;
-  }
-
-  .bio-text {
-    display: block;
-  }
-
-  .about-headshot {
-    width: 150px;
-    height: auto;
-    display: inline-block;
-    margin-bottom: 1rem;
-    border: 2px solid $light-gray;
-  }
-
-  .business-title {
-    display: block;
-
-    @include breakpoint(medium) {
-      font-size: 1.5em;
-    }
-  }
-}
-
 blockquote {
   font-size: 1.5rem;
   font-weight: bold;
@@ -167,69 +113,6 @@ blockquote {
       background-color: $medium-gray;
     }
   }
-}
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-  margin-bottom: 1rem;
-}
-
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-img.members-diagram, img.full-width-photo {
-  margin-bottom: 1rem;
-
-  @include breakpoint(medium) {
-    margin-bottom: 2rem;
-  }
-}
-
-img.hydrogen-bonding-diagram {
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto 0.5rem auto;
-}
-
-img.focus-on-sustainability-diagram {
-  max-width: 750px;
-  height: auto;
-  display: block;
-  margin: 0 auto 0.5rem auto;
-}
-
-img.diagram-food-system {
-  max-width: 430px;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem auto;
-}
-
-img.diagram-reduce-food-waste {
-  max-width: 240px;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem auto;
-}
-
-img.diagram-sustainable-food-habits {
-  max-width: 500px;
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem auto;
-}
-
-img.full-width-photo {
-  width: 100%;
-  height: auto;
 }
 
 .contact-form {
