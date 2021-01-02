@@ -1,0 +1,42 @@
+img.members-diagram, img.full-width-photo {
+  margin-bottom: 1rem;
+
+  @include breakpoint(medium) {
+    margin-bottom: 2rem;
+  }
+}
+
+img.hydrogen-bonding-diagram {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+img.focus-on-sustainability-diagram {
+  max-width: 750px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+img.diagram-food-system {
+  max-width: 430px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+img.diagram-reduce-food-waste {
+  max-width: 240px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+img.diagram-sustainable-food-habits {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}

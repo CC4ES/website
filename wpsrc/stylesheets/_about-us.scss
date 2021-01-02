@@ -1,0 +1,61 @@
+.image-with-overlay {
+  @extend %cc4es-box-shadow;
+  max-width: 360px;
+  max-height: 500px;
+  background: 
+  linear-gradient(
+    0deg,
+    rgba(0,0,0,0.8) 0%,
+    rgba(0,0,0,0.5) 58%,
+    rgba(0,0,0,0) 100%),
+    url('/images/leaf_over_water.jpg');
+  background-size: cover;
+  background-position: top center;
+  color: $white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+
+  .quote {
+    padding-top: 18rem;
+    font-size: 1.4rem;
+    line-height: 1.3em;
+    display: block;
+  }
+
+  .author {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em 0;
+  }
+}
+
+.title-with-photo {
+  padding-bottom: 1rem;
+  text-align: center;
+
+  @include breakpoint(medium) {
+    text-align: left;
+  }
+
+  .bio-text {
+    display: block;
+  }
+
+  .about-headshot {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 1rem;
+    border: 2px solid $light-gray;
+  }
+
+  .business-title {
+    display: block;
+
+    @include breakpoint(medium) {
+      font-size: 1.5em;
+    }
+  }
+}
