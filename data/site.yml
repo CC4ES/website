@@ -25,6 +25,8 @@ main_nav:
     text: "About Us"
   - slug: contact
     text: "Contact"
+  - slug: "https://google.com"
+    text: "Test"
   - slug: six-modules
     text: "Six Modules"
     subnav:
