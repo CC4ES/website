@@ -1,3 +1,14 @@
+# Markdown Options
+# If you'd like GitHub-style code fencing, check out https://github.com/middleman/middleman-syntax
+set :markdown_engine, :kramdown
+set :markdown, :fenced_code_blocks => true
+
+helpers do
+  def markdown(content)
+     Tilt['markdown'].new(context: @app) { content }.render
+  end
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
