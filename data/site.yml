@@ -48,11 +48,11 @@ main_nav:
     text: "CC4ES Circles"
     subnav:
       - slug: urban-school-gardeners
-        text: "Urban School Gardeners"
+        text: "Hope Gardeners"
   - slug: cc4es-maps
     text: "CC4ES Maps"
   - slug: library
-    text: "Library"
+    text: "CC4ES Connect"
 
 ###########################################
 #
