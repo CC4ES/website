@@ -50,7 +50,7 @@ main_nav:
       - slug: urban-school-gardeners
         text: "Hope Gardeners"
   - slug: cc4es-maps
-    text: "Collaboration Community"
+    text: "Community"
   - slug: library
     text: "CC4ES Connect"
 
