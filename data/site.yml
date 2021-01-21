@@ -49,10 +49,10 @@ main_nav:
     subnav:
       - slug: urban-school-gardeners
         text: "Hope Gardeners"
-  - slug: cc4es-maps
-    text: "Community"
   - slug: library
     text: "CC4ES Connect"
+  - slug: cc4es-maps
+    text: "Community"
 
 ###########################################
 #
