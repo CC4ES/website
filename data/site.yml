@@ -23,10 +23,8 @@ main_nav:
     text: "Home"
   - slug: "about-us"
     text: "About Us"
-  - slug: contact
-    text: "Contact"
   - slug: six-modules
-    text: "Six Modules"
+    text: "CC4ES Learn"
     subnav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;Background"
@@ -44,16 +42,17 @@ main_nav:
         text: "5. Sustainable Business Practices"
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
+  - slug: library
+    text: "CC4ES Connect" 
   - slug: cc4es-circles
-    text: "CC4ES Circles"
+    text: "CC4ES Practice"
     subnav:
       - slug: urban-school-gardeners
-        text: "Hope Gardeners"
-  - slug: library
-    text: "CC4ES Connect"
+        text: "Hope Gardeners" 
   - slug: cc4es-maps
-    text: "Community"
-
+    text: "CC4ES Circles"
+  - slug: contact
+    text: "Contact"
 ###########################################
 #
 # Homepage Six Modules Grid Configuration
