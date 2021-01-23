@@ -27,9 +27,9 @@ main_nav:
     text: "CC4ES Learn"
     subnav:
       - slug: how-to-navigate-six-modules
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Background"
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
       - slug: six-modules
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Introduction"
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Six Modules"
       - slug: environmental-justice-diversity
         text: "1. Environment Justice &amp; Diversity"
       - slug: environmental-literacy-fundamentals
