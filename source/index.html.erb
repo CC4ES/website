@@ -22,9 +22,6 @@ description: "CC4ES is a grassroots, non-profit environmental organization dedic
   <div class="grid-x grid-padding-x grid-margin-x">
   <% data.site.modules.each do |card| %>
     <div class="grid-card cell small-12 medium-6 large-4">
-      <% if card.image %>
-        <div class="image-wrapper"><%= image_tag card.image %></div>
-      <% end %>
       <div class="card-content">
         <% if card.module_id && card.module_id >= 0
             label_text = "#{card.label}" + " #{card.module_id}"
