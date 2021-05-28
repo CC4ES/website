@@ -24,7 +24,7 @@ main_nav:
   - slug: "about-us"
     text: "About Us"
   - slug: six-modules
-    text: "CC4ES Learn"
+    text: "Learn"
     subnav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
@@ -43,14 +43,14 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
   - slug: library
-    text: "CC4ES Connect" 
+    text: "Connect" 
   - slug: cc4es-circles
-    text: "CC4ES Practice"
+    text: "Practice"
     subnav:
       - slug: urban-school-gardeners
         text: "Hope Gardeners" 
   - slug: cc4es-maps
-    text: "CC4ES Circles"
+    text: "Circles"
   - slug: contact
     text: "Contact"
 ###########################################
