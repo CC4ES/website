@@ -1,0 +1,26 @@
+###########################################
+#
+# Test Page
+#
+# To modify the ... (more soon)
+#
+# Each table requires: (will update this soon)
+# - name: member name
+# - bio_text: paragraph text for the member bio. Each paragraph needs 2 line
+#             breaks between to be rendered as a new paragraph.
+
+table1: |
+  | Programs | Partners |
+  |------|------|
+  | **Museum of Science and History**                | **RIEEA** |
+  | A short description of this program.             | A short description of this program. |
+  | **Higher Ed Campuses for Environmental Justice** | **URI Cooperative Extension** |
+  | A short description of this program.             | A short description of this program. |
+  | **K-12 Environmental Justice & Non-Violence**    | **RI Racial Justice** |
+  | A short description of this program.             | A short description of this program. |
+  |                                                  | **Washington Park Association** |
+  |                                                  | A short description of this program. |
+  |                                                  | **Providence Resilience Partnership** |
+  |                                                  | A short description of this program. |
+  
+table2: Coming soon.
