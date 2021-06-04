@@ -174,3 +174,14 @@ team_members:
 #       Distinction in Teaching at Harvard University, five times during the
 #       2009–2013 span. Currently she teaches at Johnson & Wales University
 #       College of Online Education, Arts and Sciences.
+
+
+members:
+  - name: Susan Shim Gorelick, PhD
+    title: >
+      Founder &amp; Executive Director | 
+      Director of Advancement &amp; Resources
+    image: 'susan_about.jpg'
+    image_alt: 'photo of Susan Gorelick'
+    bio_text: |
+      Susan is a quintessential educator and a perpetual learner. She founded
