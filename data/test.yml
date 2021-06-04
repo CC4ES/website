@@ -9,9 +9,10 @@
 # - bio_text: paragraph text for the member bio. Each paragraph needs 2 line
 #             breaks between to be rendered as a new paragraph.
 
+# 1. Environmental Justice and Diversity
 table1: |
   | Programs | Partners |
-  |------|------|
+  |----------|----------|
   | **Museum of Science and History**                | **RIEEA** |
   | A short description of this program.             | A short description of this program. |
   | **Higher Ed Campuses for Environmental Justice** | **URI Cooperative Extension** |
@@ -22,5 +23,39 @@ table1: |
   |                                                  | A short description of this program. |
   |                                                  | **Providence Resilience Partnership** |
   |                                                  | A short description of this program. |
+
+# 2. Environmental Literacy Fundamentals
+table2: |
+  | Programs | Partners |
+  |----------|----------|
+  | **Title**                            | **Title** |
+  | A short description of this program. | A short description of this program. |
   
-table2: Coming soon.
+# 3. Sustainable Food Systems
+table3: |
+  | Programs | Partners |
+  |----------|----------|
+  | **Title**                            | **Title** |
+  | A short description of this program. | A short description of this program. |
+  
+# 4. Regenerative Technologies
+table4: |
+  | Programs | Partners |
+  |----------|----------|
+  | **Title**                            | **Title** |
+  | A short description of this program. | A short description of this program. |
+  
+# 5. Sustainable Business Practices
+table5: |
+  | Programs | Partners |
+  |----------|----------|
+  | **Title**                            | **Title** |
+  | A short description of this program. | A short description of this program. |
+  
+# 6. Resilient Community Building
+table6: |
+  | Programs | Partners |
+  |----------|----------|
+  | **Title**                            | **Title** |
+  | A short description of this program. | A short description of this program. |
+  
