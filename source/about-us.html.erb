@@ -29,6 +29,7 @@ hero_subtitle: "CC4ES cultivates sustainable lifestyle in all walks of life"
         <span class="author">Susan Shim Gorelick</span>
       </div>
     </div>
+
     <div class="cell small-12">
       <h2 class="green-section-heading">Our Team</h2>
     </div>
@@ -48,5 +49,26 @@ hero_subtitle: "CC4ES cultivates sustainable lifestyle in all walks of life"
       <br />
     </div>
     <% end %>
+
+    <div class="cell small-12">
+      <h2 class="green-section-heading">Members</h2>
+    </div>
+    <% data.about_us.members.each do |team_member| %>
+    <div class="cell small-12 medium-6">
+      <div class="title-with-photo">
+        <%= image_tag("#{team_member.image}", :alt => "#{team_member.image_alt}", :class => 'about-headshot') %>
+        <div class="bio-text">
+          <span class="h4"><%= team_member.name %></span>
+          <span class="business-title"><%= team_member.title %></span>
+        </div>
+      </div>
+      <details>
+        <summary>Read bio</summary>
+        <%= markdown(team_member.bio_text) %>
+      </details>
+      <br />
+    </div>
+    <% end %>
   </div>
+
 </article>
