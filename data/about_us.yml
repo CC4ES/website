@@ -17,7 +17,6 @@ team_members:
   - name: Susan Shim Gorelick, PhD
     title: >
       Founder &amp; Executive Director | 
-      Director of Advancement &amp; Resources
     image: 'susan_about.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
@@ -51,7 +50,7 @@ team_members:
 
   - name: Kimberly Wood Bellemore, P.E.
     title: >
-      Director of Energy &amp; Regenerative Technologies
+      Energy &amp; Regenerative Technologies
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
@@ -71,7 +70,7 @@ team_members:
 
   - name: Betsy Motyl, M.S.
     title: >
-      Director of Program Development & Coordination
+      Youth Program Development & Coordination
     image: 'betsy_about.jpg'
     image_alt: 'photo of Betsy Motyl'
     bio_text: |
@@ -92,7 +91,7 @@ team_members:
 
   - name: Linda Perri
     title: >
-      Director of Community Outreach & Engagement
+      Community Outreach & Engagement
     image: 'linda_about.jpg'
     image_alt: 'photo of Linda Perri'
     bio_text: |
@@ -120,7 +119,7 @@ team_members:
 
   - name: Melissa Guillet
     title: >
-      Director of Programming 15 Minute Field Trip with CC4ES Connect
+      Programming 15 Minute Field Trip with CC4ES Direct
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
@@ -175,13 +174,3 @@ team_members:
 #       2009–2013 span. Currently she teaches at Johnson & Wales University
 #       College of Online Education, Arts and Sciences.
 
-
-members:
-  - name: Susan Shim Gorelick, PhD
-    title: >
-      Founder &amp; Executive Director | 
-      Director of Advancement &amp; Resources
-    image: 'susan_about.jpg'
-    image_alt: 'photo of Susan Gorelick'
-    bio_text: |
-      Susan is a quintessential educator and a perpetual learner. She founded
