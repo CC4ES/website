@@ -16,7 +16,7 @@
 team_members:
   - name: Susan Shim Gorelick, PhD
     title: >
-      Founder &amp; Executive Director | 
+      Founder &amp; Executive Director | Overall Advancement & Resources 
     image: 'susan_about.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
@@ -68,56 +68,34 @@ team_members:
       management experience in the ocean construction field and has served on
       the boards of Habitat for Humanity/Greenhome and Surfrider Foundation RI.
 
-  - name: Betsy Motyl, M.S.
-    title: >
-      Youth Program Development & Coordination
-    image: 'betsy_about.jpg'
-    image_alt: 'photo of Betsy Motyl'
-    bio_text: |
-      Betsy is an experienced educator. She has taught middle school science in four
-      different states (AR, VT, MA and RI), in public, private and charter schools. 
-      She has also taught RI adults in both workforce readiness and English as a 
-      Second Language using Adult Learning Theory. Her experience as an Rhode Island 
-      environmental educator coupled with a Masters in Science and Environmental 
-      Education Reform and her expertise in curriculum design and program development 
-      are further assets to advancing CC4ES’ Environmental Literacy Fundamentals module.
+  #   - name: Prisca Castanyer, PhD.
+#     title: >
+#       Director of Research &amp; Policy Analysis
+#     image: 'prisca_about.jpg'
+#     image_alt: 'photo of Prisca (AKA Priscilla) Castanyer'
+#     bio_text: |
+#       Prisca’s interdisciplinary teaching background and research in academia
+#       and her advocacy for social justice align seamlessly with CC4ES’ missions
+#       and are a great asset in delivering CC4ES outcomes. Her interest and
+#       exhaustive research in a wide range of topics — poverty, gender, culture,
+#       equity, health and food policies, environmental issues, migration
+#       patterns, urban and rural economic issues, global vs. local policies,
+#       governance, labor markets, and creative leadership — complement all CC4ES
+#       Six Modules in terms of content. Her research publications based on these
+#       topics in several countries including India and the USA affirm the
+#       scalability and effectiveness of systemic change that underpins CC4ES
+#       missions. They are instrumental in policy analyses necessary for
+#       implementing CC4ES objectives in frontline communities — in a
+#       comprehensive grassroots approach.
 
-      Her year-long world travel studying sustainability instilled in her both the 
-      value and appreciation of community-based approaches to environmental issues 
-      and a deep commitment to the sustainability causes that align with the CC4ES mission.  
-      She became a URI Master Gardener in 2016 and works to remove invasive species in 
-      favor of planting native species and serves as a School Garden Mentor. Currently, 
-      she is the middle school science guide at Quest Montessori School in Narragansett, RI.
+#       Prisca holds a BS in Political Science, and an MA and a PhD in
+#       International Economics &amp; Development. She has numerous
+#       publications and was awarded the Derek Bok Certificate of
+#       Distinction in Teaching at Harvard University, five times during the
+#       2009–2013 span. Currently she teaches at Johnson & Wales University
+#       College of Online Education, Arts and Sciences.
 
-  - name: Linda Perri
-    title: >
-      Community Outreach & Engagement
-    image: 'linda_about.jpg'
-    image_alt: 'photo of Linda Perri'
-    bio_text: |
-      Linda is a longtime resident of and property owner in the Washington Park 
-      neighborhood in South Providence. Over the past several years, her personal 
-      commitment to the residents, environment, neighborhood and city has enabled 
-      Linda to bring together organizations and individuals across business, 
-      civic, and political groups to improve the quality of life in South Providence.  
-
-      As a founding member and current Chair of the Washington Park Association 
-      since 2015, Linda created the Washington Park Crime Watch.  She is also a 
-      founding member of the Port of Providence Working Group; a member of Providence 
-      Neighborhood Tree Planting, and the Providence Coalition of Neighborhood Associations. 
-
-      In 2019 the Washington Park Association, along with several concerned citizens, 
-      mobilized to voice concerns against the addition of a toxic Waste Transfer Station 
-      in their Allens Avenue district with success.  Working along with City Council, 
-      this effort resulted in a change to the zoning laws.  Linda actively works to 
-      engage the community to create green spaces, accomplished the planting of 
-      over 100 trees on city streets over a period of 6 years, works to ensure water 
-      access for such green endeavors, and facilitates solar energy initiatives in the 
-      frontline community of South Providence.
-
-      Linda is an environmentalist, artist, traveler, gardener, and landscaper.
-
-  - name: Melissa Guillet
+ - name: Melissa Guillet
     title: >
       Programming 15 Minute Field Trip with CC4ES Direct
     image: 'melissa_about.jpg'
@@ -147,30 +125,53 @@ team_members:
       the gardening and citizen scientist components of CC4ES ConnectTM, Melissa 
       oversees and coordinates those components as CC4ES Team.
 
-#   - name: Prisca Castanyer, PhD.
-#     title: >
-#       Director of Research &amp; Policy Analysis
-#     image: 'prisca_about.jpg'
-#     image_alt: 'photo of Prisca (AKA Priscilla) Castanyer'
-#     bio_text: |
-#       Prisca’s interdisciplinary teaching background and research in academia
-#       and her advocacy for social justice align seamlessly with CC4ES’ missions
-#       and are a great asset in delivering CC4ES outcomes. Her interest and
-#       exhaustive research in a wide range of topics — poverty, gender, culture,
-#       equity, health and food policies, environmental issues, migration
-#       patterns, urban and rural economic issues, global vs. local policies,
-#       governance, labor markets, and creative leadership — complement all CC4ES
-#       Six Modules in terms of content. Her research publications based on these
-#       topics in several countries including India and the USA affirm the
-#       scalability and effectiveness of systemic change that underpins CC4ES
-#       missions. They are instrumental in policy analyses necessary for
-#       implementing CC4ES objectives in frontline communities — in a
-#       comprehensive grassroots approach.
+  - name: Linda Perri
+    title: >
+      Community Outreach & Engagement
+    image: 'linda_about.jpg'
+    image_alt: 'photo of Linda Perri'
+    bio_text: |
+      Linda is a longtime resident of and property owner in the Washington Park 
+      neighborhood in South Providence. Over the past several years, her personal 
+      commitment to the residents, environment, neighborhood and city has enabled 
+      Linda to bring together organizations and individuals across business, 
+      civic, and political groups to improve the quality of life in South Providence.  
 
-#       Prisca holds a BS in Political Science, and an MA and a PhD in
-#       International Economics &amp; Development. She has numerous
-#       publications and was awarded the Derek Bok Certificate of
-#       Distinction in Teaching at Harvard University, five times during the
-#       2009–2013 span. Currently she teaches at Johnson & Wales University
-#       College of Online Education, Arts and Sciences.
+      As a founding member and current Chair of the Washington Park Association 
+      since 2015, Linda created the Washington Park Crime Watch.  She is also a 
+      founding member of the Port of Providence Working Group; a member of Providence 
+      Neighborhood Tree Planting, and the Providence Coalition of Neighborhood Associations. 
+
+      In 2019 the Washington Park Association, along with several concerned citizens, 
+      mobilized to voice concerns against the addition of a toxic Waste Transfer Station 
+      in their Allens Avenue district with success.  Working along with City Council, 
+      this effort resulted in a change to the zoning laws.  Linda actively works to 
+      engage the community to create green spaces, accomplished the planting of 
+      over 100 trees on city streets over a period of 6 years, works to ensure water 
+      access for such green endeavors, and facilitates solar energy initiatives in the 
+      frontline community of South Providence.
+
+      Linda is an environmentalist, artist, traveler, gardener, and landscaper.
+
+   - name: Betsy Motyl, M.S.
+    title: >
+      Youth Program Development & Coordination
+    image: 'betsy_about.jpg'
+    image_alt: 'photo of Betsy Motyl'
+    bio_text: |
+      Betsy is an experienced educator. She has taught middle school science in four
+      different states (AR, VT, MA and RI), in public, private and charter schools. 
+      She has also taught RI adults in both workforce readiness and English as a 
+      Second Language using Adult Learning Theory. Her experience as an Rhode Island 
+      environmental educator coupled with a Masters in Science and Environmental 
+      Education Reform and her expertise in curriculum design and program development 
+      are further assets to advancing CC4ES’ Environmental Literacy Fundamentals module.
+
+      Her year-long world travel studying sustainability instilled in her both the 
+      value and appreciation of community-based approaches to environmental issues 
+      and a deep commitment to the sustainability causes that align with the CC4ES mission.  
+      She became a URI Master Gardener in 2016 and works to remove invasive species in 
+      favor of planting native species and serves as a School Garden Mentor. Currently, 
+      she is the middle school science guide at Quest Montessori School in Narragansett, RI.
+
 
