@@ -44,11 +44,8 @@ main_nav:
         text: "6. Resilient Community Building"
   - slug: connect
     text: "Connect" 
-  - slug: cc4es-circles
+  - slug: practice
     text: "Practice"
-    subnav:
-      - slug: urban-school-gardeners
-        text: "Hope Gardeners" 
   - slug: cc4es-maps
     text: "Circles"
   - slug: contact
