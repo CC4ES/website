@@ -4,7 +4,7 @@
 #
 # To modify the ... (more soon)
 #
-# Each table requires: (will update this soon)
+# Each table requires: (will update this soon) 
 # - name: member name
 # - bio_text: paragraph text for the member bio. Each paragraph needs 2 line
 #             breaks between to be rendered as a new paragraph.
