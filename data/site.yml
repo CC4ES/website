@@ -49,8 +49,8 @@ main_nav:
     subnav:
       - slug: urban-school-gardeners
         text: "Hope Gardeners" 
-  - slug: cc4es-maps
-    text: "Circles"
+  - slug: blog
+    text: "Blog"
   - slug: contact
     text: "Contact"
 ###########################################
