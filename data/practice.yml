@@ -24,3 +24,18 @@ programs:
     link: "/museum/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+
+  - name: CC4ES Direct
+    description: |
+      ## Direct Grassroots Resource Connector for Communities in Need
+      
+      CC4ES Direct is designed to link communities in need with essential resources through:
+      
+      1. outreach eduction on growing our own food to address food insecurity, on nutrition and wellness to cultivate healthy lifestyle; and citizen scientist programs to platform environmental stewardship for environmental health
+      2. pipelining job training and apprenticeship programs for workforce development in green sector
+      3. Facilitate equal access to, dissemination and sharing of information/resource for environmental, social and economic justice and equity for the following outcomes:
+    image: "hands_with_plants.jpg"
+    image_alt: "hands with plants"
+    link: "/cc4es-direct/"
+    modules: |
+      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
