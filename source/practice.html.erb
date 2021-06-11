@@ -21,7 +21,7 @@ hero_subtitle: "CC4ES programs"
           <span class="h4"><%= program.name %></span>
           <p class="program-description"><%= markdown(program.description) %></p>
           <p class="program-link"><%= program.link %></p>
-          <p class="program-link"><b>Relevant modules:</b> <%= program.modules %></p>
+          <p class="program-link"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
         </div>
       </div>
     </div>
