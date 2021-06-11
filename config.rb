@@ -47,3 +47,5 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 end
+
+redirect "library.html", to: "connect.html"
