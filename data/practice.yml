@@ -22,4 +22,5 @@ programs:
     image: "seedlings.jpg"
     image_alt: "Seedlings"
     link: "/museum/"
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+    modules: |
+      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
