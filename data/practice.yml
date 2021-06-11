@@ -1,0 +1,25 @@
+###########################################
+#
+# Practice Page
+#
+# To modify the programs that appear on the Practice page, modify the
+# programs collection below.
+#
+# Each collection item requires:
+# - name: member name
+# - description: paragraph text for the program description. Each paragraph needs 2 line
+#             breaks between to be rendered as a new paragraph.
+# - image: filename of the image located in /source/images/
+# - image_alt: Alt text that describes the image for screen readers
+# - link: paragraph text for the member bio. 
+# - modules: a list of links to relevant modules, in format: [Regenerative Technologies](/regenerative-technologies/)
+#             where the first part is the text shown, and the second is the link it directs to.
+
+programs:
+  - name: Museum of Silenced History
+    description: |
+      A short description.
+    image: "seedlings.jpg"
+    image_alt: "Seedlings"
+    link: "/museum/"
+    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
