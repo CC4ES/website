@@ -42,7 +42,7 @@ main_nav:
         text: "5. Sustainable Business Practices"
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
-  - slug: library
+  - slug: connect
     text: "Connect" 
   - slug: cc4es-circles
     text: "Practice"
