@@ -16,20 +16,20 @@
 team_members:
   - name: Susan Shim Gorelick, Ph.D.
     title: >
-      Founder &amp; Executive Director | Overall Advancement & Resources 
+      Founder & Executive Director | Overall Advancement & Resources 
     image: 'susan_about.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
       Susan is a quintessential educator and a perpetual learner. She founded
       CC4ES based on the core tenets of her teaching principle: a holistic
       approach, internal motivation, and building a network environment for
-      lifelong learning. Borne CC4ES’ mission, her passion and commitment for
+      lifelong learning. Borne CC4ES' mission, her passion and commitment for
       building sustainable and resilient communities with environmental,
-      economic and social justice and equity. Susan’s life-defining experience
+      economic and social justice and equity. Susan's life-defining experience
       as a 15 year-old Korean immigrant in Flatbush, Brooklyn, New York
       germinated and has shepharded specific focus on frontline communities.
 
-      Susan’s lifelong endeavor with practical application of knowledge enables
+      Susan's lifelong endeavor with practical application of knowledge enables
       CC4ES to serve as an interface that bridges the information-and-resource
       gap between policy makers and communities in need. As an
       interdisciplinary adjunct professor at Johnson & Wales University, Susan
@@ -50,16 +50,16 @@ team_members:
 
   - name: Kimberly Wood Bellemore, P.E.
     title: >
-      Energy &amp; Regenerative Technologies
+      Energy & Regenerative Technologies
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
-      Kimberly’s background in engineering and environmental planning and her
+      Kimberly's background in engineering and environmental planning and her
       work in her consulting firm, KB Consulting, underpin the renewable and
       clean energy technology sectors for CC4ES.  Kimberly has been advocating
       for sustainable practices through her various community volunteer efforts
       and personal commitments. Her systems thinking complements the vision and
-      mission of CC4ES.  Her technological expertise is instrumental in 
+      mission of CC4ES. Her technological expertise is instrumental in 
       bringing the interdependent community components into collaboration.
       Kimberly oversess CC4ES Mapping Program.
 
@@ -74,8 +74,8 @@ team_members:
 #     image: 'prisca_about.jpg'
 #     image_alt: 'photo of Prisca (AKA Priscilla) Castanyer'
 #     bio_text: |
-#       Prisca’s interdisciplinary teaching background and research in academia
-#       and her advocacy for social justice align seamlessly with CC4ES’ missions
+#       Prisca's interdisciplinary teaching background and research in academia
+#       and her advocacy for social justice align seamlessly with CC4ES' missions
 #       and are a great asset in delivering CC4ES outcomes. Her interest and
 #       exhaustive research in a wide range of topics — poverty, gender, culture,
 #       equity, health and food policies, environmental issues, migration
@@ -95,25 +95,45 @@ team_members:
 #       2009–2013 span. Currently she teaches at Johnson & Wales University
 #       College of Online Education, Arts and Sciences.
 
-- name: Summer Gonsalves, M.P.H.
+  - name: Summer Gonsalves, M.P.H.
     title: >
-      Community Engagement &amp; Coordination | Museum of Silenced History & Garden
-    image: 'BioPic_Summer Gonsalves.jpg'
+      Community Engagement & Coordination | Museum of Silenced History & Garden
+    image: 'BioPic_Summer_Gonsalves.jpg'
     image_alt: 'photo of Summer Gonsalves'
     bio_text: |
-    Summer Gonsalves, member of the Narragansett Indian Tribe, is the Co-Leader and a Research Associate with the Brown University Superfund Community Engagement Core. Summer       works diligently connecting communities with resources to lessen the impact that environmental contamination places on them. Currently, Summer is working to install a native     plant pollinator garden on the Narragansett Indian Tribal Farm. In the Fall of 2018, Summer created Of the Earth Harvest Boxes that provide fresh, local sourced produce to       members of the Narragansett Indian Tribe. The goal behind Harvest Boxes is to reduce food insecurity and health disparities while promoting food sovereignty among the           Narragansetts. She holds a M.P.H from the Brown University School of Public Health and a B.S in Health Studies from the University of Rhode Island.  In her downtime, Summer     enjoys traveling, gardening and being outdoor with her two children. Summer resides in Providence, RI. 
-  
+      Summer Gonsalves, member of the Narragansett Indian Tribe, is the Co-Leader and a Research 
+      Associate with the Brown University Superfund Community Engagement Core. Summer
+      works diligently connecting communities with resources to lessen the impact that 
+      environmental contamination places on them. Currently, Summer is working to install a native 
+      plant pollinator garden on the Narragansett Indian Tribal Farm. In the Fall of 2018, Summer 
+      created Of the Earth Harvest Boxes that provide fresh, local sourced produce to
+      members of the Narragansett Indian Tribe. The goal behind Harvest Boxes is to reduce food 
+      insecurity and health disparities while promoting food sovereignty among the
+      Narragansetts. She holds a M.P.H from the Brown University School of Public Health and a 
+      B.S in Health Studies from the University of Rhode Island.  In her downtime, Summer
+      enjoys traveling, gardening and being outdoor with her two children. Summer resides in Providence, RI. 
+
   - name: Aja Oona Grande, Ph.D. candidate
     title: >
       Sustainable City Building | Museum of Silenced History & Garden
-    image: 'BioPic_Aja Oona Grande.jpg'
+    image: 'BioPic_Aja_Oona_Grande.jpg'
     image_alt: 'photo of Aja Oona Grande'
     bio_text: |
-    Aja enjoys building reciprocal relationships between people and land. She was born and raised on the island of Oʻahu in Hawaiʻi, and is currently a PhD Candidate at MIT in       the department of History, Anthropology, Science, Technology & Society (HASTS). Her research focuses on sustainable city building in Providence, Rhode Island and Honolulu,       Hawaiʻi. She looks at how urban planners in both cities are drawing on Indigenous knowledge for climate change resilience and environmental justice transitions. Her previous     experience ranges from interning at a multi-national engineering and design firm to grass-roots organizing within communities and educational institutions. Outside of MIT,       she is a consultant for multi-use infrastructure and greenway projects, such as a Hawaiʻi-based agrivoltaics farm, as well as river beautification projects carried out by       local youth in Providence. In her free time, she enjoys gardening, surfing, cycling, and riding mass-transit. 
+      Aja enjoys building reciprocal relationships between people and land. She was born and raised 
+      on the island of O'ahu in Hawai'i, and is currently a PhD Candidate at MIT in
+      the department of History, Anthropology, Science, Technology & Society (HASTS). 
+      Her research focuses on sustainable city building in Providence, Rhode Island and Honolulu,
+      Hawai'i. She looks at how urban planners in both cities are drawing on Indigenous knowledge
+      for climate change resilience and environmental justice transitions. Her previous
+      experience ranges from interning at a multi-national engineering and design firm to
+      grass-roots organizing within communities and educational institutions. Outside of MIT,
+      she is a consultant for multi-use infrastructure and greenway projects, such as a Hawai'i-based
+      agrivoltaics farm, as well as river beautification projects carried out by local youth
+      in Providence. In her free time, she enjoys gardening, surfing, cycling, and riding mass-transit. 
   
- - name: Melissa Guillet
+  - name: Melissa Guillet
     title: >
-      Founder &amp; Director of 15 Minute Field Trip | CC4ES Direct
+      Founder & Director of 15 Minute Field Trip | CC4ES Direct
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
@@ -141,17 +161,42 @@ team_members:
       the gardening and citizen scientist components of CC4ES ConnectTM, Melissa 
       oversees and coordinates those components as CC4ES Team.
 
-- name: Elizabeth Dean Hermann, Ph.D.
+  - name: Elizabeth Dean Hermann, Ph.D.
     title: >
-      Urbanism &amp; Landscape | Museum of Silenced History & Garden
-    image: 'BioPic_Elizabeth Dean Hermann.jpg'
+      Urbanism & Landscape | Museum of Silenced History & Garden
+    image: 'BioPic_Elizabeth_Dean_Hermann.jpg'
     image_alt: 'photo of Elizabeth Dean Hermann'
     bio_text: |
-     Hermann is a cultural historian and designer whose research and teaching focus on socioecological frameworks for understanding the history and design of human settlements        and place-making; cultural identity and land-based forms of resistance and struggle among marginalized communities; environmental and social resiliency; and issues of            climate-change related displacement, disaster capitalism, and social and environmental justice. Hermann is founder and co-director of TAASI East - Centre for Transformative      Arts, Advocacy and Social Impact (Providence, RI and Batticaloa, Sri Lanka) - an independent non-profit applied research lab working with partners in South Asia to develop      and implement multi-disciplinary and multi-scalar social, physical and economic strategies for under-resourced, post-conflict and post-disaster communities. The work covers      the arenas of community-led development; human capacity building; livelihoods; women's empowerment; education and institution building, the built environment and                sustainable practices. TAASI East has worked in Bangladesh, India, and, for the last decade, in the post-conflict regions of Sri Lanka.  
+      Hermann is a cultural historian and designer whose research and teaching focus on 
+      socioecological frameworks for understanding the history and design of human settlements
+      and place-making; cultural identity and land-based forms of resistance and struggle among
+      marginalized communities; environmental and social resiliency; and issues of
+      climate-change related displacement, disaster capitalism, and social and environmental
+      justice. Hermann is founder and co-director of TAASI East - Centre for Transformative
+      Arts, Advocacy and Social Impact (Providence, RI and Batticaloa, Sri Lanka) - an independent 
+      non-profit applied research lab working with partners in South Asia to develop and 
+      implement multi-disciplinary and multi-scalar social, physical and economic strategies
+      for under-resourced, post-conflict and post-disaster communities. The work covers 
+      the arenas of community-led development; human capacity building; livelihoods; women's 
+      empowerment; education and institution building, the built environment and 
+      sustainable practices. TAASI East has worked in Bangladesh, India, and, for the last decade,
+      in the post-conflict regions of Sri Lanka.  
 
-      Hermann earned her PhD from Harvard where she focused on urban history and pandemic disease in the pre-modern Muslim world.  She has been a visiting professor at MIT’s Aga       Khan Program; Brown University's Watson Institute for International Studies; Harvard University’s Graduate School of Design; University of Minnesota; and at Washington           University St. Louis. She has served as a senior planning consultant for the new Asian University for Women founded in Chittagong, Bangladesh.  She has been Social               Innovator-in­Residence and a visiting scholar in Babson College's Social Innovation Lab and Entrepreneurship Program; a SPURS Fellow in Urban Studies and Planning at MIT;       a senior Fulbright Fellow in Sri Lanka; a Fellow of the American Academy in Rome; and is a Professional Fellow in Economic Empowerment with the US State Department. 
-    
-      Hermann is currently completing two book projects: Cities of Silt and Sand: The Bay of Bengal and its Narrative of Displacement, Urbanization and Struggle, and Widening         Waters: Landscape, Identity and Narrative in Sri Lanka.  She is the author of Beyond Silence: Conflict and Creativity in Sri Lanka.
+      Hermann earned her PhD from Harvard where she focused on urban history and pandemic disease
+      in the pre-modern Muslim world.  She has been a visiting professor at MIT's Aga 
+      Khan Program; Brown University's Watson Institute for International Studies; Harvard 
+      University's Graduate School of Design; University of Minnesota; and at Washington
+      University St. Louis. She has served as a senior planning consultant for the new Asian 
+      University for Women founded in Chittagong, Bangladesh.  She has been Social
+      Innovator-in­Residence and a visiting scholar in Babson College's Social Innovation Lab
+      and Entrepreneurship Program; a SPURS Fellow in Urban Studies and Planning at MIT;
+      a senior Fulbright Fellow in Sri Lanka; a Fellow of the American Academy in Rome; and 
+      is a Professional Fellow in Economic Empowerment with the US State Department. 
+
+      Hermann is currently completing two book projects: Cities of Silt and Sand: The Bay of
+      Bengal and its Narrative of Displacement, Urbanization and Struggle, and Widening
+      Waters: Landscape, Identity and Narrative in Sri Lanka.  She is the author of Beyond 
+      Silence: Conflict and Creativity in Sri Lanka.
 
   - name: Linda Perri
     title: >
@@ -181,9 +226,9 @@ team_members:
 
       Linda is an environmentalist, artist, traveler, gardener, and landscaper.
 
-   - name: Betsy Motyl, M.S.
+  - name: Betsy Motyl, M.S.
     title: >
-      Youth Program Development &amp; Coordination
+      Youth Program Development & Coordination
     image: 'betsy_about.jpg'
     image_alt: 'photo of Betsy Motyl'
     bio_text: |
@@ -193,7 +238,7 @@ team_members:
       Second Language using Adult Learning Theory. Her experience as an Rhode Island 
       environmental educator coupled with a Masters in Science and Environmental 
       Education Reform and her expertise in curriculum design and program development 
-      are further assets to advancing CC4ES’ Environmental Literacy Fundamentals module.
+      are further assets to advancing CC4ES' Environmental Literacy Fundamentals module.
 
       Her year-long world travel studying sustainability instilled in her both the 
       value and appreciation of community-based approaches to environmental issues 
@@ -202,4 +247,4 @@ team_members:
       favor of planting native species and serves as a School Garden Mentor. Currently, 
       she is the middle school science guide at Quest Montessori School in Narragansett, RI.
 
-
+members: 
