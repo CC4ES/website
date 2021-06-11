@@ -48,4 +48,4 @@ configure :build do
   activate :relative_assets
 end
 
-redirect "/library/", to: "/connect/"
+redirect "library.html", to: "connect.html"
