@@ -15,9 +15,9 @@ hero_subtitle: "CC4ES programs"
 
     <% data.practice.programs.each do |program| %>
     <div class="cell small-12 medium-6">
-      <div class="title-with-photo">
-        <%= image_tag("#{program.image}", :alt => "#{program.image_alt}", :class => 'program-img') %>
-        <div class="program-text">
+      <div class="title-with-photo grid-x grid-margin-x">
+        <%= image_tag("#{program.image}", :alt => "#{program.image_alt}", :class => 'program-img cell medium-6 small-12') %>
+        <div class="program-text cell medium-6 small-12">
           <span class="h4"><%= program.name %></span>
           <p class="program-description"><%= markdown(program.description) %></p>
           <p class="program-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
