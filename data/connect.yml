@@ -15,3 +15,23 @@ environmental_justice:
     description: Description here. [Read more](https://example.com)
   - title: RIEEA
     description: Description here. [Read more](https://example.com)
+
+environmental_literacy:
+  - title: RI Racial Justice
+    description: Description here. [Read more](https://example.com)
+
+sustainable_food:
+  - title: RI Racial Justice
+    description: Description here. [Read more](https://example.com)
+
+regenerative_technologies:
+  - title: RI Racial Justice
+    description: Description here. [Read more](https://example.com)
+
+sustainable_business:
+  - title: RI Racial Justice
+    description: Description here. [Read more](https://example.com)
+
+resilient_community: 
+  - title: RI Racial Justice
+    description: Description here. [Read more](https://example.com)
