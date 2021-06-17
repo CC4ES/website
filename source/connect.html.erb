@@ -25,7 +25,7 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
         <div class="partners-text cell medium-6 small-12" style="columns:2;">
           <% data.connect.environmental_justice.each do |partner| %>
             <div class="partner-item">
-              <p class="partner-title"><b><%= markdown(partner.title) %></b></p>
+              <p class="partner-title"><b><%= partner.title %></b></p>
               <div class="partner-description"><%= markdown(partner.description) %></div>
             </div>
           <% end %>
@@ -40,11 +40,10 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
         <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
         <div class="partners-text cell medium-6 small-12" style="columns:2;">
           <% data.connect.environmental_literacy.each do |partner| %>
-            <p style="break-inside:avoid;>
-              <b class="partner-title"><%= markdown(partner.title) %></b>
-              <br />
-              <span class="partner-description"><%= markdown(partner.description) %></span>
-            </p>
+            <div class="partner-item">
+              <p class="partner-title"><b><%= partner.title %></b></p>
+              <div class="partner-description"><%= markdown(partner.description) %></div>
+            </div>
           <% end %>
         </div>
       </div>
@@ -56,11 +55,10 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
         <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
         <div class="partners-text cell medium-6 small-12" style="columns:2;">
           <% data.connect.sustainable_food.each do |partner| %>
-            <p style="break-inside:avoid;>
-              <b class="partner-title"><%= markdown(partner.title) %></b>
-              <br />
-              <span class="partner-description"><%= markdown(partner.description) %></span>
-            </p>
+            <div class="partner-item">
+              <p class="partner-title"><b><%= partner.title %></b></p>
+              <div class="partner-description"><%= markdown(partner.description) %></div>
+            </div>
           <% end %>
         </div>
       </div>
@@ -72,12 +70,11 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
         <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
         <div class="partners-text cell medium-6 small-12" style="columns:2;">
           <% data.connect.regenerative_technologies.each do |partner| %>
-            <p style="break-inside:avoid;>
-              <b class="partner-title"><%= markdown(partner.title) %></b>
-              <br />
-              <span class="partner-description"><%= markdown(partner.description) %></span>
-            </p>
-          <% end %>
+             <div class="partner-item">
+              <p class="partner-title"><b><%= partner.title %></b></p>
+              <div class="partner-description"><%= markdown(partner.description) %></div>
+            </div>
+         <% end %>
         </div>
       </div>
     </div>
@@ -88,11 +85,10 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
         <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
         <div class="partners-text cell medium-6 small-12" style="columns:2;">
           <% data.connect.sustainable_business.each do |partner| %>
-            <p style="break-inside:avoid;>
-              <b class="partner-title"><%= markdown(partner.title) %></b>
-              <br />
-              <span class="partner-description"><%= markdown(partner.description) %></span>
-            </p>
+            <div class="partner-item">
+              <p class="partner-title"><b><%= partner.title %></b></p>
+              <div class="partner-description"><%= markdown(partner.description) %></div>
+            </div>
           <% end %>
         </div>
       </div>
@@ -104,11 +100,10 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
         <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
         <div class="partners-text cell medium-6 small-12" style="columns:2;">
           <% data.connect.resilient_community.each do |partner| %>
-            <p style="break-inside:avoid;>
-              <b class="partner-title"><%= markdown(partner.title) %></b>
-              <br />
-              <span class="partner-description"><%= markdown(partner.description) %></span>
-            </p>
+            <div class="partner-item">
+              <p class="partner-title"><b><%= partner.title %></b></p>
+              <div class="partner-description"><%= markdown(partner.description) %></div>
+            </div>
           <% end %>
         </div>
       </div>
