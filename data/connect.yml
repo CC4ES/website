@@ -1,0 +1,17 @@
+
+###########################################
+#
+# Connect Page Partners
+#
+# To modify the partners that appear on the Connect page, modify the
+# collections below.
+#
+# Each partner item requires:
+# - title: partner's bolded title
+# - description: Text that describes the partner; may include links in format [Read more](https://example.com)
+
+environmental_justice: 
+  - title: RI Racial Justice
+    description: Description here. [Read more](https://example.com)
+  - title: RIEEA
+    description: Description here. [Read more](https://example.com)
