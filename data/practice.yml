@@ -36,6 +36,6 @@ programs:
       3. Facilitate equal access to, dissemination and sharing of information/resource for environmental, social and economic justice and equity for the following outcomes:
     image: "hands_with_plants.jpg"
     image_alt: "hands with plants"
-    link: "/cc4es-direct/"
+    link: "/direct/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
