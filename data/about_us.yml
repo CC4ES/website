@@ -155,7 +155,7 @@ team_members:
     bio_text: |
       Kelly is an idealist with a passion for working with people and a love of 
       the environment.  After years working in the energy industry in Boston, she 
-      now works on         Sustainability and Student Engagement for Sodexo and the 
+      now works on Sustainability and Student Engagement for Sodexo and the 
       Providence Schools’ Child Nutrition Program.  She has a vision of engaging 
       students in community sustainability through efforts in schools and school gardens.
       She is active in the district’s Farm to School efforts, reporting on local 
@@ -326,13 +326,25 @@ team_members:
       she is the middle school science guide at Quest Montessori School in Narragansett, RI.
       
     - name: Doug Victor
-    title: >
-      Advisory Member | Hope Gardeners & CC4ES Direct
-    image: 'BioPic_Doug_Victor.jpg'
-    image_alt: 'photo of Doug Victor'
-    bio_text: |
-      Doug is an ardent community and green-minded individual who understands what makes neighborhoods livable. With an active history in the Elmwood neighborhood since his move to Providence in 1986, he became a founding member of the Elmwood Neighborhood Association and advisor to both the Elmwood Avenue Business and Community Association and City Walk. Doug also chairs the Elmwood and South Providence Neighborhood Watch and sits on both the Providence Police Advisory Board and the Executive Council for AARP Rhode Island.
-      He is the lead gardener at Peace and Plenty Community Garden, a 46 plot garden that engenders community engagement and is building out a food corridor complete with a free stand so that neighbors can share the garden’s bounty.
-      Doug founded the Friends of Peace and Plenty Park, a neighborhood park he helped to create in 2008 and he has coordinated the planting of over 400 street trees in both Elmwood and the West End neighborhoods.
+      title: >
+        Advisory Member | Hope Gardeners & CC4ES Direct
+      image: 'BioPic_Doug_Victor.jpg'
+      image_alt: 'photo of Doug Victor'
+      bio_text: |
+        Doug is an ardent community and green-minded individual who understands what makes 
+        neighborhoods livable. With an active history in the Elmwood neighborhood since his 
+        move to Providence in 1986, he became a founding member of the Elmwood Neighborhood 
+        Association and advisor to both the Elmwood Avenue Business and Community Association 
+        and City Walk. Doug also chairs the Elmwood and South Providence Neighborhood Watch 
+        and sits on both the Providence Police Advisory Board and the Executive Council for 
+        AARP Rhode Island.
+     
+        He is the lead gardener at Peace and Plenty Community Garden, a 46 plot garden that 
+        engenders community engagement and is building out a food corridor complete with a 
+        free stand so that neighbors can share the garden’s bounty.
+     
+        Doug founded the Friends of Peace and Plenty Park, a neighborhood park he helped 
+        to create in 2008 and he has coordinated the planting of over 400 street trees 
+        in both Elmwood and the West End neighborhoods.
 
 members: 
