@@ -16,7 +16,7 @@
 team_members:
   - name: Susan Shim Gorelick, Ph.D.
     title: >
-      Founder & Executive Director | Overall Coordination
+      Founder & Executive Director | Overall Team Coordination for Advancement and Resources
     image: 'susan_about.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
@@ -50,7 +50,7 @@ team_members:
       
   - name: Tarshire Battle, M.P.A. & M.A.
     title: >
-      Founder & Director of Roots-2-Empower | CC4ES Direct
+      Roots-2-Empower Founder & Director | CC4ES Direct / Urban Youth for Sustainability
     image: 'BioPic_Tarshire_Battle.jpg'
     image_alt: 'photo of Tarshire Battle'
     bio_text: |
@@ -98,7 +98,7 @@ team_members:
   
   - name: Marissa Cox
     title: >
-      Owner of the Kind Shop | CC4ES Direct, CC4ES Circles
+      Marketing & Product Development | CC4ES Direct, CC4ES Circles
     image: 'BioPic_Marissa_Cox.jpg'
     image_alt: 'photo of Marissa Cox'
     bio_text: |
@@ -146,8 +146,8 @@ team_members:
 #       Distinction in Teaching at Harvard University, five times during the
 #       2009–2013 span. Currently she teaches at Johnson & Wales University
 #       College of Online Education, Arts and Sciences.
-
- - name: Kelly DeAngelis, M.A.
+ 
+  - name: Kelly DeAngelis, M.A.
     title: >
       Student Engagement & Coordination | Hope Gardeners / Urban Youth for Sustainability
     image: 'BioPic_Kelly_DeAngelis.jpg'
@@ -211,7 +211,7 @@ team_members:
   
   - name: Melissa Guillet
     title: >
-      Founder & Director of 15 Minute Field Trip | CC4ES Direct
+      15 Minute Field Trips Founder & Director | CC4ES Direct / Hope Gardeners
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
@@ -306,7 +306,7 @@ team_members:
 
   - name: Betsy Motyl, M.S.
     title: >
-      Program Development | Hope Gardeners, CC4ES Direct
+      Program Development & Research | CC4ES Direct / Hope Gardeners
     image: 'betsy_about.jpg'
     image_alt: 'photo of Betsy Motyl'
     bio_text: |
@@ -325,26 +325,26 @@ team_members:
       favor of planting native species and serves as a School Garden Mentor. Currently, 
       she is the middle school science guide at Quest Montessori School in Narragansett, RI.
       
-    - name: Doug Victor
-      title: >
-        Advisory Member | Hope Gardeners & CC4ES Direct
-      image: 'BioPic_Doug_Victor.jpg'
-      image_alt: 'photo of Doug Victor'
-      bio_text: |
-        Doug is an ardent community and green-minded individual who understands what makes 
-        neighborhoods livable. With an active history in the Elmwood neighborhood since his 
-        move to Providence in 1986, he became a founding member of the Elmwood Neighborhood 
-        Association and advisor to both the Elmwood Avenue Business and Community Association 
-        and City Walk. Doug also chairs the Elmwood and South Providence Neighborhood Watch 
-        and sits on both the Providence Police Advisory Board and the Executive Council for 
-        AARP Rhode Island.
+  - name: Doug Victor
+    title: >
+      Advisory Member | Hope Gardeners & CC4ES Direct
+    image: 'BioPic_Doug_Victor.jpg'
+    image_alt: 'photo of Doug Victor'
+    bio_text: |
+      Doug is an ardent community and green-minded individual who understands what makes 
+      neighborhoods livable. With an active history in the Elmwood neighborhood since his 
+      move to Providence in 1986, he became a founding member of the Elmwood Neighborhood 
+      Association and advisor to both the Elmwood Avenue Business and Community Association 
+      and City Walk. Doug also chairs the Elmwood and South Providence Neighborhood Watch 
+      and sits on both the Providence Police Advisory Board and the Executive Council for 
+      AARP Rhode Island.
      
-        He is the lead gardener at Peace and Plenty Community Garden, a 46 plot garden that 
-        engenders community engagement and is building out a food corridor complete with a 
-        free stand so that neighbors can share the garden’s bounty.
+      He is the lead gardener at Peace and Plenty Community Garden, a 46 plot garden that 
+      engenders community engagement and is building out a food corridor complete with a 
+      free stand so that neighbors can share the garden’s bounty.
      
-        Doug founded the Friends of Peace and Plenty Park, a neighborhood park he helped 
-        to create in 2008 and he has coordinated the planting of over 400 street trees 
-        in both Elmwood and the West End neighborhoods.
+      Doug founded the Friends of Peace and Plenty Park, a neighborhood park he helped 
+      to create in 2008 and he has coordinated the planting of over 400 street trees 
+      in both Elmwood and the West End neighborhoods.
 
 members: 
