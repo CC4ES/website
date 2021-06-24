@@ -16,7 +16,7 @@
 team_members:
   - name: Susan Shim Gorelick, Ph.D.
     title: >
-      Founder & Executive Director | Overall Coordination
+      Founder & Executive Director | Overall Team Coordination for Advancement and Resources
     image: 'susan_about.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
@@ -50,7 +50,7 @@ team_members:
       
   - name: Tarshire Battle, M.P.A. & M.A.
     title: >
-      Founder & Director of Roots-2-Empower | CC4ES Direct
+      Roots-2-Empower Founder & Director | CC4ES Direct / Urban Youth for Sustainability
     image: 'BioPic_Tarshire_Battle.jpg'
     image_alt: 'photo of Tarshire Battle'
     bio_text: |
@@ -98,7 +98,7 @@ team_members:
   
   - name: Marissa Cox
     title: >
-      Owner of the Kind Shop | CC4ES Direct, CC4ES Circles
+      Marketing & Product Development | CC4ES Direct, CC4ES Circles
     image: 'BioPic_Marissa_Cox.jpg'
     image_alt: 'photo of Marissa Cox'
     bio_text: |
@@ -146,7 +146,33 @@ team_members:
 #       Distinction in Teaching at Harvard University, five times during the
 #       2009–2013 span. Currently she teaches at Johnson & Wales University
 #       College of Online Education, Arts and Sciences.
-
+ 
+  - name: Kelly DeAngelis, M.A.
+    title: >
+      Student Engagement & Coordination | Hope Gardeners / Urban Youth for Sustainability
+    image: 'BioPic_Kelly_DeAngelis.jpg'
+    image_alt: 'photo of Kelly DeAngelis'
+    bio_text: |
+      Kelly is an idealist with a passion for working with people and a love of 
+      the environment.  After years working in the energy industry in Boston, she 
+      now works on Sustainability and Student Engagement for Sodexo and the 
+      Providence Schools’ Child Nutrition Program.  She has a vision of engaging 
+      students in community sustainability through efforts in schools and school gardens.
+      She is active in the district’s Farm to School efforts, reporting on local 
+      purchasing and contributing to school gardens. Kelly’s interest in permaculture 
+      has led her to experiment with native plants, rain gardens, and food forest 
+      design in her own garden, which she hopes to bring to schools as well. In early
+      2020, she brought indoor garden racks to three Providence middle schools from 
+      Sodexo and experienced planting and harvesting herbs and lettuces with the students. 
+      Now, she is planning to work with youth to build a school garden at Hope High 
+      School in partnership with the Comprehensive Community Action Program’s Real 
+      Skills for Youth Summer Employment Program.
+     
+      Kelly holds a M.A. in International Relations and Environmental Policy from 
+      Boston University and B.A. from the University of Rhode Island.  She enjoys 
+      taking time to appreciate the beauty in life: spending time outside with her 
+      daughter and family, gardening, cooking, and eating.
+    
   - name: Summer Gonsalves, M.P.H.
     title: >
       Community Engagement & Coordination | Museum of Silenced History & Garden
@@ -185,7 +211,7 @@ team_members:
   
   - name: Melissa Guillet
     title: >
-      Founder & Director of 15 Minute Field Trip | CC4ES Direct
+      15 Minute Field Trips Founder & Director | CC4ES Direct / Hope Gardeners
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
@@ -280,7 +306,7 @@ team_members:
 
   - name: Betsy Motyl, M.S.
     title: >
-      Program Development | Hope Gardeners, CC4ES Direct
+      Program Development & Research | CC4ES Direct / Hope Gardeners
     image: 'betsy_about.jpg'
     image_alt: 'photo of Betsy Motyl'
     bio_text: |
@@ -298,5 +324,27 @@ team_members:
       She became a URI Master Gardener in 2016 and works to remove invasive species in 
       favor of planting native species and serves as a School Garden Mentor. Currently, 
       she is the middle school science guide at Quest Montessori School in Narragansett, RI.
+      
+  - name: Doug Victor
+    title: >
+      Advisory Member | Hope Gardeners & CC4ES Direct
+    image: 'BioPic_Doug_Victor.jpg'
+    image_alt: 'photo of Doug Victor'
+    bio_text: |
+      Doug is an ardent community and green-minded individual who understands what makes 
+      neighborhoods livable. With an active history in the Elmwood neighborhood since his 
+      move to Providence in 1986, he became a founding member of the Elmwood Neighborhood 
+      Association and advisor to both the Elmwood Avenue Business and Community Association 
+      and City Walk. Doug also chairs the Elmwood and South Providence Neighborhood Watch 
+      and sits on both the Providence Police Advisory Board and the Executive Council for 
+      AARP Rhode Island.
+     
+      He is the lead gardener at Peace and Plenty Community Garden, a 46 plot garden that 
+      engenders community engagement and is building out a food corridor complete with a 
+      free stand so that neighbors can share the garden’s bounty.
+     
+      Doug founded the Friends of Peace and Plenty Park, a neighborhood park he helped 
+      to create in 2008 and he has coordinated the planting of over 400 street trees 
+      in both Elmwood and the West End neighborhoods.
 
 members: 
