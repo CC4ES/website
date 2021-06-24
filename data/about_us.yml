@@ -47,10 +47,38 @@ team_members:
       She has BS, MS and ABD degrees in chemistry, and a PhD in environmental
       and natural resource economics. She has expertise in curriculum
       development with a focus on choice theory pedagogy.
+      
+  - name: Tarshire Battle, M.P.A. & M.A.
+    title: >
+      Founder & Director of Roots-2-Empower | CC4ES Direct
+    image: 'BioPic_Tarshire_Battle.jpg'
+    image_alt: 'photo of Tarshire Battle'
+    bio_text: |
+      Tarshire Battle is a native Bostonian who has been residing in Pawtucket, RI
+      for many years. Tarshire is a self-taught artist and has been using art as a 
+      vehicle to help heal those who have experienced trauma -- the homeless, 
+      battered women, youths, and returning veterans. While working at the New England 
+      Center for Homeless Veterans, she developed an art drop-in center.  This led to 
+      a collaboration with Boston’s Museum of Fine Arts to create guided tours of 
+      traumatized female veterans, and two annual art shows featuring talented homeless
+      artists.  Tarshire champions her causes aligning with various nonprofit organizations 
+      that address pressing social challenges, including homelessness, mental health, and 
+      addiction.
+      
+      Tarshire was contracted as a Department of Correction Mental Health Discharge Planner for 
+      five years, assisting individuals re-integrate into the community. This work inspired her to 
+      found her own non-profit organization, Roots2Empower. Formerly known as Restoration Urban Farm 
+      of New England, Roots2Empower is a social enterprise that provides entrepreneurship and 
+      agriculture training for formerly incarcerated and at-risk young adults, working to break 
+      the cycle of recidivism and school-to-prison pipeline.   
+
+      Tarshire holds an M.P.A from Northeastern University and an M.A. in Mental Health Counseling 
+      from Boston University School of Medicine. She is a visual artist, community activist, herbalist, 
+      and Master Gardener.
 
   - name: Kimberly Wood Bellemore, P.E.
     title: >
-      Energy & Regenerative Technologies | CC4ES Maps
+      Energy & Regenerative Technologies | CC4ES Connect Maps
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
@@ -67,6 +95,30 @@ team_members:
       and Environmental Planning. She has over 25 years of program and project
       management experience in the ocean construction field and has served on
       the boards of Habitat for Humanity/Greenhome and Surfrider Foundation RI.
+  
+  - name: Marissa Cox
+    title: >
+      Owner of the Kind Shop | CC4ES Direct, CC4ES Circles
+    image: 'BioPic_Marissa_Cox.jpg'
+    image_alt: 'photo of Marissa Cox'
+    bio_text: |
+      Marissa’s passion for the environment was sparked by the book “You Are Here”, 
+      bringing an awareness of the impact of human activity on the environment. This 
+      book also     introduced her to the problem known as “the great pacific garbage 
+      patch”. Marissa’s love of the ocean and interest to join the efforts to protect 
+      the oceans, led her to volunteer with Surfrider Foundation. She served on 
+      Surfriders’ Executive Board in the Rhode Island and Los Angeles chapters for 
+      many years.
+ 
+      Marissa’s vision led her to create a retail business, The Kind Shop, with a 
+      mission of helping to preserve our beautiful planet. The Kind Shop provides 
+      access to plastic-free, natural and sustainable products while educating and 
+      inspiring the local community. One of the goals of the organization is to 
+      create a community and offer educational, creative workshops and classes.
+
+      In her free time, Marissa can be found baking in her kitchen, practicing yoga, 
+      or exploring local beaches and forests with her daughter, Valencia.
+
 
   #   - name: Prisca Castanyer, Ph.D.
 #     title: >
@@ -228,7 +280,7 @@ team_members:
 
   - name: Betsy Motyl, M.S.
     title: >
-      Youth Program Development
+      Program Development | Hope Gardeners, CC4ES Direct
     image: 'betsy_about.jpg'
     image_alt: 'photo of Betsy Motyl'
     bio_text: |
