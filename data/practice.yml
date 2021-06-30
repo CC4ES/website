@@ -18,12 +18,48 @@
 programs:
   - name: Museum of Silenced History
     description: |
-      A short description.
-    image: "seedlings.jpg"
-    image_alt: "Seedlings"
+      Museum of Silenced History project consists of a living museum and a regenerative garden.  Museum features interactive exhibitions narrated by the silenced and a learning space for dialogues.  A garden-center green space is to nurture and restore regenerative technologies to heal both land and the silenced. 
+    image: "Women_stitching_close-up_Lili.jpg"
+    image_alt: "Women stitching"
     link: "/museum/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+
+  - name: Hope Gardeners
+    description: |
+      Hope Gardeners is an expansion of Providence School Gardeners, created for the same purposes: 1) to convene and support outreach education for sustainable lifestyle through gardening; and 2) to share resources and information for continual learning to build resilient and sustainable communities with environmental social and economic justice and equity. 
+    image: "Lots_of_seedlings.jpg"
+    image_alt: "Lots of seedlings"
+    link: "/Hope_Gardners/"
+    modules: |
+      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+      
+  - name: Urban Youth for Sustainaibility (UYS)
+    description: |
+      Urban Youth for Sustainability is a youth core job training program for uban youths of 14024 years old that pipelines various statewide youth programs for comprehensive outcomes beneficial to urban communities, effectively platforming career paths for urban youths.
+    image: "Grow_UR_own_food.jpg"
+    image_alt: "Hands in circule"
+    link: "/Urban Youth for Sustainability/"
+    modules: |
+      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
+      
+  - name: Trees for Environmental Justice (Trees4EJ)
+    description: |
+      Trees for Environmental Justice is a platform for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being. 
+    image: Trees4EJ.jpg  
+    image_alt: "Tree canopy"
+    link: "/Trees for Environmental Justice/"
+    modules: |
+      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
+      
+  - name: SAS Living
+    description: |
+      SAS living is a blog forum to share tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more.
+    image: "2_Indoor_plants_windowsill.jpg"
+    image_alt: "Plants by the windows"
+    link: "/SAS Living/"
+    modules: |
+      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
 
   - name: CC4ES Direct
     description: |
@@ -34,8 +70,8 @@ programs:
       1. outreach eduction on growing our own food to address food insecurity, on nutrition and wellness to cultivate healthy lifestyle; and citizen scientist programs to platform environmental stewardship for environmental health
       2. pipelining job training and apprenticeship programs for workforce development in green sector
       3. Facilitate equal access to, dissemination and sharing of information/resource for environmental, social and economic justice and equity for the following outcomes:
-    image: "hands_with_plants.jpg"
-    image_alt: "hands with plants"
-    link: "/direct/"
+    image: "CC4ES_Direct_Truck.jpg"
+    image_alt: "CC4ES Direct Truck"
+    link: "/CC4ES_Direct/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
