@@ -51,6 +51,8 @@ main_nav:
         text: "Hope Gardeners" 
   - slug: blog
     text: "Blog"
+  - slug: "donate"
+    text: "Donate"
   - slug: contact
     text: "Contact"
 ###########################################
