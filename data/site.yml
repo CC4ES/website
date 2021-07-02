@@ -46,8 +46,11 @@ main_nav:
     text: "Connect" 
   - slug: practice
     text: "Practice"
-  - slug: cc4es-maps
-    text: "Circles"
+    subnav:
+      - slug: urban-school-gardeners
+        text: "Hope Gardeners" 
+  - slug: blog
+    text: "Blog"
   - slug: contact
     text: "Contact"
 ###########################################
