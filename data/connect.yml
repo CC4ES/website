@@ -10,14 +10,7 @@
   # - title: partner's bolded title
   # - description: Text that describes the partner; may include links in format [Read more](https://example.com)
 
-  programs:
-
-    - name: "2-1-1-"
-      link: "https://www.unitedwayri.org/get-help/2-1-1/"
-      description: |
-        211 can connect you with housing, food, affordable childcare, and much more
-      modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)
-      source: "Providential gardener = PG"
+  entries:
 
   -
       name: 2-1-1-
