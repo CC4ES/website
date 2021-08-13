@@ -7,107 +7,27 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
 
 <%= partial 'partials/header' %>
 
+
 <article class="grid-container">
 
   <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
 
-    <style>
-      .partner-item, .partner-item p, .partner-item div {
-        break-inside: avoid;
-      }
-    </style>
-    
-    <h2 class="module-title cell medium-12">1. Environmental Justice and Diversity</h2>
-
-    <div class="partners-div cell small-12 medium-12">
+    <% data.practice.programs.each do |program| %>
+    <div class="program-div cell small-12 medium-12">
       <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
-        <div class="partners-text cell medium-12 small-12" style="columns:2;">
-          <% data.connect.environmental_justice.each do |partner| %>
-            <div class="partner-item">
-              <p class="partner-title"><b><%= partner.title %></b></p>
-              <div class="partner-description"><%= markdown(partner.description) %></div>
-            </div>
-          <% end %>
+        <h4 class="program-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;"><%= program.name %></h4>
+        <div class="program-img cell medium-6 small-12">
+          <%= image_tag("#{program.image}", :alt => "#{program.image_alt}", :style => "width:100%;") %>
+        </div>
+        <div class="program-text cell medium-6 small-12">
+          <p class="program-description"><%= markdown(program.description) %></p>
+          <p class="program-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
+          <p class="program-link"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
         </div>
       </div>
     </div>
-
-    
-    <h2 class="module-title cell medium-12">2. Environmental Literacy Fundamentals</h2>
-    <div class="partners-div cell small-12 medium-12">
-      <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
-        <div class="partners-text cell medium-12 small-12" style="columns:2;">
-          <% data.connect.environmental_literacy.each do |partner| %>
-            <div class="partner-item">
-              <p class="partner-title"><b><%= partner.title %></b></p>
-              <div class="partner-description"><%= markdown(partner.description) %></div>
-            </div>
-          <% end %>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="module-title cell medium-12">3. Sustainable Food Systems</h2>
-    <div class="partners-div cell small-12 medium-12">
-      <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
-        <div class="partners-text cell medium-12 small-12" style="columns:2;">
-          <% data.connect.sustainable_food.each do |partner| %>
-            <div class="partner-item">
-              <p class="partner-title"><b><%= partner.title %></b></p>
-              <div class="partner-description"><%= markdown(partner.description) %></div>
-            </div>
-          <% end %>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="module-title cell medium-12">4. Regenerative Technologies</h2>
-    <div class="partners-div cell small-12 medium-12">
-      <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
-        <div class="partners-text cell medium-12 small-12" style="columns:2;">
-          <% data.connect.regenerative_technologies.each do |partner| %>
-             <div class="partner-item">
-              <p class="partner-title"><b><%= partner.title %></b></p>
-              <div class="partner-description"><%= markdown(partner.description) %></div>
-            </div>
-         <% end %>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="module-title cell medium-12">5. Sustainable Business Practices</h2>
-    <div class="partners-div cell small-12 medium-12">
-      <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
-        <div class="partners-text cell medium-12 small-12" style="columns:2;">
-          <% data.connect.sustainable_business.each do |partner| %>
-            <div class="partner-item">
-              <p class="partner-title"><b><%= partner.title %></b></p>
-              <div class="partner-description"><%= markdown(partner.description) %></div>
-            </div>
-          <% end %>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="module-title cell medium-12">6. Resilient Community Building</h2>
-    <div class="partners-div cell small-12 medium-12">
-      <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="partners-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;">Partners</h4>
-        <div class="partners-text cell medium-12 small-12" style="columns:2;">
-          <% data.connect.resilient_community.each do |partner| %>
-            <div class="partner-item">
-              <p class="partner-title"><b><%= partner.title %></b></p>
-              <div class="partner-description"><%= markdown(partner.description) %></div>
-            </div>
-          <% end %>
-        </div>
-      </div>
-    </div>
+    <% end %>
 
   </div>
+
 </article>
