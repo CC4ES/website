@@ -23,7 +23,7 @@ programs:
       Growing our own food is the simplest and most direct action for sustainability. CC4ES implements outreach education on gardening at a grassroots level. CC4ES Hope Gardeners convenes school and community gardeners of any shape and size to share resources and support. Gardening promotes environmental stewardship that improves environmental health for the whole community. Gardens provide a platform that embraces and celebrates diversity, building communities sustainable and resilient with environmental, economic and social equity and justice. 
     image: "seedlings.jpg"
     image_alt: "Seedlings"
-    link: "/Hope Gardeners/"
+    link: "/urban-school-gardeners/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
@@ -72,7 +72,7 @@ programs:
       SAS living is a blog forum to share tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more.
     image: "2_Indoor_plants_windowsill.jpg"
     image_alt: "Plants by the windows"
-    link: "/SAS Living/"
+    link: "/blog/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
 
