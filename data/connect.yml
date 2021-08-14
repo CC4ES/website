@@ -19,7 +19,6 @@ connect_entries:
     source: Providential gardener = PG
 
   - name: A La Rhody
-    link: "Website doesn't work"
     description: "2017 by the Providence Public Library, RI Historical Society, the City of Providence Deptment of Art, Culture & Tourism, RI Commerce Corporation, discover Newport, and the Providence Warwick Convention & Visitors Bureau (PWCVB) -- 'A La rhody aims to honor and interpret RI's culinary history and prominence with yearlong programming and marketing initiatives to tell the story of RI by way of your taste buds.'"
     modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
@@ -277,7 +276,6 @@ connect_entries:
     source: PG
 
   - name: North Kingstown Groundwater Committee
-    link: "Website doesn't work"
     description: "?"
     modules: "?"
     source: PG
