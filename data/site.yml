@@ -46,9 +46,6 @@ main_nav:
     text: "Connect" 
   - slug: practice
     text: "Practice"
-    subnav:
-      - slug: urban-school-gardeners
-        text: "Hope Gardeners" 
   - slug: blog
     text: "Blog"
   - slug: contact
