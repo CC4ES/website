@@ -8,33 +8,24 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
 <%= partial 'partials/header' %>
 
 <article class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="cell small-12 text-center">
-      <h2>Direct Grassroots Resource Connector<br>for Communities in Need</h2>
-    </div>
-    <div class="cell small-12">
-      <p>CC4ES Direct is designed to link communities in need with essential resources through:<br>(1) outreach eduction on growing our own food to address food insecurity, on nutrition and wellness to cultivate healthy lifestyle; and citizen scientist programs to platform environmental stewardship for environmental health<br>(2) pipelining job training and apprenticeship programs for workforce development in green sector<br>(3) Facilitate equal access to, dissemination and sharing of information/resource for environmental, social and economic justice and equity for the following outcomes:</p>
-    </div>
-    <div class="cell small-12 text-center text-center">
-      <h4 class="green-section-heading">1. Food Security and Improved Environmental Health for Community Well-being</h4>
-      <img class="module-image" src="/images/hands_with_plants.jpg" alt="hands holding plants" />
-      <p class="image-caption">Sustainable actions at individual level that cascade to communities and beyond</p>
-      <p>Sustainability starts at the individual level. Food systems are the basis of securing environmental, social and economic sustainability. Growing our own food is the most direct means of addressing food insecurity and cultivating healthy lifestyle. Sustainable food system promotes food-waste reduction, that also improves environmental health.</p>  
-      <p>Citizen scientist programs empower community members to improve their environmental health necessary for the well-being of whole community, nurturing environmental stewardship in the long run.</p>
-    </div>
-    <div class="cell small-12 text-center">
-      <h4 class="green-section-heading">2. Community-based Green Jobs</h4>
-      <img class="module-image" src="/images/vertical_garden.jpg" alt="vertical garden of edible plants" />
-      <p class="image-caption">Boosting local economies and social capital</p>
-      <p>Living things in nature regenerate — regrow themselves. Regenerative approaches work by mimicing nature. Examples include incorporating sustainable designs for gardening/farming, design architecture and landscape, transportation, and more. All these define emerging green job descriptions.</p>
-      <p>Installing energy efficient lighting, storm water mitigation and implement water conservation techniques. Decreasing waste, composting, and recycling, repairing and sharing tools and equipment instead of purchasing new ones are sustainable practices that can evolve into entrepreneuriship, creating businesses and jobs in local communities. And jobs keep them stay in communities.</p>
-    </div>
-    <div class="cell small-12 text-center">
-      <h4 class="green-section-heading">3. Resilient Community as a place of idenity</h4>
-      <img class="module-image" src="/images/hands.jpg" alt="hands touching in collaboration" />
-      <p class="image-caption">Invest Locally to Build a Resilient Community</p>
-      <p>The grassroots approach of CC4ES Direct directly engages community members with various organizations and businesses, promoting to invest social capital into the local community. This entails building relationships, supporting local initiatives and developing trust. The community reciprocates by supporting the businesses, a positive feedback loop that creates a resilient community.</p>
-    </div>      
-  </div>
-</article>
 
+  <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+
+    <% data.connect.entries.each do |program| %>
+    <div class="entry-div cell small-12 medium-12">
+      <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
+        <h4 class="entry-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;"><%= program.name %></h4>
+        <div class="entry-img cell medium-6 small-12">
+          <p class="entry-description"><%= markdown(program.description) %></p>
+          <p class="entry-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
+        </div>
+        <div class="entry-text cell medium-6 small-12">
+          <p class="entry-link"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
+        </div>
+      </div>
+    </div>
+    <% end %>
+
+  </div>
+
+</article>
