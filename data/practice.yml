@@ -32,8 +32,8 @@ programs:
       ## Rebuilding relationships with land for resilient sustainability
       
       Museum of Silenced History (MSH) project embodies two main platforms for environmental and social justice: a living museum in both digital and physical forms accompanied by a community-convening space as a place for remember-reconcile-restore dialogues necessary for transformative justice and equity; and a regenerative garden as an incubator for practical applications and implementations of such dialogues to heal and regenerate the sacred connection between us and land. 
-    image: "seedlings.jpg"
-    image_alt: "Seedlings"
+    image: "Grow_UR_own_food.jpg"
+    image_alt: "Hands in circule"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
