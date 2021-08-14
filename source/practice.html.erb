@@ -22,8 +22,10 @@ hero_subtitle: "CC4ES programs"
         </div>
         <div class="program-text cell medium-6 small-12">
           <p class="program-description"><%= markdown(program.description) %></p>
-          <p class="program-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
-          <p class="program-link"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
+          <% if program.link %>
+            <p class="program-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
+          <% end %>
+          <p class="program-modules"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
         </div>
       </div>
     </div>
