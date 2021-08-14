@@ -40,9 +40,9 @@ programs:
       
   - name: Urban Youth for Sustainability
     description: |
-     ## Pipelining for Green jobs
+      ## Pipelining for Green jobs
      
-     Urban Youth for Sustainability (UYS) is a youth core job training program for urban youths of 14 -24 years old.  Its focus on growing own food and environmental stewardship directly engages community youths to tackle the persistent food insecurity and environmental pollutions in the urban communities, along with job insecurity.
+      Urban Youth for Sustainability (UYS) is a youth core job training program for urban youths of 14 -24 years old.  Its focus on growing own food and environmental stewardship directly engages community youths to tackle the persistent food insecurity and environmental pollutions in the urban communities, along with job insecurity.
     image: "UYS_vertical_garden.jpg"
     image_alt: "Youth with gardens"
     link: "/Urban Youth for Sustainability/"
