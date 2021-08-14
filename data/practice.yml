@@ -34,7 +34,6 @@ programs:
       Museum of Silenced History (MSH) project embodies two main platforms for environmental and social justice: a living museum in both digital and physical forms accompanied by a community-convening space as a place for remember-reconcile-restore dialogues necessary for transformative justice and equity; and a regenerative garden as an incubator for practical applications and implementations of such dialogues to heal and regenerate the sacred connection between us and land. 
     image: "seedlings.jpg"
     image_alt: "Seedlings"
-    link: "/museum/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
@@ -45,7 +44,6 @@ programs:
       Urban Youth for Sustainability (UYS) is a youth core job training program for urban youths of 14 -24 years old.  Its focus on growing own food and environmental stewardship directly engages community youths to tackle the persistent food insecurity and environmental pollutions in the urban communities, along with job insecurity.
     image: "UYS_vertical_garden.jpg"
     image_alt: "Youth with gardens"
-    link: "/Urban Youth for Sustainability/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
@@ -54,7 +52,6 @@ programs:
       Urban Youth for Sustainability is a youth core job training program for uban youths of 14024 years old that pipelines various statewide youth programs for comprehensive outcomes beneficial to urban communities, effectively platforming career paths for urban youths.
     image: "Grow_UR_own_food.jpg"
     image_alt: "Hands in circule"
-    link: "/Urban Youth for Sustainability/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
       
@@ -63,7 +60,6 @@ programs:
       Trees for Environmental Justice is a platform for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being. 
     image: Trees4EJ.jpg  
     image_alt: "Tree canopy"
-    link: "/Trees for Environmental Justice/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
       
