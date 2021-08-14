@@ -1,649 +1,649 @@
 
-  ###########################################
-  #
-  # Connect Page Partners
-  #
-  # To modify the partners that appear on the Connect page, modify the
-  # collections below.
-  #
-  # Each partner item requires:
-  # - title: partner's bolded title
-  # - description: Text that describes the partner; may include links in format [Read more](https://example.com)
+###########################################
+#
+# Connect Page Partners
+#
+# To modify the partners that appear on the Connect page, modify the
+# collections below.
+#
+# Each partner item requires:
+# - title: partner's bolded title
+# - description: "Text that describes the partner; may include links in format [Read more](https://example.com)
 
 entries:
+
   - name: 2-1-1-
     link: https://www.unitedwayri.org/get-help/2-1-1/
-    description: 211 can connect you with housing, food, affordable childcare, and much more
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)
+    description: "211 can connect you with housing, food, affordable childcare, and much more"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)"
     source: Providential gardener = PG
 
   - name: A La Rhody
-    link: 'Website doesn't work'
-    description: '2017 by the Providence Public Library, RI Historical Society, the City of Providence Deptment of Art, Culture & Tourism, RI Commerce Corporation, discover Newport, and the Providence Warwick Convention & Visitors Bureau (PWCVB) -- "A La rhody aims to honor and interpret RI''s culinary history and prominence with yearlong programming and marketing initiatives to tell the story of RI by way of your taste buds."'
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    link: "Website doesn't work"
+    description: "2017 by the Providence Public Library, RI Historical Society, the City of Providence Deptment of Art, Culture & Tourism, RI Commerce Corporation, discover Newport, and the Providence Warwick Convention & Visitors Bureau (PWCVB) -- 'A La rhody aims to honor and interpret RI's culinary history and prominence with yearlong programming and marketing initiatives to tell the story of RI by way of your taste buds.'"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Acopia Harvest
     link: https://www.acopiaharvest.com/
-    description: Its mission is to introduce affordable, manageable, and sustainable hydroponics systems in schools, homes and businesses acros the nation and internationally
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Its mission is to introduce affordable, manageable, and sustainable hydroponics systems in schools, homes and businesses acros the nation and internationally"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: American Fisheries Society Southern NE Chapter
     link: https://snec.fisheries.org/
-    description: Established in 1968 to provide regional support in the States of connecticut, Massachusetts, and RI for the American Fisheries Society.  AFS is the oldest and largest scientific group dedicated to the advancement of fisheries science and the conservation of renewable aquatic resources. 
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Established in 1968 to provide regional support in the States of connecticut, Massachusetts, and RI for the American Fisheries Society.  AFS is the oldest and largest scientific group dedicated to the advancement of fisheries science and the conservation of renewable aquatic resources. "
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Amos House
     link: https://amoshouse.com/
-    description: Since 1976, Amos House has been a staple of the RI nonprofit community, serving the homeless, unemployed, and those who are livng in poverty
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)
+    description: "Since 1976, Amos House has been a staple of the RI nonprofit community, serving the homeless, unemployed, and those who are livng in poverty"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Aquidneck Community Table
     link: https://aquidneckcommunitytable.org/about-us
-    description: Mission: to grow a healthy local food system, accessible to all on our island (Aquidneck Island)
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "Mission: to grow a healthy local food system, accessible to all on our island (Aquidneck Island)"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Aquidneck Island Table
     link: https://ailt.org/
-    description: 'Mission: To preserve and steward Aquidneck Islan''ds open spaces for the lasting benefit of the community, while connecting people with the land the defines the Island''s natural character'
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice), [Resilient Community Building](/resilient-community-building)
+    description: "'Mission: To preserve and steward Aquidneck Islan'ds open spaces for the lasting benefit of the community, while connecting people with the land the defines the Island's natural character'"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: AtlanticStates Marine Fisheries Commission
     link: http://www.asmfc.org/
-    description: Mission: to promote the better utilization of the fisheries, marine, shell and anadromous, of the Atlantic seaboard by the development of a joint program for the promotion and protection of such fisheries, and by the prevention of physical wasate of the fisheries from any cause; and VISION: Sustainable and Cooperatice Management of Atlantic Coastal Fisheries
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Mission: to promote the better utilization of the fisheries, marine, shell and anadromous, of the Atlantic seaboard by the development of a joint program for the promotion and protection of such fisheries, and by the prevention of physical wasate of the fisheries from any cause; and VISION: Sustainable and Cooperatice Management of Atlantic Coastal Fisheries"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: AYERSfoundation
     link: https://www.ayers-foundation.org/
-    description: '"AYERSfoundation is a charitable, educational, agricultural, and scientific non-profit corporation.  The foundation''s goals are to promote, practice and teach sustainable agriculture, holistic nutrition, and healthy living as well as to increase the environmental literacy of our youth."'
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "AYERSfoundation is a charitable, educational, agricultural, and scientific non-profit corporation.  The foundation's goals are to promote, practice and teach sustainable agriculture, holistic nutrition, and healthy living as well as to increase the environmental literacy of our youth."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Bioneers by the Bay
     link: https://www.provgardener.com/org/bioneers-bay
-    description: 'An innovative nonoprofit that highlights breakthrough solutions for restoring people and planet.  Acts as a fertilehub of social and scientific innovators with practical and visionary solutions for the world''s most pressing environmnetal and social challenges. '
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies),
+    description: "'An innovative nonoprofit that highlights breakthrough solutions for restoring people and planet.  Acts as a fertilehub of social and scientific innovators with practical and visionary solutions for the world's most pressing environmnetal and social challenges. '"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies),"
     source: PG
 
   - name: Brown Environmental Action Network (BEAN)
     link: http://students.brown.edu/BEC/
-    description: A hub for environmental activism at Brown University, Providence, RI
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Resilient Community Building](/resilient-community-building)
+    description: "A hub for environmental activism at Brown University, Providence, RI"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Charlestown Community Garden
     link: http://ccgri.org/
-    description: a non-profit organization that provides over 4000 lbs of fresh organic vegetables to local food pantries and soup kitchens a year. 
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), 
+    description: "a non-profit organization that provides over 4000 lbs of fresh organic vegetables to local food pantries and soup kitchens a year. "
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), "
     source: PG
 
   - name: Commercial Fisheries Research Foundation
     link: http://www.cfrfoundation.org/
     description: "Our mission is to conduct and support research and education that assists in the achievement of sustainable fisheries through the generation and communication of better information and effective technologies for the benefit of individuals and businesses dependent on commercial fishing, consumers of seafood, and the public good."
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice), 
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice), "
     source: PG
 
   - name: Community Supported Agriculture
     link: https://guide.farmfreshri.org/food/csa.php
-    description: "This is not an actual organization, but rather a service many farms and aquaculture businesses offer. Farm Fresh RI lists many CSAs and defines it as:\n\\"Community Supported Agriculture, often shortened to CSA, is a prepaid subscription to a farm's produce for the season."
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice)
+    description: "This is not an actual organization, but rather a service many farms and aquaculture businesses offer. Farm Fresh RI lists many CSAs and defines it as:\nCommunity Supported Agriculture, often shortened to CSA, is a prepaid subscription to a farm's produce for the season."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice)"
     source: PG
 
   - name: Compost Initative
     link: https://www.ecori.org/green-opinions/2021/2/23/providence-composts-fed-growth-of-rhode-island-food-scrap-collection
-    description: This was an informal movement spearheaded by Greg Gerritt, with many other Rhode Islanders contributing. Compost conferences were held for 11 years. The last one, 2019 Compost Conference, was March 14 at RI College.
-    modules: [Sustainable Food Systems](/sustainable-food-systems),[Regenerative Technologies](/regenerative-technologies)
+    description: "This was an informal movement spearheaded by Greg Gerritt, with many other Rhode Islanders contributing. Compost conferences were held for 11 years. The last one, 2019 Compost Conference, was March 14 at RI College."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems),[Regenerative Technologies](/regenerative-technologies)"
     source: PG
 
   - name: East Bay Food Pantry & Thrift Shop
     link: https://eastbayfoodpantry.org/
     description: "To engage, educate and empower the East Bay in creating a hunger-free community."
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Eat Drink RI
     link: https://www.eatdrinkri.com/
-    description: Created in 2010 by David Dadekian, Eat Drink RI (EDRI) is one of the top media, marketing and event production companies in the region for all things culinary.
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice)
+    description: "Created in 2010 by David Dadekian, Eat Drink RI (EDRI) is one of the top media, marketing and event production companies in the region for all things culinary."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice)"
     source: PG
 
   - name: Eating with the Ecosystems
     link: https://www.eatingwiththeecosystem.org/
-    description: 'Eating with the Ecosystem is a small nonprofit with a unique mission: to promote a place-based approach to sustaining New England''s wild seafood. '
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice), 
+    description: "'Eating with the Ecosystem is a small nonprofit with a unique mission: to promote a place-based approach to sustaining New England's wild seafood. '"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice), "
     source: PG
 
   - name: EcoRI Earth
     link: https://www.ecori.org/
-    description: Residential Composting Service
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies)
+    description: "Residential Composting Service"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies)"
     source: PG
 
   - name: edible RHODY
     link: https://ediblerhody.ediblecommunities.com/
-    description: Every season Edible Rhody celebrates local food of the Ocean State and tells the stories of the farmers, chefs, fishers and food and beverage artisans who work and live here.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Every season Edible Rhody celebrates local food of the Ocean State and tells the stories of the farmers, chefs, fishers and food and beverage artisans who work and live here."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Farm Fresh RI
     link: https://www.farmfreshri.org/
-    description: MISSION: increasing community access to local foods, and building strong local food system enterprises
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Resilient Community Building](/resilient-community-building)
+    description: "MISSION: increasing community access to local foods, and building strong local food system enterprises"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Farm Service Agency RI 
     link: https://www.fsa.usda.gov/state-offices/Rhode-Island/index
     description: "Farm Service Agency is equitably serving all farmers, ranchers, and agricultural partners through the delivery of effective, efficient agricultural programs for all Americans."
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Northeast Ag Exchange
     link: https://exchange.farmfreshri.org/
-    description: online forum for connecting about farming + land + jobs + other agricultural stuff
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "online forum for connecting about farming + land + jobs + other agricultural stuff"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Coggeshall Farm Museum
     link: https://www.coggeshallfarm.org/
-    description: The Mission of the Coggeshall Farm Museum is to preserve this 1790s Rhode Island salt-marsh farm. We serve the local community and beyond as a living museum and vital educational resource through demonstration of daily farm activity and honest interpretation that reflects its historical, multicultural influence.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The Mission of the Coggeshall Farm Museum is to preserve this 1790s Rhode Island salt-marsh farm. We serve the local community and beyond as a living museum and vital educational resource through demonstration of daily farm activity and honest interpretation that reflects its historical, multicultural influence."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Crave Food Systems Corporation
     link: https://sourcewhatsgood.com/
-    description: Provides an online marketplace that connects buyers with their local sources using smart phone apps, called WhatsGood.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Provides an online marketplace that connects buyers with their local sources using smart phone apps, called WhatsGood."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Land For Good
     link: https://landforgood.org/
     description: "Our mission is to ensure the future of farming in New England by putting more farmers more securely on more land."
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Fruit Growers Association
     link: http://www.rifruitgrowers.org/
     description: "The Rhode Island Fruit Growers Association began in 1913 with a group of dedicated apple orchardists from Providence and Kent Counties. Over the years, RIFGA has expanded to include growers of many tree fruits, as well as berries. Today, RIFGA continues the traditions started over a century ago.\nThroughout the season our members have the support and assistance of URI and UMASS Cooperative Extensions. Their continuous research and ongoing fieldwork aid and advance our farmers’ ability to produce healthy, savory fruit."
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI State Conservation Committee
     link: https://www.provgardener.com/org/ri-state-conservation-committee
-    description: "The Rhode Island State Conservation Committee has been established within the Department of Environmental Management to serve as an agency of the State and to perform the functions conferred upon it by Chapter 2-4 of the Rhode Island General Laws. These functions include coordination of Conservation District activities with other federal, state and local entities regarding natural resources within the State of Rhode Island." 
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Sustainable Business Practices](/sustainable-business-practice)
+    description: "The Rhode Island State Conservation Committee has been established within the Department of Environmental Management to serve as an agency of the State and to perform the functions conferred upon it by Chapter 2-4 of the Rhode Island General Laws. These functions include coordination of Conservation District activities with other federal, state and local entities regarding natural resources within the State of Rhode Island."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Sustainable Business Practices](/sustainable-business-practice)"
     source: PG
 
   - name: Food on the Move
     link: run by the RI Public Health Institute.  Either website works
-    description: The mission of the ‘Food on the Move’ mobile market program is to improve the dietary behaviors of underserved RI residents by increasing access to affordable, healthful food through a discount, mobile food market that travels from neighborhood to neighborhood ‘making the healthy choice easy and affordable’.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "The mission of the ‘Food on the Move’ mobile market program is to improve the dietary behaviors of underserved RI residents by increasing access to affordable, healthful food through a discount, mobile food market that travels from neighborhood to neighborhood ‘making the healthy choice easy and affordable’."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Food4Good
     link: http://food4goodri.weebly.com/
     description: "To provide great tasting food to paying customers who generate revenue for Food4Good to distribute free, healthy meals to those in need in the City of Providence. All from the same truck!\nAs of July 2017, we have added Healthy Cooking Demonstrations at several sites! As of December 2017, we have given away over 13,233 free meals!"
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Fox Point Community Garden
     link: https://www.foxpointgarden.org/
-    description: Our mission is to provide a community space where city gardeners can come together, grow fresh food, and share knowledge.  We believe that community gardens not only serve to green the urban landscape but build strong, vibrant, and socially aware communities by putting community members back into dialogue with their neighbors and their environment.  It is our goal that all members of the Fox Point community are provided a space to garden, grow, and be merry!  If the gates are open, we invite you to come in, walk around, and mingle with our gardeners.  However please remember although the garden belongs to everyone in the community, the vegetables belong to the gardeners who toiled ever so lovingly to grow them.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "Our mission is to provide a community space where city gardeners can come together, grow fresh food, and share knowledge.  We believe that community gardens not only serve to green the urban landscape but build strong, vibrant, and socially aware communities by putting community members back into dialogue with their neighbors and their environment.  It is our goal that all members of the Fox Point community are provided a space to garden, grow, and be merry!  If the gates are open, we invite you to come in, walk around, and mingle with our gardeners.  However please remember although the garden belongs to everyone in the community, the vegetables belong to the gardeners who toiled ever so lovingly to grow them."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: George Wiley Center
     link: https://www.georgewileycenter.org/
-    description: Founded in 1981, the organization is named for Rhode Islander George Wiley who was active in the Civil and Welfare Rights movements. We are a grassroots group, organizing with low-income Rhode Islanders to advocate for systematic changes aimed at alleviating problems associated with poverty. Our mission is “to build a community that addresses human needs and redresses injustices.”
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)
+    description: "Founded in 1981, the organization is named for Rhode Islander George Wiley who was active in the Civil and Welfare Rights movements. We are a grassroots group, organizing with low-income Rhode Islanders to advocate for systematic changes aimed at alleviating problems associated with poverty. Our mission is “to build a community that addresses human needs and redresses injustices.”"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
-  - name: 'God''s Little Acre'
+  - name: "God's Little Acre"
     link: https://saintphilip.com/god-s-little-acre
     description: "Located behind St. Philip School, God’s Little Acre is one of many efforts sponsored by the parish to provide fresh, nutritious food for those in need throughout the local community.  Distributed through the parish’s St. Vincent de Paul Society, excess harvest from this important ministry is provided to the R.I. Community Food Bank.  For more information on how you can help tend to God’s Little Acre, please contact the parish office at 401-949-1500."
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Small Farms coalition
     link: https://risfcoalition.wordpress.com/
-    description: The Rhode Island Small Farms Coalition was created in 2014 in order to allow a 21st century medium of communication between local community gardens and non-profit farming organizations in the Providence, Rhode Island area. The site allows organizations to communicate and collaborate more effectively.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The Rhode Island Small Farms Coalition was created in 2014 in order to allow a 21st century medium of communication between local community gardens and non-profit farming organizations in the Providence, Rhode Island area. The site allows organizations to communicate and collaborate more effectively."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Harvest Kitchen
     link: https://guide.farmfreshri.org/food/member.php?fn=780
-    description: The Harvest Kitchen Project is a 15-week culinary job-readiness training program for youth (16-19) involved with the RI Department of Children, Youth, and Families followed by a 5-week paid internship. Our trainees create a line of high-quality preserved foods using ingredients sourced from local farmers at a certified kitchen in Pawtucket. There we also offer the community delicious locally sourced foods in a beautiful, sunlit café — the proceeds from which directly support our training program.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "The Harvest Kitchen Project is a 15-week culinary job-readiness training program for youth (16-19) involved with the RI Department of Children, Youth, and Families followed by a 5-week paid internship. Our trainees create a line of high-quality preserved foods using ingredients sourced from local farmers at a certified kitchen in Pawtucket. There we also offer the community delicious locally sourced foods in a beautiful, sunlit café — the proceeds from which directly support our training program."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Herb Society of America -- New England Unit
     link: http://neuhsa.homestead.com/
-    description: "\\"The New England Unit of The Herb Society of America is dedicated to promoting the knowledge, use and delight of herbs through educational programs, research and sharing the experience of its members with the community.\n\n\\"The New England Unit is the founding unit of The Herb Society of America.\\" [1933]"
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The New England Unit of The Herb Society of America is dedicated to promoting the knowledge, use and delight of herbs through educational programs, research and sharing the experience of its members with the community.\n\n'The New England Unit is the founding unit of The Herb Society of America.' [1933]"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Island Commons
-    link: See: Aquidneck Community Table site
+    link: "See: Aquidneck Community Table site"
     description: "The Island Commons Initiative received funding from the New England Grassroots Environment Fund around 2015, and was fiscally sponsored by the Aquidneck Island Land Trust.\nIt is now combined with other groups and is called The Aquidneck Community Table."
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
-  - name: 'Kenyon''s Grist Mill'
+  - name: "Kenyon's Grist Mill"
     link: https://www.kenyonsgristmill.com/home.html
-    description: 'A grist mill is a grain mill that turns whole berries of grain or whole kernels of corn into meal or flour.  At Kenyon''s Grist Mill, we still grind in our vintage, 1886 grist mill and continue to use the original granite millstones quarried from Westerly, Rhode Island.  These huge stones produce the exceptional texture and quality not found in modern, steel ground flours.  Genuine, single pass stone grinding also preserves the vital, natural nutrition of the grains.  Kenyon’s offers the ingredients that health conscious consumers are searching for - ground the simple, old-fashioned way of long ago.  We produce a variety of wholesome pancakes mixes, corn muffin mix, bread mixes, and other meals and flours.  We are best known for our Johnny Cake Meal and Clam Cake Mix. '
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "'A grist mill is a grain mill that turns whole berries of grain or whole kernels of corn into meal or flour.  At Kenyon's Grist Mill, we still grind in our vintage, 1886 grist mill and continue to use the original granite millstones quarried from Westerly, Rhode Island.  These huge stones produce the exceptional texture and quality not found in modern, steel ground flours.  Genuine, single pass stone grinding also preserves the vital, natural nutrition of the grains.  Kenyon’s offers the ingredients that health conscious consumers are searching for - ground the simple, old-fashioned way of long ago.  We produce a variety of wholesome pancakes mixes, corn muffin mix, bread mixes, and other meals and flours.  We are best known for our Johnny Cake Meal and Clam Cake Mix. '"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Livestock Institute of Southern New England
     link: https://www.thelivestockinstitute.org/
-    description: "Formerly (pre-2016) the Southeastern MA Livestock Association\n\\"... dedicated to addressing issues facing livestock farmers through educational programming and infrastructure improvements.\\""
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Formerly (pre-2016) the Southeastern MA Livestock Association\n'... dedicated to addressing issues facing livestock farmers through educational programming and infrastructure improvements.'"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Local Agriculture and Seafood Act Advisory Committee (LASA)
     link: https://opengov.sos.ri.gov/OpenMeetingsPublic/OpenMeetingDashboard?subtopmenuId=201&EntityID=1847&MeetingID=1006727 
     description: "The LASA Grant Program is designed to strengthen the local food system in Rhode Island through grants to young and beginning producers."
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Marion Institute
     link: https://www.marioninstitute.org/
     description: "WHAT WE DO:\nEducate the public with innovative approaches, assessments and therapies to health and wellness that treat and balance regulatory systems within the body, treating people rather than the symptoms of disease;\nPropagate a culture of health based on knowledge, accessibility and equity;\nPromote access to this care through financial assistance, with efforts to transform healthcare insurance coverage in the future;\nWith leading practitioners in the field of biological medicine, we support the development and instruction of professional certifications, ongoing research and dissemination of knowledge;\nServe as the fiscal sponsor for our Greenhouse Initiatives which further expand our vision of community health, environmental resilience and social justice.\n"
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: McCoy Community Farm
     link: https://rifoodbank.org/mccoy-farm-harvests-hope/
-    description: Each year, McCoy Community Farm in Warren produces thousands of pounds of fresh vegetables that are distributed to Rhode Islanders in need of food assistance.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Each year, McCoy Community Farm in Warren produces thousands of pounds of fresh vegetables that are distributed to Rhode Islanders in need of food assistance."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Mt. Hope Farm
     link: https://www.mounthopefarm.org/
-    description: A nonprofit organization, owned and operated by The Mount Hope Trust in Bristol. Our mission is to steward our land and structures, including the 1745 Governor Bradford House, to cultivate appreciation of our natural, historical and cultural character, and to make Mount Hope Farm accessible to all.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "A nonprofit organization, owned and operated by The Mount Hope Trust in Bristol. Our mission is to steward our land and structures, including the 1745 Governor Bradford House, to cultivate appreciation of our natural, historical and cultural character, and to make Mount Hope Farm accessible to all."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: New Food Producers Network
     link: https://rifoodcouncil.org/
-    description: This initiative began in 2014. Contact the RI Food Policy Council for more information.
-    modules: ?
+    description: "This initiative began in 2014. Contact the RI Food Policy Council for more information."
+    modules: "?"
     source: PG
 
   - name: North Kingstown Groundwater Committee
-    link: 'Website doesn''t work'
-    description: ?
-    modules: ?
+    link: "Website doesn't work"
+    description: "?"
+    modules: "?"
     source: PG
 
   - name: Northeast Aquaculture Conference & Exposition
     link: https://www.northeastaquaculture.org/
-    description: The Northeast Aquaculture Conference & Exposition (NACE) was created in 1998 by the Maine Aquaculture Innovation Center with the goal of bringing together producers, service providers, vendors, researchers, students and managers from the northeast region to discuss pressing issues and relevant research on aquaculture.
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The Northeast Aquaculture Conference & Exposition (NACE) was created in 1998 by the Maine Aquaculture Innovation Center with the goal of bringing together producers, service providers, vendors, researchers, students and managers from the northeast region to discuss pressing issues and relevant research on aquaculture."
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Northeast Ocean Data Portal
     link: https://www.northeastoceandata.org/
     description: "Established in 2009, the Northeast Ocean Data Portal provides free, user-friendly access to expert-reviewed interactive maps and data on the ocean ecosystem, economy, and culture of the northeastern United States."
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Northeast Organic Farming Association -- RI Chapter
     link: https://nofari.org/
     description: "NOFA/RI is an organization of farmers, gardeners and consumers working to promote organic farming and organic land care practices."
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Oceean State Herbal Association
     link: https://www.facebook.com/Ocean-State-Herbal-Association-150118078442619/
-    description: O-SHA, the Ocean State Herbal Association, is an organization designed to support and educate our members and the community about the uses and benefits of medicinal plants and the healing arts in a creative and sacred way.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "O-SHA, the Ocean State Herbal Association, is an organization designed to support and educate our members and the community about the uses and benefits of medicinal plants and the healing arts in a creative and sacred way."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Ocean State Oyster Festival
     link: https://oysterfestri.com/
     description: "The Ocean State Oyster Festival aims to:\nRaise awareness of, and celebrate, Rhode Island’s aquaculture industry; PROVIDE A PLATFORM THAT HELPS EXPAND RHODE ISLAND'S AQUACULTURE ECONOMY; Support education programs for the public on the environmental sustainability of Narragansett Bay -\n(in partnership with Save the Bay).\n\nProud member of the Ocean State Aquaculture Association (OSAA)"
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Oyster Gardening for Restoration and Enhancement
     link: No website, links to Roger Williams University
     description: "also known as RI-OGRE\nThis is a program at Roger Williams University begun in 2006."
-    modules: ?
+    modules: "?"
     source: PG
 
   - name: Pawtuxet Village Association
     link: https://www.pawtuxetvillageassociation.org/
-    description: "\\"The most important mission of the Pawtuxet Village Association is to help preserve our historic buildings and protect the National Historic District of Pawtuxet Village for the future. \\"\nPVA Garden Group also maintains gardens and planters in the village."
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "'The most important mission of the Pawtuxet Village Association is to help preserve our historic buildings and protect the National Historic District of Pawtuxet Village for the future.'\nPVA Garden Group also maintains gardens and planters in the village."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Revive the Roots Foundation
     link: https://revivetheroots.org/
     description: "Revive the Roots is a non-profit organization in Smithfield, Rhode Island. Our mission is to create ecologically regenerative and dynamic social spaces through the education and practice of permaculture."
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Sustainable Business Practices](/sustainable-business-practice), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Sustainable Business Practices](/sustainable-business-practice), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Rhody Ag
     link: No longer available
-    description: This was a website developed by the RI Agricultural Partnership around 2015
-    modules: ?
+    description: "This was a website developed by the RI Agricultural Partnership around 2015"
+    modules: "?"
     source: PG
 
   - name: RI Agricultural Partnership
     link: http://www.growsmartri.org/2010/03/17/rhode-island-agricultural-partnership/
-    description: This group was formed in 2010 to develop a 5-year strategic plan for the state’s agricultural sector. For a while there was a website called RhodyAg.com, but it is no longer available.
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "This group was formed in 2010 to develop a 5-year strategic plan for the state’s agricultural sector. For a while there was a website called RhodyAg.com, but it is no longer available."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Rhody Flyy Rodders
     link: http://rhodyflyrodders.com/wordpress1/
-    description: Mission:“Pass on to all, who ask, what you learn here”.
-    modules: ??
+    description: "Mission:“Pass on to all, who ask, what you learn here”."
+    modules: "??"
     source: PG
 
   - name: RI Agricultural Cooperative Extension
     link: https://web.uri.edu/coopext/category/extension/
     description: ",,,through Cooperative Extension in RI, we bring vital, practical information to agricultural producers, small business owners, communities, consumers, families, and young people."
-    modules: ?
+    modules: "?"
     source: PG
 
   - name: RI Aquaculture Initiative
     link: http://www.crmc.ri.gov/aquaculture.html
-    description: Connects to RI CRMC website
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Connects to RI CRMC website"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
-
 
   - name: RI Beekeepers Association
     link: https://ribeekeeper.org/mentors-2
     description: "The Rhode Island Beekeepers Association was founded in 1917 by A.C. Miller. RIBA is a 501c3 non-profit group. Our objectives are stated in our bylaws: 2.1 To promote education about bees and best practices of beekeeping for new and established beekeepers.\n2.2 To support and facilitate cooperative relationships among all persons interested in beekeeping.\n 2.3 To participate in the education of the general public about the value of honey bees and beekeeping for the environment and our food supply.\n 2.4 To network and affiliate with allied groups and individuals to advance the goals of healthier bees and better beekeeping.\nWe provide training of new beekeepers through our winter bee school, as well as through our monthly meetings, annual Field Day, and other events throughout the year."
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Resilient Community Building](/resilient-community-building)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Brewers Guild
     link: https://www.ribrewersguild.org/
-    description: The Rhode Island Brewers Guild is the official brewery association in Rhode Island, existing to support and promote Rhode Island Craft Breweries. Use our Rhode Island Brewery Map to plan your RI Brewery Tour. Download the RI Brewery Passport, exclusively distributed by our non-profit organization, the RI Brewers Guild. 
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The Rhode Island Brewers Guild is the official brewery association in Rhode Island, existing to support and promote Rhode Island Craft Breweries. Use our Rhode Island Brewery Map to plan your RI Brewery Tour. Download the RI Brewery Passport, exclusively distributed by our non-profit organization, the RI Brewers Guild. "
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Community Food Bank
     link: https://rifoodbank.org/
-    description: Mission: to improve the quality of life for all RIers by advancing solutions to the problem of hunger -- food justice and sencurity
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "Mission: to improve the quality of life for all RIers by advancing solutions to the problem of hunger -- food justice and sencurity"
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI DEM Division of Agriculture
     link: http://www.dem.ri.gov/
-    description: Division of Agriculture
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Division of Agriculture"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI DEM Division of Coastal Resources
     link: http://www.dem.ri.gov/
-    description: Division of Coastal Resources
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Division of Coastal Resources"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI DEM Freshwater & Anadromous Fisheries
     link: http://www.dem.ri.gov/
-    description: Freshwater & Anadromous Fisheries
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Freshwater & Anadromous Fisheries"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI DEM Marine Fisheries Division
     link: http://www.dem.ri.gov/
-    description: Marine Fisheries Division
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Marine Fisheries Division"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Department of Education child Nutrition Programs
     link: https://www.ride.ri.gov/cnp/Home.aspx
-    description: School breakfast, lunch, after school meals, special milk, summer food service, USDA Team nutrition, Farm to School program, Fresh fruit & vegetables, Child & Adult Care Food, Wellness Policies, Resource Library programs, and Program Data & Finances
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "School breakfast, lunch, after school meals, special milk, summer food service, USDA Team nutrition, Farm to School program, Fresh fruit & vegetables, Child & Adult Care Food, Wellness Policies, Resource Library programs, and Program Data & Finances"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Department of Health
     link: https://health.ri.gov/programs/
-    description: Center for Food Protection, formerly known as Office of Food Safety
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Center for Food Protection, formerly known as Office of Food Safety"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI DOH Division of Environmental & Health Services Regulations
     link: https://health.ri.gov/
-    description: Division of Environmental and Health Services Regulations
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Resilient Community Building](/resilient-community-building)
+    description: "Division of Environmental and Health Services Regulations"
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Emergency Management Agency
     link: http://www.riema.ri.gov/
-    description: The mission of the Rhode Island Emergency Management Agency is to reduce the loss of life and property for the whole community while ensuring that as a state we work together to build, sustain, and improve our capability to prepare for, protect against, respond to, recover from, and mitigate all natural, human-caused, and technological hazards.
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "The mission of the Rhode Island Emergency Management Agency is to reduce the loss of life and property for the whole community while ensuring that as a state we work together to build, sustain, and improve our capability to prepare for, protect against, respond to, recover from, and mitigate all natural, human-caused, and technological hazards."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI EPSCoR
     link: https://web.uri.edu/rinsfepscor/
-    description: aka RI NSF EPSCoR (National Science Foundation: The Established Program to Stimulate Competitive Research)
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals)
+    description: "aka RI NSF EPSCoR (National Science Foundation: The Established Program to Stimulate Competitive Research)"
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals)"
     source: PG
 
   - name: RI Farm Bureau
     link: https://rifb.org/aboutus/farmbureaubeliefs/
-    description: Farm Bureau® is a free, independent, nongovernmental and voluntary organization of farm and ranch families united for the purpose of analyzing agricultural problems and formulating action to achieve educational awareness and social advancement, and thereby, to promote the national well-being. Farm Bureau® is non-partisan and is local, statewide, national and international in its scope and influence.   Farm Bureaus are located in all 50 states and Puerto Rico.
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "Farm Bureau® is a free, independent, nongovernmental and voluntary organization of farm and ranch families united for the purpose of analyzing agricultural problems and formulating action to achieve educational awareness and social advancement, and thereby, to promote the national well-being. Farm Bureau® is non-partisan and is local, statewide, national and international in its scope and influence.   Farm Bureaus are located in all 50 states and Puerto Rico."
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Fermentation Technicians
     link: https://www.meetup.com/Rhode-Island-Fermentation-Technicians/
-    description: Rhode Island fermentation enthusiasts unite! RIFT is a monthly gathering of people who love making beer, mead, cider, and other fermented beverages. All ages (over 21!) and experience levels are welcome. We meet in a different location every third Thursday of the month, and occasionally have special events for brewery tours, big brews, grain buys, and cider pressings.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Rhode Island fermentation enthusiasts unite! RIFT is a monthly gathering of people who love making beer, mead, cider, and other fermented beverages. All ages (over 21!) and experience levels are welcome. We meet in a different location every third Thursday of the month, and occasionally have special events for brewery tours, big brews, grain buys, and cider pressings."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Food Center at URI
     link: https://web.uri.edu/food-center/
     description: "The Rhode Island Food Center at URI is a resource center where members of the Rhode Island food system can seek answers, find partners, create innovations, and educate consumers. The Center is a program of URI’s College of the Environment and Life Sciences (CELS) in partnership the URI College of Business and the URI Business Engagement Center."
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Sustainable Business Practices](/sustainable-business-practice)"
     source: PG
 
   - name: RI Food Poiicy Council
     link: https://rifoodcouncil.org/
-    description: The RIFPC was established on Food Day 2011 with a mission to promote a more equitable, economically vibrant, and environmentally sustainable food system in Rhode Island. We work to coordinate a statewide collaboration of diverse, committed and engaged stakeholders from all sectors of the food system. We create partnerships, develop policies, and advocate for improvements to the local food system to increase and expand its capacity, viability, and sustainability.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The RIFPC was established on Food Day 2011 with a mission to promote a more equitable, economically vibrant, and environmentally sustainable food system in Rhode Island. We work to coordinate a statewide collaboration of diverse, committed and engaged stakeholders from all sectors of the food system. We create partnerships, develop policies, and advocate for improvements to the local food system to increase and expand its capacity, viability, and sustainability."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Future Farmers of America
     link: http://www.rirla.org/youth.htm
     description: "Ed note: on 12/29/14, I cannot find a page by RI FFA. This one is on the RI Raised Livestock Assn site. To be updated.\nRhode Island FFA Chapters:\n    Chariho FFA\n    Exeter-West Greenwich FFA\n    Narragansett FFA   \n    Ponaganset FFA \n  Scituate FFA   \nSource: http://www.rirla.org/youth.htm"
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Greenhouse Growers Association
     link: No website available
-    description: This organization can be contacted through the RI Farm Bureau or Heather Faubert, URI Department of Plant Sciences and Entomology.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "This organization can be contacted through the RI Farm Bureau or Heather Faubert, URI Department of Plant Sciences and Entomology."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Healthy School Coalition
     link: https://www.rihsc.org/
     description: "We are committed to making all RI schools\nhealthy places for children to learn, grow and thrive."
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
-  - name: 'RI Lobstermen''s Association'
+  - name: "RI Lobstermen's Association"
     link: http://www.rilobstermen.com/
-    description: R.I.L.A. is a nonprofit association that works towards the implementation of practical and meaningful State and Federal regulatory measures which take into consideration the welfare of the fishermen while building a sustainable fishery.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "R.I.L.A. is a nonprofit association that works towards the implementation of practical and meaningful State and Federal regulatory measures which take into consideration the welfare of the fishermen while building a sustainable fishery."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Raised Livestock Association
     link: http://www.rirla.org/index.htm
     description: "Contributing over $1,750,000 to the local economy in 2013\nStrengthening the local food infrastructure\n Improving access to healthy, nutritious, sustainably-produced meat and meat products\n Protecting open space and working farms\n Increasing the business and production capacity of Rhode Island farms\n Preserving Rhode Island's rural culture and history"
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Seafood
     link: http://www.dem.ri.gov/riseafood/about.php
-    description: The Rhode Island Seafood Marketing Collaborative, chaired by the RI Department of Environmental Management, was established by the Rhode Island General Assembly in 2011. The objective of the Collaborative is to support local fishermen and small businesses and to increase awareness and consumption by the public of locally fished species.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The Rhode Island Seafood Marketing Collaborative, chaired by the RI Department of Environmental Management, was established by the Rhode Island General Assembly in 2011. The objective of the Collaborative is to support local fishermen and small businesses and to increase awareness and consumption by the public of locally fished species."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
-  - name: 'RI Shellfisherman''s Association'
+  - name: "RI Shellfisherman's Association"
     link: http://rishellfisherman.org/
-    description: a non-profit, tax exempt trade organization, is dedicated to the improvement of the working conditions of shellfishermen in RI, to the enhancement and preservation of Narragansett Bay, and the promotion of shellfish products.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "a non-profit, tax exempt trade organization, is dedicated to the improvement of the working conditions of shellfishermen in RI, to the enhancement and preservation of Narragansett Bay, and the promotion of shellfish products."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI Small Farms Coalition
     link: https://risfcoalition.wordpress.com/
-    description: The Rhode Island Small Farms Coalition was created in 2014 in order to allow a 21st century medium of communication between local community gardens and non-profit farming organizations in the Providence, Rhode Island area. The site allows organizations to communicate and collaborate more effectively.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The Rhode Island Small Farms Coalition was created in 2014 in order to allow a 21st century medium of communication between local community gardens and non-profit farming organizations in the Providence, Rhode Island area. The site allows organizations to communicate and collaborate more effectively."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: RI State Grange
     link: http://www.grange.org/rhodeislandstate/
-    description: The Grange, whose roots start in agriculture, works throughout Rhode Island, supporting farmers, collaborating with Agriculture and Conservations groups, promoting community activities, volunteering with animal shelters and food pantries, raising funds for scholarships and helping veterans and the hearing impaired. 
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "The Grange, whose roots start in agriculture, works throughout Rhode Island, supporting farmers, collaborating with Agriculture and Conservations groups, promoting community activities, volunteering with animal shelters and food pantries, raising funds for scholarships and helping veterans and the hearing impaired. "
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Tourism Division
     link: https://www.visitrhodeisland.com/
-    description: 'Rhode Island has a culinary scene second-to-none. The New York Times, Gourmet and Travel + Leisure and other pubs have applauded the state for everything from deluxe farm-to-table restaurants to classic iconic comfort food. With the Atlantic Ocean as our backyard, it''s not surprising that visitors come from near and far to enjoy the absolute freshest seafood. But don''t stop at our delicious food. We''re also home to inventive and award-winning breweries, distilleries and wineries!'
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies)
+    description: "'Rhode Island has a culinary scene second-to-none. The New York Times, Gourmet and Travel + Leisure and other pubs have applauded the state for everything from deluxe farm-to-table restaurants to classic iconic comfort food. With the Atlantic Ocean as our backyard, it's not surprising that visitors come from near and far to enjoy the absolute freshest seafood. But don't stop at our delicious food. We're also home to inventive and award-winning breweries, distilleries and wineries!'"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies)"
     source: PG
 
   - name: RI Vegan Awareness
     link: http://www.veganawareness.org/about_us0.aspx
     description: "Rhode Island Vegan Awareness is a 501(c)(3) non-profit organization dedicated to advocating veganism for a more peaceful and just world for all life. \nWe actively work to ~\nInspire justice and true respect for other species and the earth.  \nOur television PSA, bus advertisements, film screenings, Ask a Vegan tables, Pay-Per-View programs, library displays and more, have exposed compelling reasons to choose vegan. Featuring vegan cuisine at events helps people see how easy and delicious being vegan can be.\nEducate the public with critical information.  \nSince 2001, RIVA has reached thousands through outreach tables, workshops, guest speakers, and the distribution of free literature. \nSupport the local community.  \nOur website, Facebook page, monthly meetings, annual events, fundraisers, and special events are all additional ways that RIVA creates a vegan friendly community."
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Women in Agriculture
     link: https://riwomeninag.wixsite.com/website
-    description: This is a biannual conference (even years), beginning in 2012, held in March. Rhode Island Women in Agriculture is a non-profit organization educating members and the public about various areas in agriculture, including crop production and management, livestock production, food safety, agricultural sciences, and the career opportunities offered in these fields.  We also seek to provide educational opportunities to help women best manage their farms and related businesses.
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "This is a biannual conference (even years), beginning in 2012, held in March. Rhode Island Women in Agriculture is a non-profit organization educating members and the public about various areas in agriculture, including crop production and management, livestock production, food safety, agricultural sciences, and the career opportunities offered in these fields.  We also seek to provide educational opportunities to help women best manage their farms and related businesses."
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Worm Farmers Cooperative
     link: https://www.wormsri.org/our-story
     description: "Organized in 2015. Meets monthly. GUIDING PRINCIPLES:\nSupport owner-operators with a democratically organized cooperative to provide a market for their products.\nEstablish a community where the benefits  of members’  experience can lead to an exchange of technical information and advice.\nSupport sustainable farming practices in our community.\nCommunicate to the public the ease and importance of vermicompost."
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: RI Young Farmers & Ranchers
     link: Restricted Facebook -- No information available
     description: "Environmental Topic\nCritters\nFarming\nFood\nPlants?"
-    modules: [Sustainable Food Systems](/sustainable-food-systems)?
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)?"
     source: PG
 
-  - name: 'South County Growers'' Association'
+  - name: "South County Growers' Association"
     link: https://www.guidestar.org/profile/26-2877480
-    description: No information available
-    modules: [Sustainable Food Systems](/sustainable-food-systems)?
+    description: "No information available"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)?"
     source: PG
 
   - name: Southside Community Land Trust
     link: https://www.southsideclt.org/
     description: "OUR MISSION IS TO PROVIDE ACCESS TO LAND, EDUCATION AND OTHER RESOURCES SO PEOPLE IN RHODE ISLAND CAN GROW FOOD IN ENVIRONMENTALLY SUSTAINABLE WAYS AND CREATE COMMUNITY FOOD SYSTEMS WHERE LOCALLY PRODUCED, AFFORDABLE AND HEALTHY FOOD IS AVAILABLE TO ALL.\nSCLT programs, community gardens and farms serve people in urban neighborhoods where fresh produce is nearly impossible to find – especially in quantities and at prices that support residents’ health."
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Toxics Information Project
     link: http://www.toxicsinfo.org/whoweare.htm
     description: "TIP's Mission\nIn Rhode Island, no organization has been focused specifically and exclusively on toxics in everyday products, their health effects and alternatives to their use. TIP aims to fill that role.\nTIP will stimulate people to think about and to question the chemicals that they are putting into their bodies everyday through absorption, inhalation and ingestion.\nTIP will bring much needed clarity to understanding vague and confusing commercially used label terms such as “fragrance” & “inerts” which mask highly toxic ingredients.\nTIP will teach how to eliminate or reduce exposure to as many of these toxins as possible. Using the most up-to date information from recent research and creative interaction with the public in a variety of ways & venues, TIP will seek and disseminate knowledge on how to avoid the worst toxics and to embrace safer ways to live our everyday lives.\nTIP will promote the sale of effective & less toxic alternative products.\nTIP will facilitate people’s sharing of their personal experiences with reactions to chemicals. TIP will provide ways to exchange information about less toxic products that have proven effective in actual use.\nTIP will also provoke people to think about environmental effects from the residue in streams and soil and air from both manufacture of these products and their disposal after use by consumers."
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Trout Unlimited- Narragansett Chapter #225
     link: http://narragansett.tu.org/
     description: "Trout Unlimited Vision: To ensure that habitats for coldwater and estuary fish thrive in Rhode Island for future generations.\nTrout Unlimited Mission: To conserve, protect, restore and sustain the coldwater fisheries and their watersheds in Rhode Island through cooperative, educational and environmental activities."
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Trout Unlimited- Northern RI #737
     link: http://northernri.tu.org/
     description: "Chapter737 Mission statement\nALL ARE WELCOME TO OUR MEETINGS AND SPECIAL EVENTS. \nWE SHARE  OUR KNOWLEDGE OF CONSERVATION, RESTORATION, SUSTAINING, AND PROTECTION OF OUR COLD WATER RESOURCES. \nWE FREELY PASS ON OUR LOVE OF TROUT FISHING AND FLY TYING TO ALL WHO ASK"
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: United Fly Tyers of RI, Inc.
     link: http://www.uftri.org/
-    description: The United Fly Tyers of Rhode Island, Inc. is an educational organization dedicated to teaching fresh and salt water fly tying. Monthly meetings are held at 6:30 pm on the first Wednesday of the month, from September through May at the Knights of Columbus in Warwick.
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The United Fly Tyers of Rhode Island, Inc. is an educational organization dedicated to teaching fresh and salt water fly tying. Monthly meetings are held at 6:30 pm on the first Wednesday of the month, from September through May at the Knights of Columbus in Warwick."
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Urban Greens Buying Club
     link: https://urbangreens.com/
-    description: Urban Greens Food Co-op is a consumer-owned and governed cooperative working to open a retail grocery store. The Co-op will be open to all and will support the health and well-being of our customers by offering nutritious, affordable food that is sustainably sourced, culturally inclusive, and supportive of local food.
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Urban Greens Food Co-op is a consumer-owned and governed cooperative working to open a retail grocery store. The Co-op will be open to all and will support the health and well-being of our customers by offering nutritious, affordable food that is sustainably sourced, culturally inclusive, and supportive of local food."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Urban Greens Food Co-op
     link: https://urbangreens.com/
-    description: same as Urban Greens Buying Club
-    modules: [Sustainable Food Systems](/sustainable-food-systems)
+    description: "same as Urban Greens Buying Club"
+    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: URI Agricultural Cooperative Extension
     link: https://web.uri.edu/coopext/food-systems/
-    description: URI Cooperative Extension program
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "URI Cooperative Extension program"
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: URI Community Nutrition Education
     link: https://www.uri.edu/news/2018/12/uri-study-brings-nutrition-advocacy-directly-into-the-home/#new_tab
-    description: URI study brining nutrition advocacy directly into the home
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals)?
+    description: "URI study brining nutrition advocacy directly into the home"
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals)?"
     source: PG
 
   - name: URI Compost Education Programs
     link: https://web.uri.edu/ceoc/compost-education-programs/
-    description: Includes the URI Master Composter & Recycler group
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "Includes the URI Master Composter & Recycler group"
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: URI Department of Plant Sciences and Entomology
     link: https://web.uri.edu/pse/
     description: "MISSION:\nThe mission of the Department of Plant Sciences and Entomology is to provide teaching, research and extension support relating to sustainable management of the plant and insect components of the landscape. Rhode Island agriculture/horticulture is primarily urban and peri-urban; ornamental plants, turf, agritourism and conservation lands are as important as food crops. Our programs in ornamental horticulture, turfgrass management, food crop production, and control of invasive species and insect-vectored diseases address all of these components. The department strives to provide superior teaching to prepare a undergraduates for jobs in Rhode Island’s agricultural ‘green’ economy and enhance our research and extension programs to help industry stakeholders and the public increase the environmental and economic sustainability of Rhode Island agriculture."
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: URI Fisheries Center
     link: http://cels.uri.edu/fisheries/
-    description: The role of the URI Fisheries Center is to provide tools and opportunities for the types of interactions needed to create change. Our intention is to create an environment where stakeholders invested in creating a healthy resource and fishery can work to develop innovative methods of multidisciplinary fisheries research, extension and outreach for the management of these valuable fisheries resources.
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The role of the URI Fisheries Center is to provide tools and opportunities for the types of interactions needed to create change. Our intention is to create an environment where stakeholders invested in creating a healthy resource and fishery can work to develop innovative methods of multidisciplinary fisheries research, extension and outreach for the management of these valuable fisheries resources."
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: URI Healthy Landscapes
     link: No website available
-    description: ?This is an older program that is not up to date, but some online resources are still available.
-    modules: ?
+    description: "?This is an older program that is not up to date, but some online resources are still available."
+    modules: "?"
     source: PG
 
   - name: URI Master Gardener Association --> URI Master Gardener Program
     link: https://web.uri.edu/mastergardener/
-    description: The mission of the URI Master Gardener Program is to educate citizens in environmentally-sound gardening practices through the dissemination of factual, research-based information.  Through the train-the-trainer approach, over 700 volunteers serve as URI Extension Master Gardener educators, amplifying the impact of Cooperative Extension to improve environmental quality and build healthy communities.  We invite you to learn from URI Extension Master Gardeners through the various educational offerings in the menu below.
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)
+    description: "The mission of the URI Master Gardener Program is to educate citizens in environmentally-sound gardening practices through the dissemination of factual, research-based information.  Through the train-the-trainer approach, over 700 volunteers serve as URI Extension Master Gardener educators, amplifying the impact of Cooperative Extension to improve environmental quality and build healthy communities.  We invite you to learn from URI Extension Master Gardeners through the various educational offerings in the menu below."
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems)"
     source: PG
 
   - name: Washington County Fair
     link: https://washingtoncountyfair-ri.com/
-    description: 'RI''s largest agriculture event which takes place in August each year.'
-    modules: [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "'RI's largest agriculture event which takes place in August each year.'"
+    modules: "[Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: We Share Hope
     link: https://wesharehope.org/
-    description: This organization is a food rescuer, whose mission is to locate, gather, and distribute food to groups that feed the poor, distressed, and the underprivileged. Volunteers are needed for all kinds of work, from driving trucks to helping out in the office.
-    modules: [Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "This organization is a food rescuer, whose mission is to locate, gather, and distribute food to groups that feed the poor, distressed, and the underprivileged. Volunteers are needed for all kinds of work, from driving trucks to helping out in the office."
+    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
   - name: Westbay Farm
     link: https://www.westbaycap.org/programs/westbay-farm/
-    description: "Mission: to empower and mobilize people through our programs, partnerships, and advocacy to gain greater self-sufficiency. Westbay Farm is a three-acre farm, growing 15,000 pounds of organic vegetables each year. Its largest crops are lettuce, tomatoes, onions, potatoes, and squash.\nThe farm provides fresh produce to the Westbay Marketplace food pantry."
-    modules: [Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)
+    description: "Mission: to empower and mobilize people through our programs, partnerships, and advocacy to gain greater self-sufficiency.                 Westbay Farm is a three-acre farm, growing 15,000 pounds of organic vegetables each year. Its largest crops are lettuce, tomatoes, onions, potatoes, and squash.\nThe farm provides fresh produce to the Westbay Marketplace food pantry."
+    modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
     source: PG
