@@ -47,14 +47,6 @@ programs:
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
-  - name: Urban Youth for Sustainaibility (UYS)
-    description: |
-      Urban Youth for Sustainability is a youth core job training program for uban youths of 14024 years old that pipelines various statewide youth programs for comprehensive outcomes beneficial to urban communities, effectively platforming career paths for urban youths.
-    image: "Grow_UR_own_food.jpg"
-    image_alt: "Hands in circule"
-    modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
-      
   - name: Trees for Environmental Justice (Trees4EJ)
     description: |
       Trees for Environmental Justice is a platform for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being. 
