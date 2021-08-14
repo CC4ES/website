@@ -16,7 +16,7 @@
 team_members:
   - name: Susan Shim Gorelick, Ph.D.
     title: >
-      Founder & Executive Director | Overall Advancement & Resources 
+      Founder & Executive Director | Overall Team Coordination for Advancement and Resources
     image: 'susan_about.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
@@ -47,10 +47,38 @@ team_members:
       She has BS, MS and ABD degrees in chemistry, and a PhD in environmental
       and natural resource economics. She has expertise in curriculum
       development with a focus on choice theory pedagogy.
+      
+  - name: Tarshire Battle, M.P.A. & M.A.
+    title: >
+      Roots-2-Empower Founder & Director | CC4ES Direct / Urban Youth for Sustainability
+    image: 'BioPic_Tarshire_Battle.jpg'
+    image_alt: 'photo of Tarshire Battle'
+    bio_text: |
+      Tarshire Battle is a native Bostonian who has been residing in Pawtucket, RI
+      for many years. Tarshire is a self-taught artist and has been using art as a 
+      vehicle to help heal those who have experienced trauma -- the homeless, 
+      battered women, youths, and returning veterans. While working at the New England 
+      Center for Homeless Veterans, she developed an art drop-in center.  This led to 
+      a collaboration with Boston’s Museum of Fine Arts to create guided tours of 
+      traumatized female veterans, and two annual art shows featuring talented homeless
+      artists.  Tarshire champions her causes aligning with various nonprofit organizations 
+      that address pressing social challenges, including homelessness, mental health, and 
+      addiction.
+      
+      Tarshire was contracted as a Department of Correction Mental Health Discharge Planner for 
+      five years, assisting individuals re-integrate into the community. This work inspired her to 
+      found her own non-profit organization, Roots2Empower. Formerly known as Restoration Urban Farm 
+      of New England, Roots2Empower is a social enterprise that provides entrepreneurship and 
+      agriculture training for formerly incarcerated and at-risk young adults, working to break 
+      the cycle of recidivism and school-to-prison pipeline.   
+
+      Tarshire holds an M.P.A from Northeastern University and an M.A. in Mental Health Counseling 
+      from Boston University School of Medicine. She is a visual artist, community activist, herbalist, 
+      and Master Gardener.
 
   - name: Kimberly Wood Bellemore, P.E.
     title: >
-      Energy & Regenerative Technologies
+      Energy & Regenerative Technologies | CC4ES Connect Maps
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
@@ -67,6 +95,30 @@ team_members:
       and Environmental Planning. She has over 25 years of program and project
       management experience in the ocean construction field and has served on
       the boards of Habitat for Humanity/Greenhome and Surfrider Foundation RI.
+  
+  - name: Marissa Cox
+    title: >
+      Marketing & Product Development | CC4ES Direct / CC4ES Circles
+    image: 'BioPic_Marissa_Cox.jpg'
+    image_alt: 'photo of Marissa Cox'
+    bio_text: |
+      Marissa’s passion for the environment was sparked by the book “You Are Here”, 
+      bringing an awareness of the impact of human activity on the environment. This 
+      book also     introduced her to the problem known as “the great pacific garbage 
+      patch”. Marissa’s love of the ocean and interest to join the efforts to protect 
+      the oceans, led her to volunteer with Surfrider Foundation. She served on 
+      Surfriders’ Executive Board in the Rhode Island and Los Angeles chapters for 
+      many years.
+ 
+      Marissa’s vision led her to create a retail business, The Kind Shop, with a 
+      mission of helping to preserve our beautiful planet. The Kind Shop provides 
+      access to plastic-free, natural and sustainable products while educating and 
+      inspiring the local community. One of the goals of the organization is to 
+      create a community and offer educational, creative workshops and classes.
+
+      In her free time, Marissa can be found baking in her kitchen, practicing yoga, 
+      or exploring local beaches and forests with her daughter, Valencia.
+
 
   #   - name: Prisca Castanyer, Ph.D.
 #     title: >
@@ -94,10 +146,36 @@ team_members:
 #       Distinction in Teaching at Harvard University, five times during the
 #       2009–2013 span. Currently she teaches at Johnson & Wales University
 #       College of Online Education, Arts and Sciences.
-
+ 
+  - name: Kelly DeAngelis, M.A.
+    title: >
+      Student Engagement & Coordination | Hope Gardeners / Urban Youth for Sustainability
+    image: 'BioPic_Kelly_DeAngelis.jpg'
+    image_alt: 'photo of Kelly DeAngelis'
+    bio_text: |
+      Kelly is an idealist with a passion for working with people and a love of 
+      the environment.  After years working in the energy industry in Boston, she 
+      now works on Sustainability and Student Engagement for Sodexo and the 
+      Providence Schools’ Child Nutrition Program.  She has a vision of engaging 
+      students in community sustainability through efforts in schools and school gardens.
+      She is active in the district’s Farm to School efforts, reporting on local 
+      purchasing and contributing to school gardens. Kelly’s interest in permaculture 
+      has led her to experiment with native plants, rain gardens, and food forest 
+      design in her own garden, which she hopes to bring to schools as well. In early
+      2020, she brought indoor garden racks to three Providence middle schools from 
+      Sodexo and experienced planting and harvesting herbs and lettuces with the students. 
+      Now, she is planning to work with youth to build a school garden at Hope High 
+      School in partnership with the Comprehensive Community Action Program’s Real 
+      Skills for Youth Summer Employment Program.
+     
+      Kelly holds a M.A. in International Relations and Environmental Policy from 
+      Boston University and B.A. from the University of Rhode Island.  She enjoys 
+      taking time to appreciate the beauty in life: spending time outside with her 
+      daughter and family, gardening, cooking, and eating.
+    
   - name: Summer Gonsalves, M.P.H.
     title: >
-      Community Engagement & Coordination | Museum of Silenced History & Garden
+      Community Engagement & Coordination | Museum of Silenced History & Regenerative Collective Garden
     image: 'BioPic_Summer_Gonsalves.jpg'
     image_alt: 'photo of Summer Gonsalves'
     bio_text: |
@@ -115,7 +193,7 @@ team_members:
 
   - name: Aja Oona Grande, Ph.D. candidate
     title: >
-      Sustainable City Building | Museum of Silenced History & Garden
+      Sustainable City Building | Museum of Silenced History & Regenerative Collective Garden
     image: 'BioPic_Aja_Oona_Grande.jpg'
     image_alt: 'photo of Aja Oona Grande'
     bio_text: |
@@ -133,7 +211,7 @@ team_members:
   
   - name: Melissa Guillet
     title: >
-      Founder & Director of 15 Minute Field Trip | CC4ES Direct
+      15 Minute Field Trips Founder & Director | CC4ES Direct / Hope Gardeners / Trees4EJ
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
@@ -163,7 +241,7 @@ team_members:
 
   - name: Elizabeth Dean Hermann, Ph.D.
     title: >
-      Urbanism & Landscape | Museum of Silenced History & Garden
+      Urbanism & Landscape | Museum of Silenced History & Regenerative Collective Garden
     image: 'BioPic_Elizabeth_Dean_Hermann.jpg'
     image_alt: 'photo of Elizabeth Dean Hermann'
     bio_text: |
@@ -200,7 +278,7 @@ team_members:
 
   - name: Linda Perri
     title: >
-      Community Outreach & Engagement | CC4ES Direct
+      Environmental Health for Community Well-Being | CC4ES Direct / Trees4EJ
     image: 'linda_about.jpg'
     image_alt: 'photo of Linda Perri'
     bio_text: |
@@ -228,7 +306,7 @@ team_members:
 
   - name: Betsy Motyl, M.S.
     title: >
-      Youth Program Development & Coordination
+      Program Development & Research | CC4ES Direct / Hope Gardeners
     image: 'betsy_about.jpg'
     image_alt: 'photo of Betsy Motyl'
     bio_text: |
@@ -246,5 +324,27 @@ team_members:
       She became a URI Master Gardener in 2016 and works to remove invasive species in 
       favor of planting native species and serves as a School Garden Mentor. Currently, 
       she is the middle school science guide at Quest Montessori School in Narragansett, RI.
+      
+  - name: Doug Victor
+    title: >
+      Advisory Member | Hope Gardeners / CC4ES Direct / Trees4EJ
+    image: 'BioPic_Doug_Victor.jpg'
+    image_alt: 'photo of Doug Victor'
+    bio_text: |
+      Doug is an ardent community and green-minded individual who understands what makes 
+      neighborhoods livable. With an active history in the Elmwood neighborhood since his 
+      move to Providence in 1986, he became a founding member of the Elmwood Neighborhood 
+      Association and advisor to both the Elmwood Avenue Business and Community Association 
+      and City Walk. Doug also chairs the Elmwood and South Providence Neighborhood Watch 
+      and sits on both the Providence Police Advisory Board and the Executive Council for 
+      AARP Rhode Island.
+     
+      He is the lead gardener at Peace and Plenty Community Garden, a 46 plot garden that 
+      engenders community engagement and is building out a food corridor complete with a 
+      free stand so that neighbors can share the garden’s bounty.
+     
+      Doug founded the Friends of Peace and Plenty Park, a neighborhood park he helped 
+      to create in 2008 and he has coordinated the planting of over 400 street trees 
+      in both Elmwood and the West End neighborhoods.
 
 members: 
