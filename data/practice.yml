@@ -49,15 +49,6 @@ programs:
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
-  - name: Hope Gardeners
-    description: |
-      Hope Gardeners is an expansion of Providence School Gardeners, created for the same purposes: 1) to convene and support outreach education for sustainable lifestyle through gardening; and 2) to share resources and information for continual learning to build resilient and sustainable communities with environmental social and economic justice and equity. 
-    image: "Lots_of_seedlings.jpg"
-    image_alt: "Lots of seedlings"
-    link: "/Hope_Gardners/"
-    modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
-      
   - name: Urban Youth for Sustainaibility (UYS)
     description: |
       Urban Youth for Sustainability is a youth core job training program for uban youths of 14024 years old that pipelines various statewide youth programs for comprehensive outcomes beneficial to urban communities, effectively platforming career paths for urban youths.
