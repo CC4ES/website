@@ -11,16 +11,17 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
 
   <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
 
-    <% data.connect.entries.each do |program| %>
+    <% data.connect.connect_entries.each do |entry| %>
     <div class="entry-div cell small-12 medium-12">
       <div class="title-with-photo grid-x grid-margin-x grid-padding-y" style="padding:0;border:2px solid #cec6e6;">
-        <h4 class="entry-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;"><%= program.name %></h4>
-        <div class="entry-img cell medium-6 small-12">
-          <p class="entry-description"><%= markdown(program.description) %></p>
-          <p class="entry-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
+        <h4 class="entry-title cell medium-12" style="text-align:center;margin:0;background:#cec6e6;width:100%;"><%= entry.name %></h4>
+        <div class="entry-description cell medium-6 small-12">
+          <%= markdown(entry.description) %>
+          <p class="entry-link"><a href="<%= entry.link %>">Learn more &raquo;</a></p>
         </div>
-        <div class="entry-text cell medium-6 small-12">
-          <p class="entry-link"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
+        <div class="entry-modules cell medium-6 small-12" style="font-size:90%;">
+          <p><b>Relevant modules:</b></p>
+          <%= markdown(entry.modules) %>
         </div>
       </div>
     </div>
@@ -29,3 +30,14 @@ hero_subtitle: "Direct access to the resources referenced in the Six Modules for
   </div>
 
 </article>
+
+<style>
+
+  article .entry-description p {
+    font-size: 1.1rem;
+  }
+  article .entry-modules p {
+    font-size: 1.0rem;
+  }
+
+</style>
