@@ -1,1 +1,44 @@
+---
+nav: "learn"
+path: "/learn/"
+title: "CC4ES | Learn"
+description: "CC4ES Six Modules"
+hero_title: "LEARN"
+hero_subtitle: "Resources & References for each of CC4ES Six Modules for Continual Learning"
+---
+
+<%= partial 'partials/header' %>
+
+<article class="grid-container">
+  
+  <div class="grid-x">
+    <div class="text-center cell small-12">
+      <h2><strong>LEARN of CC4ES WebCenter</strong></h2>
+      <p>LEARN is for outreach education and serves as a repository for continual learning.  It inventories and archives resources and references for each CC4ES Six Modules.
+        
+        CC4ES categorizes the complexity of sustainability into Six Interconnected Modules. Each of the CC4ES Modules explores how our actions impact the environment. Long-term systemic sustainability is only possible in a society that champions racial justice and equity.The Environmental Justice &amp; Diversity module is the key as success can only be achieved through individual perceptional change.</p>
+    </div>
+  </div>
+  <div class="grid-x grid-padding-x grid-margin-x">
+  <% data.site.modules.each do |card| %>
+    <div class="grid-card cell small-12 medium-6 large-4">
+      <div class="card-content">
+        <% if card.module_id && card.module_id >= 0
+            label_text = "#{card.label}" + " #{card.module_id}"
+          else
+            label_text = card.label
+          end
+        %>
+        <div>
+          <span class="tool-id-label"><%= label_text %></span>
+        </div>
+        <h3><%= card.title %></h3>
+        <% if card.subtitle %><p><%= card.subtitle %></p><% end %>
+      </div>
+      <% link_to card.cta_page_key, :class => "button" do %>
+        <%= card.cta_text %>
+      <% end %>
+    </div>
+  <% end %>
+  </div>
 
