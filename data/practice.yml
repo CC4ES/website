@@ -21,8 +21,8 @@ programs:
       ## Rebuilding relationship between us and land for resilient sustainability
       
       Museum of Silenced Histories (MSH) offers a space for minority, underrepresented, and marginalized members of society to share their stories and have their voices heard, perhaps for the first time. It is a place of community identity, and a place of healing and reconciliation.  Its accompanying green space includes Garden of Regeneration, as site of healing and regenerating the sacred connection between us and land. 
-    image: "MSH_website_image.jpg"
-    image_alt: "images in collage"
+    image: "MSH_webpage_cut_image.jpg"
+    image_alt: "people in a park"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
   
