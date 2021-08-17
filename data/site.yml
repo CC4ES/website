@@ -45,7 +45,7 @@ main_nav:
   - slug: connect
     text: "CONNECT" 
   - slug: practice
-    text: "PRACTICEe"
+    text: "PRACTICE"
   - slug: blog
     text: "BLOG"
   - slug: "donate"
