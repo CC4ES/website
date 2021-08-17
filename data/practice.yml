@@ -55,9 +55,9 @@ programs:
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
       
-  - name: SAS Living
+  - name: CC4ES Conversation Circles
     description: |
-      SAS living is a blog forum to share tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more.
+      CC4ES Conversation Circles is a blog forum to share tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more.
     image: "2_Indoor_plants_windowsill.jpg"
     image_alt: "Plants by the windows"
     link: "/blog/"
@@ -68,11 +68,7 @@ programs:
     description: |
       ## Direct Grassroots Resource Connector for Communities in Need
       
-      CC4ES Direct is a kiosk on the wheels in a food-truck like vehicle designed to link communities in need with essential resources for building resilient sustainability through:
-      
-      1. Outreach eduction on growing our own food to address food insecurity, on nutrition and wellness to cultivate healthy lifestyle; and citizen scientist programs to platform environmental stewardship for environmental health
-      2. Pipelining job training and apprenticeship programs for workforce development in green sector
-      3. Facilitating equal access to, dissemination and sharing of information/resource for environmental, social and economic justice and equity.
+      CC4ES Direct is CC4ES' community mobilizing model used for realizing its outcomes at the community grassroots level. It is designed to link communities in need with essential resource for tackling food and job insecurities and environmental issues. In the long term, it will transition to a kiosk on the wheels in a food-truck like vehicle serving the same purpose.  
     image: "CC4ES_Direct_Truck.jpg"
     image_alt: "CC4ES Direct Truck"
     link: "/direct/"
