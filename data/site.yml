@@ -24,7 +24,7 @@ main_nav:
   - slug: "about-us"
     text: "About Us"
   - slug: six-modules
-    text: "Learn"
+    text: "LEARN"
     subnav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
@@ -43,15 +43,15 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
   - slug: connect
-    text: "Connect" 
+    text: "CONNECT" 
   - slug: practice
-    text: "Practice"
+    text: "PRACTICEe"
   - slug: blog
-    text: "Blog"
+    text: "BLOG"
   - slug: "donate"
-    text: "Donate"
+    text: "DONATE"
   - slug: contact
-    text: "Contact"
+    text: "CONTACT"
 ###########################################
 #
 # Homepage Six Modules Grid Configuration
