@@ -125,7 +125,7 @@ connect_entries:
     modules: "[Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies)"
     source: PG
 
-  - name: edible RHODY
+  - name: Edible RHODY
     link: https://ediblerhody.ediblecommunities.com/
     description: "Every season Edible Rhody celebrates local food of the Ocean State and tells the stories of the farmers, chefs, fishers and food and beverage artisans who work and live here."
     modules: "[Sustainable Food Systems](/sustainable-food-systems)"
@@ -275,11 +275,6 @@ connect_entries:
     modules: "?"
     source: PG
 
-  - name: North Kingstown Groundwater Committee
-    description: "?"
-    modules: "?"
-    source: PG
-
   - name: Northeast Aquaculture Conference & Exposition
     link: https://www.northeastaquaculture.org/
     description: "The Northeast Aquaculture Conference & Exposition (NACE) was created in 1998 by the Maine Aquaculture Innovation Center with the goal of bringing together producers, service providers, vendors, researchers, students and managers from the northeast region to discuss pressing issues and relevant research on aquaculture."
@@ -328,22 +323,10 @@ connect_entries:
     modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals), [Sustainable Food Systems](/sustainable-food-systems), [Regenerative Technologies](/regenerative-technologies), [Sustainable Business Practices](/sustainable-business-practice), [Resilient Community Building](/resilient-community-building)"
     source: PG
 
-  - name: Rhody Ag
-    link: No longer available
-    description: "This was a website developed by the RI Agricultural Partnership around 2015"
-    modules: "?"
-    source: PG
-
   - name: RI Agricultural Partnership
     link: http://www.growsmartri.org/2010/03/17/rhode-island-agricultural-partnership/
     description: "This group was formed in 2010 to develop a 5-year strategic plan for the state’s agricultural sector. For a while there was a website called RhodyAg.com, but it is no longer available."
     modules: "[Sustainable Food Systems](/sustainable-food-systems), [Resilient Community Building](/resilient-community-building)"
-    source: PG
-
-  - name: Rhody Flyy Rodders
-    link: http://rhodyflyrodders.com/wordpress1/
-    description: "Mission:“Pass on to all, who ask, what you learn here”."
-    modules: "??"
     source: PG
 
   - name: RI Agricultural Cooperative Extension
