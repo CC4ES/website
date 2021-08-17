@@ -68,7 +68,7 @@ programs:
     description: |
       ## Direct Grassroots Resource Connector for Communities in Need
       
-      CC4ES Direct is CC4ES' community mobilizing model used for realizing its outcomes at the community grassroots level. It is designed to link communities in need with essential resource for tackling food and job insecurities and environmental issues. In the long term, it will transition to a kiosk on the wheels in a food-truck like vehicle serving the same purpose.  
+      CC4ES Direct is CC4ES' community mobilizing model used for realizing its outcomes at the community grassroots level. It is designed to link communities in need with essential resource in oroder tackle food and job insecurities and environmental issues pervasive in frontline communities. In the long term, it will transition to a kiosk on the wheels in a food-truck like vehicle serving the same purpose.  
     image: "CC4ES_Direct_Truck.jpg"
     image_alt: "CC4ES Direct Truck"
     link: "/direct/"
