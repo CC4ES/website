@@ -20,9 +20,9 @@
 
 main_nav:
   - slug: index
-    text: "Home"
+    text: "HOME"
   - slug: "about-us"
-    text: "About Us"
+    text: "ABOUT Us"
   - slug: six-modules
     text: "LEARN"
     subnav:
