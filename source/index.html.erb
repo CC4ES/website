@@ -20,26 +20,26 @@ description: "CC4ES is a grassroots, non-profit environmental organization dedic
       <p>Aligning with its core tenets, CC4ES WebCenter infrastructure is organized in three components -- learn, connect and practice:</p>    
     </div>
   </div>
-  <div class="grid-x grid-padding-x grid-margin-x">
-  <% data.site.modules.each do |card| %>
-    <div class="grid-card cell small-12 medium-6 large-4">
-      <div class="card-content">
-        <% if card.module_id && card.module_id >= 0
-            label_text = "#{card.label}" + " #{card.module_id}"
-          else
-            label_text = card.label
-          end
-        %>
-        <div>
-          <span class="tool-id-label"><%= label_text %></span>
-        </div>
-        <h3><%= card.title %></h3>
-        <% if card.subtitle %><p><%= card.subtitle %></p><% end %>
+    <div class="grid-card cell small-12 medium-4 large-2">
+      <h1>LEARN</H1>
+      <div class="button">
+       <% link_to("LEARN", 'six-modules', :class => "button" do) %>
+       <% end %> 
       </div>
-      <% link_to card.cta_page_key, :class => "button" do %>
-        <%= card.cta_text %>
-      <% end %>
     </div>
-  <% end %>
+   <div class="grid-card cell small-12 medium-4 large-2">
+      <h1>CONNECT</H1>
+      <div class="button">
+       <% link_to("CONNECT", 'connect', :class => "button" do %>
+       <% end %> 
+      </div>
+    </div>
+   <div class="grid-card cell small-12 medium-4 large-2">
+      <h1>PRACTICE</H1>
+      <div class="button">
+       <% link_to("PRACTICE", 'practice', :class => "button" do %>
+       <% end %> 
+      </div>
+    </div>
   </div>
 </article>
