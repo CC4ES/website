@@ -17,35 +17,41 @@ description: "CC4ES is a grassroots, non-profit environmental organization dedic
     <div class="text-center cell small-12">
       <h2><strong>A Web-Based Center That Cultivates<br>Sustainable Lifestyle In All Walks Of Life</strong></h2>
       <p>Ever emerging environmental, social and economic challenges necessitate a lifestyle that fosters sustainability. Cultivation of a sustainable lifestyle entails continual learning and diligent practices. Such endeavor resonates with the CC4ES core tenets: comprehensive collaboration for systemic changes, community-based and empowered motivation, and establishing an environment for lifelong learning and practice.</p>
-      <p>Aligning with its core tenets, CC4ES WebCenter infrastructure is organized in three components -- learn, connect and practice.</p>    
+      <p>Aligning with its core tenets, CC4ES WebCenter infrastructure is organized in three components -- learn, connect and practice:</p>    
     </div>
   </div>
+  <div class="grid-x">
+      <%= image_tag('learn_connect_practice_home.jpg', :class => 'learn-connect-practice') %>
+    </div>
+  <div class="cell small-12">
+     <h2 class="green-section-heading">LEARN</h2>
+    </div>
   <div class="grid-x grid-padding-x grid-margin-x">
+  <% data.site.modules.each do |card| %>
     <div class="grid-card cell small-12 medium-6 large-4">
-       <div class="card-content">
-         <p>LEARN inventories resources by each of Six Modules for continual learning</p>
-         <% link_to 'six-modules.htlm.erb', :class => "button" do %>
-           LEARN
-         <% end %>
-        </div>   
-       <div class="card-content">
-         <p>CONNECT houses a list of organizations relevant to each of Six Modules for network mapping</p>
-         <% link_to 'connect.html.erb', :class => "button" do %>
-           CONNECT
-         <% end %>
-        </div>   
-       <div class="card-content">
-        <p>PRACTICE features CC4ES programs & initiatives in practice</p>
-         <% link_to 'practice.html.erb', :class => "button" do %>
-           PRACTICE
-         <% end %>    
-        </div>   
+      <div class="card-content">
+        <% if card.module_id && card.module_id >= 0
+            label_text = "#{card.label}" + " #{card.module_id}"
+          else
+            label_text = card.label
+          end
+        %>
+        <div>
+          <span class="tool-id-label"><%= label_text %></span>
+        </div>
+        <h3><%= card.title %></h3>
+        <% if card.subtitle %><p><%= card.subtitle %></p><% end %>
+      </div>
+      <% link_to card.cta_page_key, :class => "button" do %>
+        <%= card.cta_text %>
+      <% end %>
     </div>
+  <% end %>
   </div>
-  <div class='cell small-12 medium-4'>
-    <%= image_tag('CC4ES_Learn_home.jpg', :class => 'LEARN-image') %>
-    <%= image_tag('CC4ES_Connect_home.jpg', :class => 'CONNECT-image') %>
-    <%= image_tag('CC4ES_Practice_home.jpg', :class => 'PRACTICE-image') %>
-    <% end %>
-   </div> 
-</article>
+  <div class="cell small-12">
+     <h2 class="green-section-heading">CONNECT</h2>
+  </div>
+  <div class="cell small-12">
+     <h2 class="green-section-heading">PRACTICE</h2>
+  </div>
+ </article>
