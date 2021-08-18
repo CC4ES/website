@@ -20,20 +20,42 @@ description: "CC4ES is a grassroots, non-profit environmental organization dedic
       <p>Aligning with its core tenets, CC4ES WebCenter infrastructure is organized in three components -- learn, connect and practice.</p>    
     </div>
   </div>
-    <div class="grid-card cell small-12 medium-4 large-2">
-      <h1>LEARN</H1>
-       <% link_to("LEARN", 'six-modules', :class => "button" do) %>
-       <% end %> 
+  
+  <div class="grid-x grid-padding-x grid-margin-x">
+    <div class="grid-card cell small-12 medium-6 large-4">
+       <div class="card-content">
+         <p>LEARN inventories resources by each of Six Modules for continual learning</p>
+         <% link_to 'six-modules.htlm.erb', :class => "button" do %>
+          <h2><strong>LEARN</h2>
+         <% end %>
+        </div>   
     </div>
-   <div class="grid-card cell small-12 medium-4 large-2">
-      <h1>CONNECT</H1>
-       <% link_to("CONNECT", 'connect', :class => "button" do %>
-       <% end %> 
+   
+   <div class="grid-x grid-padding-x grid-margin-x">
+    <div class="grid-card cell small-12 medium-6 large-4">
+       <div class="card-content">
+         <p>CONNECT houses a list of organizations relevant to each of Six Modules for network mapping</p>
+         <% link_to 'connect.html.erb', :class => "button" do %>
+          <h2><strong>CONNECT</h2>
+         <% end %>
+         
+        </div>   
     </div>
-   <div class="grid-card cell small-12 medium-4 large-2">
-      <h1>PRACTICE</H1>
-       <% link_to("PRACTICE", 'practice', :class => "button" do %>
-       <% end %> 
+      
+   <div class="grid-x grid-padding-x grid-margin-x">
+    <div class="grid-card cell small-12 medium-6 large-4">
+       <div class="card-content">
+        <p>PRACTICE features CC4ES programs & initiatives in practice</p>
+         <% link_to 'practice.html.erb', :class => "button" do %>
+          <h2><strong>PRACTICE</h2>
+         <% end %>    
+        </div>   
     </div>
   </div>
+  <div class='cell small-12 medium-4'>
+    <%= image_tag('CC4ES_Learn_home.jpg', :class => 'LEARN-image') %>
+    <%= image_tag('CC4ES_Connect_home.jpg', :class => 'CONNECT-image') %>
+    <%= image_tag('CC4ES_Practice_home.jpg', :class => 'PRACTICE-image') %>
+    <% end %>
+   </div> 
 </article>
