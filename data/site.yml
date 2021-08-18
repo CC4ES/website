@@ -72,11 +72,11 @@ modules:
   - image: hands.jpg
     module_id: 1
     label: module
-    title: Environmental Justice &amp; Diversity
+    title: LEARN
     subtitle: >
-      We are all interconnected
-    cta_text: "Learn More"
-    cta_page_key: environmental-justice-diversity
+      Resources by each of Six Modules on sustainability for Continual Learning 
+    cta_text: "LEARN"
+    cta_page_key: six-modules
 
   - image: seedlings.jpg
     module_id: 2
