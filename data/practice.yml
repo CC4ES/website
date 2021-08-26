@@ -45,6 +45,7 @@ programs:
       Urban Youth for Sustainability (UYS) is a youth core job training program for urban youths of 14 -24 years old.  Its focus on growing own food and environmental stewardship directly engages community youths to tackle the persistent food and job insecurities and environmental pollutions in the urban communities.
     image: "UYS_vertical_garden.jpg"
     image_alt: "Youth with gardens"
+    link: "/urban-youths4-sustainability/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
