@@ -220,36 +220,36 @@ team_members:
       She holds a B.S. in Health Studies, with a concentration in Global and Environmental Health from the University
       of Rhode Island; and an M.P.H from the Brown University's School of Public Health.  
 
-  - name: Aja Oona Grande, Ph.D. candidate
-    title: >
-      Sustainable Urban Development | Museum of Silenced Histories & Garden of Regeneration
-    image: 'BioPic_Aja_Oona_Grande.jpg'
-    image_alt: 'photo of Aja Oona Grande'
-    bio_text: |
-      Aja Grande is an ethnographer of civic infrastructure and land ecologies as spaces of subject 
-      formation.  She researches emegent forms of living among built environments in twentieth and 
-      twenty-first century Hawai'i.  As a transmedia scholar, one who works across various forms of media,
-      her scholarship embraces writing, documentary filmmaking, and multimedia exhibitions for community
-      engagement. Born and raised on the island of O'ahu in Hawai'i,she has been gifted with an obligation
-      to raise awareness about and sustain mindful relations with the 'aina (that which feeds.)
-      
-      Aja's doctoral studies at MIT are in the department of History, Anthropology, Science, Technology 
-      & Society (HASTS) where her research focuses on sustainable city building in Providence, Rhode Island 
-      and Honolulu, Hawai'i. She looks at how urban planners in both cities are drawing on Indigenous knowledge
-      for climate change resilience and environmental justice transitions. Outside of MIT, she is a consultant 
-      for multi-use infrastructure and greenway projects, such as a Hawai'i-based agrivoltaics farm, as well as 
-      river beautification projects carried out by local youth in Providence. 
-   
-      While an undergraduate at Brown, Aja founded and ran the Ethnobotany Society, founded so that students 
-      could explore the relationship between people and plants in Providence, Rhode Island. Her previous experience
-      ranges from interning at a multi-national engineering and design firm to grassroots organizing within
-      communities and educational institutions. 
-      
-      Aja is the 2020 recipient of the Douglas Dockery Thomas Fellowship in Garden History and Design from the 
-      Landscape Architecture Foundation (LAF), and a 2021 Fellow of the Robert and Patricia Switzer Foundation. 
-      
-      Aja holds a B.A. in Science and Society from Brown University; and a Ph.D Candidate at the Massachusetts Institute
-      of Technology.
+  #-name: Aja Oona Grande, Ph.D. candidate
+  # title: >
+  #    Sustainable Urban Development | Museum of Silenced Histories & Garden of Regeneration
+  #  image: 'BioPic_Aja_Oona_Grande.jpg'
+  #  image_alt: 'photo of Aja Oona Grande'
+  # bio_text: |
+  #    Aja Grande is an ethnographer of civic infrastructure and land ecologies as spaces of subject 
+  #    formation.  She researches emegent forms of living among built environments in twentieth and 
+  #    twenty-first century Hawai'i.  As a transmedia scholar, one who works across various forms of media,
+  #    her scholarship embraces writing, documentary filmmaking, and multimedia exhibitions for community
+  #    engagement. Born and raised on the island of O'ahu in Hawai'i,she has been gifted with an obligation
+  #    to raise awareness about and sustain mindful relations with the 'aina (that which feeds.)
+  #    
+  #   Aja's doctoral studies at MIT are in the department of History, Anthropology, Science, Technology 
+  #    & Society (HASTS) where her research focuses on sustainable city building in Providence, Rhode Island 
+  #    and Honolulu, Hawai'i. She looks at how urban planners in both cities are drawing on Indigenous knowledge
+  #    for climate change resilience and environmental justice transitions. Outside of MIT, she is a consultant 
+  #   for multi-use infrastructure and greenway projects, such as a Hawai'i-based agrivoltaics farm, as well as 
+  #    river beautification projects carried out by local youth in Providence. 
+  #
+  #    While an undergraduate at Brown, Aja founded and ran the Ethnobotany Society, founded so that students 
+  #    could explore the relationship between people and plants in Providence, Rhode Island. Her previous experience
+  #    ranges from interning at a multi-national engineering and design firm to grassroots organizing within
+  #    communities and educational institutions. 
+  #   
+  #    Aja is the 2020 recipient of the Douglas Dockery Thomas Fellowship in Garden History and Design from the 
+  #    Landscape Architecture Foundation (LAF), and a 2021 Fellow of the Robert and Patricia Switzer Foundation. 
+  #    
+  #    Aja holds a B.A. in Science and Society from Brown University; and a Ph.D Candidate at the Massachusetts Institute
+  #    of Technology.
   
   - name: Melissa Guillet
     title: >
