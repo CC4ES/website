@@ -56,7 +56,7 @@ main_nav:
     subnav:
       - slug: rhody-grows-hope
         text: "Rhody Grows Hope"
-        slug: museum-of-SH
+      - slug: museum-of-SH
         text: "Museum of Silenced Histories"
       - slug: urban-school-gardeners
         text: "Hope Gardeners"
