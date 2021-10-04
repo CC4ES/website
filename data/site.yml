@@ -42,23 +42,26 @@ main_nav:
         text: "5. Sustainable Business Practices"
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
+      - slug: Trees4EJ
+        text: "Trees Matter"  
   - slug: connect
     text: "CONNECT" 
+    subnav:
+      - slug: blog
+        text: "CC4ES Conversation Circles"
+      - slug: direct
+        text: "CC4ES Direct"
   - slug: practice
     text: "PRACTICE"
     subnav:
-      - slug: museum-of-SH
+      - slug: rhody-grows-hope
+        text: "Rhody Grows Hope"
+        slug: museum-of-SH
         text: "Museum of Silenced Histories"
       - slug: urban-school-gardeners
         text: "Hope Gardeners"
       - slug: urban-youths4-sustainability
         text: "Urban Youths for Sustainability"
-      - slug: Trees4EJ
-        text: "Trees for Environmental Justice"
-      - slug: blog
-        text: "CC4ES Conversation Circles"
-      - slug: direct
-        text: "CC4ES Direct"
   - slug: blog
     text: "BLOG"
   - slug: "donate"
