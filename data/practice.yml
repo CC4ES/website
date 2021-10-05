@@ -24,8 +24,6 @@ programs:
     image: "rhody-grows-hope-log-2.jpg"
     image_alt: "rhody grows hope logo"
     link: "/rhody-grows-hope/"
- #  modules: |
- #    [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
   
   - name: Museum of Silenced Histories & Garden of Regeneration
     description: |
@@ -36,8 +34,6 @@ programs:
     image: "MSH_logo.jpg"
     image_alt: "MSH logo"
     link: "/museum-of-SH/"
-  # modules: |
-  #   [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
   - name: Hope Gardeners
     description: |
@@ -47,8 +43,6 @@ programs:
     image: "Grow_UR_own_food.jpg"
     image_alt: "Hands in circule"
     link: "/urban-school-gardeners/"
-   # modules: |
-   # [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
   - name: Urban Youth for Sustainability
     description: |
@@ -58,8 +52,6 @@ programs:
     image: "UYS_logo.jpg"
     image_alt: "UYS logo"
     link: "/urban-youths4-sustainability/"
-  # modules: |
-  #  [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
   - name: Trees for Sustainability
     description: |
@@ -69,8 +61,6 @@ programs:
     image: Trees4EJ.jpg  
     image_alt: "Tree canopy"
     link: "/Trees4EJ/"
-  # modules: |
-  #   [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
       
   - name: CC4ES Conversation Circles
     description: |
