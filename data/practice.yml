@@ -18,13 +18,13 @@
 programs:
   - name: Rhody Grows Hope
     description: |
-      ## cultivating regenerative sustainability with one garden at a time
+      ## Cultivating regenerative sustainability with one garden at a time
       
       Rhody Grows Hope (RGH) is a container gardening project that inspires growing own food for food security, sovereignty, and justice.  
     image: "rhody-grows-hope-log-2.jpg"
     image_alt: "rhody grows hope logo"
     link: "/rhody-grows-hope/"
-    modules: |
+ #  modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
   
   - name: Museum of Silenced Histories & Garden of Regeneration
@@ -36,7 +36,7 @@ programs:
     image: "MSH_logo.jpg"
     image_alt: "MSH logo"
     link: "/museum-of-SH/"
-    modules: |
+  # modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
   - name: Hope Gardeners
@@ -47,7 +47,7 @@ programs:
     image: "Grow_UR_own_food.jpg"
     image_alt: "Hands in circule"
     link: "/urban-school-gardeners/"
-    modules: |
+   # modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
   - name: Urban Youth for Sustainability
@@ -58,7 +58,7 @@ programs:
     image: "UYS_logo.jpg"
     image_alt: "UYS logo"
     link: "/urban-youths4-sustainability/"
-    modules: |
+  # modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
   - name: Trees for Sustainability
@@ -69,7 +69,7 @@ programs:
     image: Trees4EJ.jpg  
     image_alt: "Tree canopy"
     link: "/Trees4EJ/"
-    modules: |
+  # modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
       
   - name: CC4ES Conversation Circles
