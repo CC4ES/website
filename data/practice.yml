@@ -25,7 +25,7 @@ programs:
     image_alt: "rhody grows hope logo"
     link: "/rhody-grows-hope/"
  #  modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+ #    [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
   
   - name: Museum of Silenced Histories & Garden of Regeneration
     description: |
@@ -37,7 +37,7 @@ programs:
     image_alt: "MSH logo"
     link: "/museum-of-SH/"
   # modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+  #   [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
   - name: Hope Gardeners
     description: |
@@ -48,7 +48,7 @@ programs:
     image_alt: "Hands in circule"
     link: "/urban-school-gardeners/"
    # modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+   # [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
       
   - name: Urban Youth for Sustainability
     description: |
@@ -59,7 +59,7 @@ programs:
     image_alt: "UYS logo"
     link: "/urban-youths4-sustainability/"
   # modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+  #  [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
 
   - name: Trees for Sustainability
     description: |
@@ -70,7 +70,7 @@ programs:
     image_alt: "Tree canopy"
     link: "/Trees4EJ/"
   # modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
+  #   [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
       
   - name: CC4ES Conversation Circles
     description: |
