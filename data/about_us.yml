@@ -21,16 +21,16 @@ team_members:
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
       Susan is a perpetual learner and a quintessential educator with 30 plus years 
-      of teaching, mostly in universities. Her interdisciplinary teaching in a 
-      diverse range of student demographics coupled with her life-defining experiences 
-      as a 15 year-old Korean immigrant in Flatbush, Brooklyn, New York gave rise, 
+      of teaching, mostly in universities. Her pursuit in interdisciplinary teaching in a 
+      diverse range of student demographics started with her life-defining experiences 
+      as a 15 year-old Korean immigrant in Flatbush, Brooklyn, New York.  This gave rise, 
       in her adult life, to a specific focus on frontline communities and a passion for, 
       and commitment to building a community-narrated and empowered sustainable and 
       regenerative society that champions environmental, economic and social justice 
       and equity. 
       
-      Susan founded her non-profit, the Coalition Center for Environmental Sustainability/
-      Cc4ES, based on the core tenets of her teaching principle: a holistic approach, 
+      Susan founded the Coalition Center for Environmental Sustainability/ Cc4ES, based on 
+      the core tenets from her consistent practice as a perpetual learner: a holistic approach, 
       internal motivation, and building a network environment for lifelong learning. Cc4ES 
       was founded to serve as an interface bridging information and resource gaps between 
       policy makers and communities in need. Through both her teaching and her community-based 
@@ -38,23 +38,22 @@ team_members:
       through process of outreach education, and spearheading opportunities for universities 
       to collaborate with policy makers and businesses in supporting community-focused economic 
       development. 
-     
-      As a Master Gardener, Susan volunteers to oversee the Providence schools under the URI 
-      Cooperative Extension School Garden Initiative program. To complement and expand the outreach, 
-      Susan created the Hope Gardeners platform that convenes community and school gardeners and 
-      organizations to cultivate sustainable lifestyle with gardening. She launched Rhody Grows Hope, 
-      a container gardening project that uses growing own food as a grassroots community mobilizer 
-      to promote collective shifts necessary for instilling community-narrated and empowered 
-      regenerative sustainability.
       
-      Rhody Grows Hope project encompasses various Cc4ES projects whose common thread is to grow own 
-      food for food sovereignty and justice: Museum of Silenced Histories & Garden of Regeneration, 
-      Urban Youths for Sustainability, and Cc4ES Direct all through Hope Gardeners network platform.
-      They reflect Susan's belief food justice is a gateway to environmental, social and economic 
-      justice, and resonate with her commitment to and passion for cultivating communities that honor 
-      and value justice and equity. 
+      Having volunteered as a Master Gardener to oversee the Providence schools under the URI 
+      Cooperative Extension School Garden Initiative program, Susan created the Hope Gardeners, 
+      a comprehensive gardeners network platform to complement its mission and to expand its outreach 
+      to community gardeners and college campus gardeners. Hope Gardeners provides an integral collaboration forum 
+      necessary for all Cc4ES programs.
       
-      Susan holds B.S.and M.S.in chemistry and a dual ABD in chemistry and education focusing innercity 
+      She launched Rhody Grows Hope, a container gardening project that uses growing own food as 
+      a grassroots community mobilizer for food security, sovereignty and justice. Rhody Grows Hope 
+      project encompasses various Cc4ES projects whose common thread is gardening: Museum of 
+      Silenced Histories & Garden of Regeneration, Urban Youths for Sustainability program for Rhody Greeneers, 
+      and Cc4ES Direct all through Hope Gardeners network platform. They reflect Susan's belief food justice 
+      is a gateway to environmental, social and economic justice, and resonate with her commitment to and 
+      passion for cultivating communities that honor and value justice and equity. 
+      
+      Susan holds B.S.and M.S.in chemistry and a dual ABD in chemistry and education system designs with focus on innercity 
       communities and their schools, and a Ph.D. in environmental and natural resource economics. 
       
   - name: Tarshire Battle, M.P.A. & M.A.
@@ -80,14 +79,14 @@ team_members:
       of New England, Roots2Empower is a social enterprise that provides entrepreneurship and 
       agriculture training for formerly incarcerated and at-risk young adults, working to break 
       the cycle of recidivism and school-to-prison pipeline.   
-
+      
       Tarshire holds an M.P.A from Northeastern University and an M.A. in Mental Health Counseling 
       from Boston University School of Medicine. She is a visual artist, community activist, herbalist, 
       and Master Gardener.
-
+      
   - name: Kimberly Wood Bellemore, P.E.
     title: >
-      Energy & Regenerative Technologies | Cc4ES Connect Maps
+      Energy & Regenerative Technologies | Cc4ES Connect Mapping & Social Media Management
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
@@ -99,15 +98,15 @@ team_members:
       mission of Cc4ES. Her technological expertise is instrumental in 
       bringing the interdependent community components into collaboration.
       Kimberly oversess CC4ES Mapping Program.
-
+      
       Kimberly has a BS in Aerospace Engineering as well as a Masters in Urban
       and Environmental Planning. She has over 25 years of program and project
       management experience in the ocean construction field and has served on
       the boards of Habitat for Humanity/Greenhome and Surfrider Foundation RI.
-  
+      
   - name: Marissa Cox
     title: >
-      Marketing & Product Development | Cc4ES Conversation Circles / SAS Living
+      Marketing & Product Development | Cc4ES Direct / SAS Living
     image: 'BioPic_Marissa_Cox.jpg'
     image_alt: 'photo of Marissa Cox'
     bio_text: |
@@ -118,18 +117,17 @@ team_members:
       the oceans, led her to volunteer with Surfrider Foundation. She served on 
       Surfriders’ Executive Board in the Rhode Island and Los Angeles chapters for 
       many years.
- 
+      
       Marissa’s vision led her to create a retail business, The Kind Shop, with a 
       mission of helping to preserve our beautiful planet. The Kind Shop provides 
       access to plastic-free, natural and sustainable products while educating and 
       inspiring the local community. One of the goals of the organization is to 
       create a community and offer educational, creative workshops and classes.
-
+      
       In her free time, Marissa can be found baking in her kitchen, practicing yoga, 
       or exploring local beaches and forests with her daughter, Valencia.
-
-
-  #   - name: Prisca Castanyer, Ph.D.
+      
+#   - name: Prisca Castanyer, Ph.D.
 #     title: >
 #       Director of Research &amp; Policy Analysis
 #     image: 'prisca_about.jpg'
@@ -225,21 +223,21 @@ team_members:
       
       She holds a B.S. in Health Studies, with a concentration in Global and Environmental Health from the University
       of Rhode Island; and an M.P.H from the Brown University's School of Public Health.  
-
+      
   - name: Melissa Guillet
     title: >
-      15 Minute Field Trips Founder & Director | Cc4ES Direct / Hope Gardeners / Trees Matter
+      15 Minute Field Trips Founder & Director | Cc4ES Direct / Hope Gardeners
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
       Melissa founded and runs 15 Minute Field Trips, a 501(c)3 that helps 
       youth advocate for the environment through art, outdoor activities, 
       and community action.  
-
+      
       Melissa became a URI Master Gardener in 2011 and was involved in 
       the pilot Eco-Exploration Camp.  She was also in Audubon Society of 
       RI's pilot Schoolyard Science for an Urban Eco-System. 
-
+      
       Melissa was named Environmental Educator of the Year in 2012.  She 
       continues to give lectures on environmental practices: speaking at 
       the Rhode Island Environmental Education Association's annual meeting 
@@ -248,7 +246,7 @@ team_members:
       Technology Teachers 2014 conference; and presenting on how to start 
       and maintain a school garden at the 2015 "School Gardens 101" conference 
       at Rhode Island College. 
-
+      
       Melissa has received multiple recognition awards from the East Providence 
       School Department.  She has developed her programming over years working 
       with elementary students and started an Eco-Warrior program to encourage 
@@ -280,7 +278,7 @@ team_members:
       empowerment; education and institution building, the built environment and 
       sustainable practices. TAASI East has worked in Bangladesh, India, and, for the last decade,
       in the post-conflict regions of Sri Lanka.  
-
+      
       Elizabeth has been a visiting professor at MIT's Aga Khan Program; Brown University's Watson 
       Institute for International Studies; Harvard University's Graduate School of Design; University 
       of Minnesota; and at Washington University St. Louis. She is a professor of Urbanism and Landscape at RISD.
@@ -298,7 +296,7 @@ team_members:
 
   - name: Linda Perri
     title: >
-      Environmental Health for Community Well-Being | Cc4ES Direct/ Trees Matter
+      Environmental Health for Community Well-Being | Cc4ES Direct
     image: 'linda_about.jpg'
     image_alt: 'photo of Linda Perri'
     bio_text: |
@@ -321,12 +319,12 @@ team_members:
       over 100 trees on city streets over a period of 6 years, works to ensure water 
       access for such green endeavors, and facilitates solar energy initiatives in the 
       frontline community of South Providence.
-
+      
       Linda is an environmentalist, artist, traveler, gardener, and landscaper.
       
   - name: Doug Victor
     title: >
-      Advisory Member | Hope Gardeners / Cc4ES Direct / Trees Matter
+      Advisory Member | Hope Gardeners
     image: 'BioPic_Doug_Victor.jpg'
     image_alt: 'photo of Doug Victor'
     bio_text: |
