@@ -25,15 +25,15 @@ team_members:
       diverse range of student demographics started with her life-defining experiences 
       as a 15 year-old Korean immigrant in Flatbush, Brooklyn, New York.  This gave rise, 
       in her adult life, to a specific focus on frontline communities and a passion for, 
-      and commitment to building a community-narrated and empowered sustainable and 
+      and commitment to building a community-narrated and led sustainable and 
       regenerative society that champions environmental, economic and social justice 
       and equity. 
       
       Susan founded the Coalition Center for Environmental Sustainability/ Cc4ES, based on 
       the core tenets from her consistent practice as a perpetual learner: a holistic approach, 
-      internal motivation, and building a network environment for lifelong learning. Cc4ES 
+      internal motivation, and building a network environment for lifelong learning. CC4ES 
       was founded to serve as an interface bridging information and resource gaps between 
-      policy makers and communities in need. Through both her teaching and her community-based 
+      policy makers and communities in need. Through both her teaching and community-based 
       work, Susan works to develop strong engagement between academia and surrounding communities 
       through process of outreach education, and spearheading opportunities for universities 
       to collaborate with policy makers and businesses in supporting community-focused economic 
@@ -43,50 +43,50 @@ team_members:
       Cooperative Extension School Garden Initiative program, Susan created the Hope Gardeners, 
       a comprehensive gardeners network platform to complement its mission and to expand its outreach 
       to community gardeners and college campus gardeners. Hope Gardeners provides an integral collaboration forum 
-      necessary for all Cc4ES programs.
+      necessary for all CC4ES programs.
       
-      She launched Rhody Grows Hope, a container gardening project that uses growing own food as 
+      She launched Rhody Grows Hope, a container gardening project that repurposes plastic recyclables as planters to grow food as 
       a grassroots community mobilizer for food security, sovereignty and justice. Rhody Grows Hope 
-      project encompasses various Cc4ES projects whose common thread is gardening: Museum of 
-      Silenced Histories & Garden of Regeneration, Urban Youths for Sustainability program for Rhody Greeneers, 
-      and Cc4ES Direct all through Hope Gardeners network platform. They reflect Susan's belief food justice 
+      project encompasses various CC4ES projects whose common thread is gardening: Museum of 
+      Silenced Histories & Garden of Regeneration, Youths for Urban Sustainability, Y4US program for Rhody Greeneers, 
+      and CC4ES Direct all through Hope Gardeners network platform. They reflect Susan's belief food justice 
       is a gateway to environmental, social and economic justice, and resonate with her commitment to and 
       passion for cultivating communities that honor and value justice and equity. 
       
       Susan holds B.S.and M.S.in chemistry and a dual ABD in chemistry and education system designs with focus on innercity 
       communities and their schools, and a Ph.D. in environmental and natural resource economics. 
       
-  - name: Tarshire Battle, M.P.A. & M.A.
-    title: >
-      Roots-2-Empower Founder & Director | Cc4ES Direct / Urban Youths for Sustainability
-    image: 'BioPic_Tarshire_Battle.jpg'
-    image_alt: 'photo of Tarshire Battle'
-    bio_text: |
-      Tarshire Battle is a native Bostonian who has been residing in Pawtucket, RI
-      for many years. Tarshire is a self-taught artist and has been using art as a 
-      vehicle to help heal those who have experienced trauma -- the homeless, 
-      battered women, youths, and returning veterans. While working at the New England 
-      Center for Homeless Veterans, she developed an art drop-in center.  This led to 
-      a collaboration with Boston’s Museum of Fine Arts to create guided tours of 
-      traumatized female veterans, and two annual art shows featuring talented homeless
-      artists.  Tarshire champions her causes aligning with various nonprofit organizations 
-      that address pressing social challenges, including homelessness, mental health, and 
-      addiction.
+# - name: Tarshire Battle, M.P.A. & M.A.
+#    title: >
+#     Roots-2-Empower Founder & Director | CC4ES-Direct | Youths for Urban Sustainability, Y4US
+#   image: 'BioPic_Tarshire_Battle.jpg'
+#   image_alt: 'photo of Tarshire Battle'
+#   bio_text: |
+#     Tarshire Battle is a native Bostonian who has been residing in Pawtucket, RI
+#     for many years. Tarshire is a self-taught artist and has been using art as a 
+#     vehicle to help heal those who have experienced trauma -- the homeless, 
+#     battered women, youths, and returning veterans. While working at the New England 
+#     Center for Homeless Veterans, she developed an art drop-in center.  This led to 
+#     a collaboration with Boston’s Museum of Fine Arts to create guided tours of 
+#     traumatized female veterans, and two annual art shows featuring talented homeless
+#     artists.  Tarshire champions her causes aligning with various nonprofit organizations 
+#     that address pressing social challenges, including homelessness, mental health, and 
+#     addiction.
       
-      Tarshire was contracted as a Department of Correction Mental Health Discharge Planner for 
-      five years, assisting individuals re-integrate into the community. This work inspired her to 
-      found her own non-profit organization, Roots2Empower. Formerly known as Restoration Urban Farm 
-      of New England, Roots2Empower is a social enterprise that provides entrepreneurship and 
-      agriculture training for formerly incarcerated and at-risk young adults, working to break 
-      the cycle of recidivism and school-to-prison pipeline.   
+#     Tarshire was contracted as a Department of Correction Mental Health Discharge Planner for 
+#     five years, assisting individuals re-integrate into the community. This work inspired her to 
+#     found her own non-profit organization, Roots2Empower. Formerly known as Restoration Urban Farm 
+#     of New England, Roots2Empower is a social enterprise that provides entrepreneurship and 
+#     agriculture training for formerly incarcerated and at-risk young adults, working to break 
+#     the cycle of recidivism and school-to-prison pipeline.   
       
-      Tarshire holds an M.P.A from Northeastern University and an M.A. in Mental Health Counseling 
-      from Boston University School of Medicine. She is a visual artist, community activist, herbalist, 
-      and Master Gardener.
+#     Tarshire holds an M.P.A from Northeastern University and an M.A. in Mental Health Counseling 
+#     from Boston University School of Medicine. She is a visual artist, community activist, herbalist, 
+#     and Master Gardener.
       
   - name: Kimberly Wood Bellemore, P.E.
     title: >
-      Energy & Regenerative Technologies | Cc4ES Connect Mapping & Social Media Management
+      Energy & Regenerative Technologies | CC4ES-Connect
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
@@ -106,7 +106,7 @@ team_members:
       
   - name: Marissa Cox
     title: >
-      Marketing & Product Development | Cc4ES Direct / SAS Living
+      Marketing & Product Development | Rhody Grows Hope
     image: 'BioPic_Marissa_Cox.jpg'
     image_alt: 'photo of Marissa Cox'
     bio_text: |
@@ -156,7 +156,7 @@ team_members:
  
   - name: Kelly DeAngelis, M.A.
     title: >
-      Student Engagement & Coordination | Hope Gardeners / Urban Youths for Sustainability
+      Student Engagement & Coordination | Youths for Urban Sustainability, Y4US
     image: 'BioPic_Kelly_DeAngelis.jpg'
     image_alt: 'photo of Kelly DeAngelis'
     bio_text: |
@@ -195,7 +195,7 @@ team_members:
       current student at College Unbound and continue to volunteer at Tomaguag. 
       
       Being Haudenosaunee they are also primarily focused in continuing to engage 
-      with the Indigenous community and assist artists and other entrepreneurs to create platforms for thier businesses. 
+      with the Indigenous community and assist artists and other entrepreneurs to create platforms for their businesses. 
     
   - name: Summer Gonsalves, M.P.H.
     title: >
@@ -224,9 +224,24 @@ team_members:
       She holds a B.S. in Health Studies, with a concentration in Global and Environmental Health from the University
       of Rhode Island; and an M.P.H from the Brown University's School of Public Health.  
       
-  - name: Melissa Guillet
+  - name: Alexandrea Gonzalez
     title: >
-      15 Minute Field Trips Founder & Director | Cc4ES Direct / Hope Gardeners
+      Community Engagement & Coordination | Rhody Grows Hope
+    image: 'BioPic_Alex_Gonzalez_1.jpg'
+    image_alt: 'photo of Alex Gonzalez'
+    bio_text: |
+      Alexandrea Gonzalez is a Rhode Island native and a Providence resident. She is the founder and 
+      executive director of Gather Together United as 1, a 501(c)(3) nonprofit that empowers community 
+      members to break the cycle of homelessness and poverty through engagement, education, advocacy, 
+      and innovative programming for systemic changes. She also serves as the executive director of the 
+      Autumn Rise Foundation, a virtual women’s empowerment institute. 
+
+      She is a current member of the Grow Smart RI transit advisory committee, the Rhode Island continuum 
+      of care board, and the New England Grassroots fund Grantmaking committee.
+      
+ - name: Melissa Guillet
+    title: >
+      15 Minute Field Trips Founder & Director | CC4ES-Direct
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
@@ -251,7 +266,7 @@ team_members:
       School Department.  She has developed her programming over years working 
       with elementary students and started an Eco-Warrior program to encourage 
       environmental leadership at home. As her 15 Minute Field TripsTM resonates 
-      the gardening and citizen scientist components of CC4ES ConnectTM, Melissa 
+      the gardening and citizen scientist components of CC4ES-Direct, Melissa 
       oversees and coordinates those components as CC4ES Team.
 
   - name: Elizabeth Dean Hermann, Ph.D.
@@ -294,9 +309,31 @@ team_members:
       focus on urban and societal responses to pandemic disease, environmental change and urbanization trands)
       at Harvard.
 
+ - name: Todd Le, M.Ed.
+    title: >
+      The Sharing Garden Resident Gardener and Youth Program Cooridnator | Youths for Urban Sustainability, Y4US
+    image: 'BioPic_Todd_Le_2.jpg'
+    image_alt: 'photo of Todd Le'
+    bio_text: |
+      Todd was born and raised in Northern Virginia and moved to Rhode Island after completing his B.S.
+      in Civil/Environmental Engineering from University of Virginia. He moved to Rhode Island to
+      complete his M.Ed. at Rhode Island College while teaching Secondary Mathematics at Central Falls High School
+      for two years. In his time living in Rhode Island, he has gotten involved with the Sharing Garden in Billy Taylor Park,
+      starting out by managing its compost system and over time taking on larger roles of Resident Gardener and working 
+      with the Teen Plot-to-Plate Program. The Teen Plot-to-Plate Program employs youth to work in the Sharing Garden 
+      and cook meals using the vegetables grown to make meals for the community. Although he did not grow up gardening, 
+      he has been learning through a variety of programs such as URI's Master Gardener Program and the Northern Rhode Island 
+      Conservation District's Urban Growers Leadership Program. 
+
+      His work is focused on bridging agriculture and education. He has an interest in widening the educational experiences 
+      of youth and centering their agency in their education. A core tenet of his teaching philosophy is that the classroom,
+      used here in its broadest definition, must be a space of communal care. He believes that working with youth in 
+      non-traditional learning settings such as the garden or kitchen facilitate the socioemotional growth of students.
+      As they learn to tend a garden bed, so too do they learn to care for themselves and one another
+      
   - name: Linda Perri
     title: >
-      Environmental Health for Community Well-Being | Cc4ES Direct
+      Environmental Health for Community Well-Being | CC4ES-Direct
     image: 'linda_about.jpg'
     image_alt: 'photo of Linda Perri'
     bio_text: |
