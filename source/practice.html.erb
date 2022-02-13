@@ -34,7 +34,9 @@ hero_subtitle: "CC4ES Programs, Initiatives & On-Ground Cohorts in Practice"
           <% if program.link %>
             <p class="program-link"><a href="<%= program.link %>">Learn more &raquo;</a></p>
           <% end %>
-          <p class="program-modules"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
+          <% if program.modules %>
+            <p class="program-modules"><b>Relevant modules:</b> <%= markdown(program.modules) %></p>
+          <% end %>
         </div>
       </div>
     </div>
