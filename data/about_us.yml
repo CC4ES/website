@@ -20,6 +20,7 @@ team_members:
     image: 'BioPic_Susan_Gorelick_2.jpg'
     image_alt: 'photo of Susan Gorelick'
     bio_text: |
+      
       Susan is a perpetual learner and a quintessential educator with 30 plus years 
       of teaching, mostly in universities. Her pursuit in interdisciplinary teaching in a 
       diverse range of student demographics started with her life-defining experiences 
@@ -62,6 +63,7 @@ team_members:
     image: 'BioPic_David_Gorelick(1).jpg'
     image_alt: 'photo of David Gorelick'
     bio_text: |
+      
       Dr. Gorelick has varied leadership and community service experience. 
       He is a US Navy Veteran who was in charge of all medical services onboard the warship USS Tripoli during Operation Desert Storm. 
       He is a Board Certified Internal Medicine Physician and a Fellow of the American College of Physicians. 
@@ -84,6 +86,7 @@ team_members:
     image: 'BioPic_Diana_Ferreira.jpg' 
     image_alt: 'photo of Diana Ferreira'
     bio_text: |
+      
       Diana Ferreira began her trajectory in the education sector over 7 years ago after
       being in the costume jewelry industry for almost 20 years. She is a daughter,
       partner, mother and grandmother to some of the most amazing human
@@ -117,6 +120,7 @@ team_members:
     image: 'BioPic_Marissa_Cox.jpg'
     image_alt: 'photo of Marissa Cox'
     bio_text: |
+      
       Marissa’s passion for the environment was sparked by the book “You Are Here”, 
       bringing an awareness of the impact of human activity on the environment. This 
       book also     introduced her to the problem known as “the great pacific garbage 
@@ -140,6 +144,7 @@ team_members:
     image: 'BioPic_Tarshire_Battle.jpg'
     image_alt: 'photo of Tarshire Battle'
     bio_text: |
+      
       Tarshire Battle is a native Bostonian who has been residing in Pawtucket, RI
       for many years. Tarshire is a self-taught artist and has been using art as a 
       vehicle to help heal those who have experienced trauma -- the homeless, 
@@ -168,6 +173,7 @@ team_members:
     image: 'melissa_about.jpg'
     image_alt: 'photo of Melissa Guillet'
     bio_text: |
+      
       Melissa founded and runs 15 Minute Field Trips, a 501(c)3 that helps 
       youth advocate for the environment through art, outdoor activities, 
       and community action.  
@@ -198,6 +204,7 @@ team_members:
     image: 'BioPic_Elizabeth_Dean_Hermann.jpg'
     image_alt: 'photo of Elizabeth Dean Hermann'
     bio_text: |
+      
       Elizabeth Hermann is a cultural historian and designer whose research and teaching focus on 
       socioecological frameworks for understanding the history and design of human settlements
       and place-making; cultural identity and land-based forms of resistance and struggle among
@@ -236,6 +243,7 @@ team_members:
     image: 'BioPic_Doug_Victor.jpg'
     image_alt: 'photo of Doug Victor'
     bio_text: |
+      
       Doug is an ardent community and green-minded individual who understands what makes 
       neighborhoods livable. With an active history in the Elmwood neighborhood since his 
       move to Providence in 1986, he became a founding member of the Elmwood Neighborhood 
@@ -286,6 +294,7 @@ team_members:
     image: 'BioPic_Kelly_DeAngelis.jpg'
     image_alt: 'photo of Kelly DeAngelis'
     bio_text: |
+      
       Kelly is an idealist with a passion for working with people and a love of 
       the environment.  After years working in the energy industry in Boston, she 
       now works on Sustainability and Student Engagement for Sodexo and the 
@@ -312,6 +321,7 @@ team_members:
     image: 'kimberly_about.jpg'
     image_alt: 'photo of Kimberly Wood Bellemore'
     bio_text: |
+      
       Kimberly's background in engineering and environmental planning and her
       work in her consulting firm, KB Consulting, underpin the renewable and
       clean energy technology sectors for Cc4ES.  Kimberly has been advocating
@@ -332,6 +342,7 @@ team_members:
     image: 'BioPic_Stead_Fast_2.jpg'
     image_alt: 'photo of Stead Fast'
     bio_text: |
+      
       Stead Fast (they/them) was raised in southern Rhode Island and moved 
       to the Providence area. In high school they explored acting and performance, 
       horticulture, and also interned at the Tomaguag museum. After graduating in 
@@ -342,5 +353,6 @@ team_members:
       Being Haudenosauneek, Stead primarily focused in continuing to engage 
       with the Indigenous community and assist artists and other entrepreneurs to create platforms for thier businesses.     
 
-
 members: 
+
+#
