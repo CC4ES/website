@@ -22,7 +22,7 @@ main_nav:
   - slug: index
     text: "HOME"
   - slug: "about-us"
-    text: "ABOUT Us"
+    text: "ABOUT US"
   - slug: six-modules
     text: "LEARN"
     subnav:
