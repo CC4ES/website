@@ -60,8 +60,8 @@ main_nav:
         text: "Museum of Silenced Histories"
       - slug: urban-school-gardeners
         text: "Hope Gardeners"
-      - slug: urban-youths4-sustainability
-        text: "Urban Youths for Sustainability"
+      - slug: youths-4-urban-sustainability
+        text: "Youths for Urban Sustainability"
   - slug: blog
     text: "BLOG"
   - slug: "donate"
