@@ -35,15 +35,6 @@ programs:
     image_alt: "MSH logo"
     link: "/museum-of-SH/"
       
-  - name: Hope Gardeners
-    description: |
-      ## Gardens are the hope we can see.
-      
-      CC4ES Hope Gardeners convenes school and community gardeners of any shape and size to share resources and support. Gardening promotes environmental stewardship that improves environmental health for the whole community. 
-    image: "Grow_UR_own_food.jpg"
-    image_alt: "Hands in circule"
-    link: "/urban-school-gardeners/"
-      
   - name: Youths for Urban Sustainability
     description: |
       ## Pipelining for Green jobs
@@ -66,7 +57,7 @@ programs:
     description: |
       ## All Problems Exist in the Absence of Good Conversation.
       
-      CC4ES Conversation Circles is a blog forum for good conversatsions on various sustainability topics, and tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more. Most of all, this forum is to convene all of us who would like to take actions, no matter how small they may be, for making a more sustainable world.  This forum also features comments and good reads to keep us informed.  
+      CC4ES Conversation Circles is a forum for good conversations on various sustainability topics, and tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more. Most of all, this forum is to convene all of us who would like to take actions, no matter how small they may be, for making a more sustainable world.  This forum also features comments and good reads to keep us informed.  
     image: "2_Indoor_plants_windowsill.jpg"
     image_alt: "Plants by the windows"
     link: "/blog/"
