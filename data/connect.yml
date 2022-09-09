@@ -12,6 +12,15 @@
 
 connect_entries:
 
+  - name: Hope Gardeners
+    description: |
+      ## Gardens are the hope we can see.
+      
+      CC4ES Hope Gardeners convenes school and community gardeners of any shape and size to share resources and support. Gardening promotes environmental stewardship that improves environmental health for the whole community. 
+    image: "Grow_UR_own_food.jpg"
+    image_alt: "Hands in circule"
+    link: "/hope-gardeners/"
+    
   - name: 2-1-1-
     link: https://www.unitedwayri.org/get-help/2-1-1/
     description: "211 can connect you with housing, food, affordable childcare, and much more"
