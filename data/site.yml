@@ -42,8 +42,8 @@ main_nav:
         text: "5. Sustainable Business Practices"
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
-      - slug: trees-matter
-        text: "Trees Matter"  
+      - slug: trees-4-sustainability
+        text: "Trees for Sustainability"  
   - slug: connect
     text: "CONNECT" 
     subnav:
