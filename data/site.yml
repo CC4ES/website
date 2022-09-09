@@ -28,6 +28,8 @@ main_nav:
     subnav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
+      - slug: 
+        text: "--------------"  
       - slug: six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;Six Modules"
       - slug: environmental-justice-diversity
@@ -42,8 +44,10 @@ main_nav:
         text: "5. Sustainable Business Practices"
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
-      - slug: Trees4EJ
-        text: "Trees Matter"  
+      - slug: 
+        text: "--------------"  
+      - slug: trees-4-sustainability
+        text: "Trees for Sustainability"  
   - slug: connect
     text: "CONNECT" 
     subnav:
