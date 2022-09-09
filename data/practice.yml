@@ -69,7 +69,7 @@ programs:
       CC4ES Conversation Circles is a forum for good conversations on various sustainability topics, and tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more. Most of all, this forum is to convene all of us who would like to take actions, no matter how small they may be, for making a more sustainable world.  This forum also features comments and good reads to keep us informed.  
     image: "2_Indoor_plants_windowsill.jpg"
     image_alt: "Plants by the windows"
-    link: "/blog/"
+    link: "/conversation-circles/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
 

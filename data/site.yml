@@ -49,7 +49,7 @@ main_nav:
     subnav:
       - slug: urban-school-gardeners
         text: "Hope Gardeners"
-      - slug: blog
+      - slug: conversation-circles
         text: "CC4ES Conversation Circles"
       - slug: direct
         text: "CC4ES Direct"
