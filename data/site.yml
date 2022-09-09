@@ -43,7 +43,7 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: 
-        text: "Additional Learning Opportunities"  
+        text: "-----------"  
       - slug: trees-4-sustainability
         text: "Trees for Sustainability"  
   - slug: connect
