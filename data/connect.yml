@@ -12,6 +12,10 @@
 
 connect_entries:
     
+  - name: Hope Gardeners
+    link: https://www.cc4es.org/hope-gardeners/
+    description: "A forum for school and community gardeners of any size and shape"
+    
   - name: 2-1-1-
     link: https://www.unitedwayri.org/get-help/2-1-1/
     description: "211 can connect you with housing, food, affordable childcare, and much more"
