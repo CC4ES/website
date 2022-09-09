@@ -47,9 +47,9 @@ main_nav:
   - slug: connect
     text: "CONNECT" 
     subnav:
-      - slug: urban-school-gardeners
+      - slug: hope-gardeners
         text: "Hope Gardeners"
-      - slug: blog
+      - slug: conversation-circles
         text: "CC4ES Conversation Circles"
       - slug: direct
         text: "CC4ES Direct"

@@ -11,7 +11,7 @@
 # - description: "Text that describes the partner; may include links in format [Read more](https://example.com)
 
 connect_entries:
-
+    
   - name: 2-1-1-
     link: https://www.unitedwayri.org/get-help/2-1-1/
     description: "211 can connect you with housing, food, affordable childcare, and much more"
