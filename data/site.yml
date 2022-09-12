@@ -49,12 +49,12 @@ main_nav:
       - slug: 
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"  
       - slug: trees-4-sustainability
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;Sustainability"  
   - slug: connect
     text: "CONNECT" 
     subnav:
       - slug: connect
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;About CONNECT"      
+        text: "About CONNECT"      
       - slug: 
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"
       - slug: hope-gardeners
@@ -67,7 +67,7 @@ main_nav:
     text: "PRACTICE"
     subnav:
       - slug: practice
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;About PRACTICE"      
+        text: "About PRACTICE"      
       - slug: 
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"      
       - slug: rhody-grows-hope
