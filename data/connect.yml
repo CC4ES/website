@@ -16,7 +16,7 @@
 #             where the first part is the text shown, and the second is the link it directs to.
 
 programs:
-   
+
   - name: Hope Gardeners
     description: |
       ## Gardens are the hope we can see.
