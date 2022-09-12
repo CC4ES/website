@@ -31,7 +31,7 @@ main_nav:
       - slug: six-modules
         text: "&nbsp;&nbsp;Six Modules Outline"
       - slug: 
-        text: "--------------"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"  
       - slug: 
         text: "&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules"
       - slug: environmental-justice-diversity
@@ -47,12 +47,16 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: 
-        text: "--------------"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"  
       - slug: trees-4-sustainability
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;Sustainability"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;Sustainability"  
   - slug: connect
     text: "CONNECT" 
     subnav:
+      - slug: connect
+        text: "About CONNECT"      
+      - slug: 
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"
       - slug: hope-gardeners
         text: "Hope Gardeners"
       - slug: conversation-circles
@@ -62,6 +66,10 @@ main_nav:
   - slug: practice
     text: "PRACTICE"
     subnav:
+      - slug: practice
+        text: "About PRACTICE"      
+      - slug: 
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"      
       - slug: rhody-grows-hope
         text: "Rhody Grows Hope"
       - slug: museum-of-SH
