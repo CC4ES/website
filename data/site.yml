@@ -29,7 +29,7 @@ main_nav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
       - slug: six-modules
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Six Modules Outline"
+        text: "&nbsp;&nbsp;Six Modules Outline"
       - slug: 
         text: "--------------"  
       - slug: 
@@ -49,7 +49,7 @@ main_nav:
       - slug: 
         text: "--------------"  
       - slug: trees-4-sustainability
-        text: "Trees for Sustainability"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;Sustainability"  
   - slug: connect
     text: "CONNECT" 
     subnav:
