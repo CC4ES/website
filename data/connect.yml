@@ -11,23 +11,10 @@
 # - description: "Text that describes the partner; may include links in format [Read more](https://example.com)
 
 connect_entries:
-    
-  - name: 2-1-1-
-    link: https://www.unitedwayri.org/get-help/2-1-1/
-    description: "211 can connect you with housing, food, affordable childcare, and much more"
-    modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)"
-    source: Providential gardener = PG
 
-  - name: A La Rhody
-    description: "2017 by the Providence Public Library, RI Historical Society, the City of Providence Deptment of Art, Culture & Tourism, RI Commerce Corporation, discover Newport, and the Providence Warwick Convention & Visitors Bureau (PWCVB) -- 'A La rhody aims to honor and interpret RI's culinary history and prominence with yearlong programming and marketing initiatives to tell the story of RI by way of your taste buds.'"
-    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
-    source: PG
-
-  - name: Acopia Harvest
-    link: https://www.acopiaharvest.com/
-    description: "Its mission is to introduce affordable, manageable, and sustainable hydroponics systems in schools, homes and businesses acros the nation and internationally"
-    modules: "[Sustainable Food Systems](/sustainable-food-systems)"
-    source: PG
+  - name: Hope Gardeners
+    link: "/hope-gardeners/""
+    description: "CC4ES Hope Gardeners convenes school and community gardeners of any shape and size to share resources and support. Gardening promotes environmental stewardship that improves environmental health for the whole community."
 
   - name: American Fisheries Society Southern NE Chapter
     link: https://snec.fisheries.org/
