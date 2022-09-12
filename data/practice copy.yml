@@ -53,15 +53,15 @@ programs:
     image_alt: "UYS logo"
     link: "/youths-4-urban-sustainability/"
 
-#  - name: Trees for Sustainability
-#    description: |
+  - name: Trees for Sustainability
+    description: |
       ## Trees are the Lungs of Our Planet.
-#      
-#      Unfortunately, not all of us get to have trees around us. Trees for Environmental Justice is a platform for raising awareness of Tree Canopy Inequity prevalent in frontline communities, and for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being. 
-#    image: Trees4EJ.jpg  
-#    image_alt: "Tree canopy"
-#    link: "/trees-4-sustainability/"
-#      
+      
+      Unfortunately, not all of us get to have trees around us. Trees for Environmental Justice is a platform for raising awareness of Tree Canopy Inequity prevalent in frontline communities, and for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being. 
+    image: Trees4EJ.jpg  
+    image_alt: "Tree canopy"
+    link: "/trees-4-sustainability/"
+      
   - name: CC4ES Conversation Circles
     description: |
       ## All Problems Exist in the Absence of Good Conversation.
