@@ -12,7 +12,7 @@
 
 connect_entries:
 
-  - name: Hope Gardeners
+  - title: Hope Gardeners
     description: |
       ## Gardens are the hope we can see.
      
@@ -21,7 +21,7 @@ connect_entries:
     image_alt: "Hands in circule"
     link: "/hope-gardeners/"
       
-  - name: CC4ES Conversation Circles
+  - title: CC4ES Conversation Circles
     description: |
       ## All Problems Exist in the Absence of Good Conversation.
       
@@ -32,7 +32,7 @@ connect_entries:
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
 
-  - name: CC4ES Direct
+  - title: CC4ES Direct
     description: |
       ## Direct Grassroots Resource Connector for Communities in Need
       
