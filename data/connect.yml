@@ -12,9 +12,9 @@
 
 connect_entries:
     
-  - name: 2-1-1-
-    link: https://www.unitedwayri.org/get-help/2-1-1/
-    description: "211 can connect you with housing, food, affordable childcare, and much more"
+  - name: Hope Gardeners
+    link: 
+    description: "CC4ES Hope Gardeners convenes school and community gardeners of any shape and size to share resources and support. Gardening promotes environmental stewardship that improves environmental health for the whole community."
     modules: "[Environmental Justice and Diversity](/environmental-justice-and-diversity), [Resilient Community Building](/resilient-community-building)"
     source: Providential gardener = PG
 
