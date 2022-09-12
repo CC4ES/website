@@ -49,7 +49,7 @@ main_nav:
       - slug: 
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"  
       - slug: trees-4-sustainability
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&npsp;Sustainability"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability"  
   - slug: connect
     text: "CONNECT" 
     subnav:
