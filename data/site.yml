@@ -64,9 +64,9 @@ main_nav:
       - slug: direct
         text: "CC4ES Direct"
       - slug: 
-        text: "----Other Resources-----"
-      - slug: "htpps://www.provgardener.com"
-        text: "R.I. Organizations"
+        text: "---Other Resources---"
+      - slug: 
+        text: "[R.I. Organizations](https://www.provgardener.com)"
   - slug: practice
     text: "PRACTICE"
     subnav:
