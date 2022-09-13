@@ -63,10 +63,7 @@ main_nav:
         text: "CC4ES Conversation Circles"
       - slug: direct
         text: "CC4ES Direct"
-      - slug: 
-        text: "---Other Resources---"
-      - slug: 
-        text: [R.I. Organizations](https://www.provgardener.com)
+        
   - slug: practice
     text: "PRACTICE"
     subnav:
