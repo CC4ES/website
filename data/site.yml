@@ -31,7 +31,7 @@ main_nav:
       - slug: six-modules
         text: "&nbsp;&nbsp;About Learn"  
       - slug: 
-        text: "<h6>The Six Modules<h6>"
+        text: "<h6>&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules<h6>"
       - slug: environmental-justice-diversity
         text: "1. Environment Justice &amp; Diversity"
       - slug: environmental-literacy-fundamentals
@@ -45,7 +45,7 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: trees-4-sustainability
-        text: "<h6>Trees for Sustainability<h6>" 
+        text: "<h6>&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability<h6>" 
   - slug: connect
     text: "CONNECT" 
     subnav:
