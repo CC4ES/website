@@ -29,7 +29,7 @@ main_nav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
       - slug: six-modules
-        text: "&nbsp;&nbsp;About Learn"  
+        text: "<h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Learn"  
       - slug: 
         text: "<h6>&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules<h6>"
       - slug: environmental-justice-diversity
