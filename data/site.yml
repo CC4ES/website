@@ -29,9 +29,7 @@ main_nav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
       - slug: six-modules
-        text: "&nbsp;&nbsp;Six Modules Outline"
-      - slug: 
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"  
+        text: "&nbsp;&nbsp;Six Modules Outline"  
       - slug: 
         text: "&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules"
       - slug: environmental-justice-diversity
@@ -46,8 +44,6 @@ main_nav:
         text: "5. Sustainable Business Practices"
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
-      - slug: 
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"  
       - slug: trees-4-sustainability
         text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability"  
   - slug: connect
@@ -55,8 +51,6 @@ main_nav:
     subnav:
       - slug: connect
         text: "&nbsp;&nbsp;&nbsp;&nbsp;About CONNECT"      
-      - slug: 
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"
       - slug: hope-gardeners
         text: "Hope Gardeners"
       - slug: conversation-circles
@@ -68,9 +62,7 @@ main_nav:
     text: "PRACTICE"
     subnav:
       - slug: practice
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;About PRACTICE"      
-      - slug: 
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--------------"      
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;About PRACTICE"          
       - slug: rhody-grows-hope
         text: "Rhody Grows Hope"
       - slug: museum-of-SH
