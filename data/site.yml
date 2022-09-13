@@ -29,9 +29,9 @@ main_nav:
       - slug: how-to-navigate-six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
       - slug: six-modules
-        text: "&nbsp;&nbsp;Six Modules Outline"  
+        text: "&nbsp;&nbsp;About Learn"  
       - slug: 
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules"
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;**The Six Modules**"
       - slug: environmental-justice-diversity
         text: "1. Environment Justice &amp; Diversity"
       - slug: environmental-literacy-fundamentals
@@ -45,7 +45,7 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: trees-4-sustainability
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;**Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability**"  
   - slug: connect
     text: "CONNECT" 
     subnav:
