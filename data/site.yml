@@ -27,7 +27,7 @@ main_nav:
     text: "LEARN"
     subnav:
       - slug: how-CC4ES-began
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;About CC4ES"
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About CC4ES"
       - slug: six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Learn"  
       - slug: 
