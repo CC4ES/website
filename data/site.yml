@@ -26,7 +26,7 @@ main_nav:
   - slug: six-modules
     text: "LEARN"
     subnav:
-      - slug: how-to-navigate-six-modules
+      - slug: how-CC4ES-began
         text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
       - slug: six-modules
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Learn"  
