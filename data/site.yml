@@ -26,10 +26,10 @@ main_nav:
   - slug: six-modules
     text: "LEARN"
     subnav:
-      - slug: how-to-navigate-six-modules
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;How CC4ES began"
+      - slug: how-CC4ES-began
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About CC4ES"
       - slug: six-modules
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Learn"  
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About LEARN"  
       - slug: 
         text: "<h6>&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules<h6>"
       - slug: environmental-justice-diversity
@@ -66,9 +66,9 @@ main_nav:
       - slug: rhody-grows-hope
         text: "Rhody Grows Hope"
       - slug: museum-of-SH
-        text: "Museum of Silenced Histories"
+        text: "Museum of Silenced Histories & Gardens of Regeneration"
       - slug: youths-4-urban-sustainability
-        text: "Youths for Urban Sustainability"
+        text: "Youths for Urban Sustainability, Y4US"
 #  - slug: blog
 #    text: "BLOG"
   - slug: "donate"
