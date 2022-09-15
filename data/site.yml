@@ -20,11 +20,11 @@
 
 main_nav:
   - slug: index
-    text: "HOME"
+    text: <b>"HOME"</b>
   - slug: "about-us"
-    text: "ABOUT US"
+    text: <b>"ABOUT US"</b>
   - slug: six-modules
-    text: "LEARN"
+    text: <b>"LEARN"</b>
     subnav:
       - slug: how-CC4ES-began
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About CC4ES"
@@ -47,7 +47,7 @@ main_nav:
       - slug: trees-4-sustainability
         text: "<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability</b>" 
   - slug: connect
-    text: "CONNECT" 
+    text: <b>"CONNECT"</b> 
     subnav:
       - slug: connect
         text: "&nbsp;&nbsp;&nbsp;&nbsp;About CONNECT"      
@@ -59,7 +59,7 @@ main_nav:
         text: "CC4ES Direct"
         
   - slug: practice
-    text: "PRACTICE"
+    text: <b>"PRACTICE"</b>
     subnav:
       - slug: practice
         text: "&nbsp;&nbsp;&nbsp;&nbsp;About PRACTICE"          
@@ -72,9 +72,9 @@ main_nav:
 #  - slug: blog
 #    text: "BLOG"
   - slug: "donate"
-    text: "DONATE"
+    text: <b>"DONATE"</b>
   - slug: contact
-    text: "CONTACT"
+    text: <b>"CONTACT"</b>
 ###########################################
 #
 # Homepage Six Modules Grid Configuration
