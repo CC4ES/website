@@ -7,23 +7,11 @@ hero_title: "Additional Resources"
 hero_subtitle: "Links to websites of interest"
 ---
 
-<article>
-<div class='text-center cell small-12'>
-<% link_to 'https://www.15minutefieldtrips.org/', :class => "button" do %>
-<h5 class='text-center'>15 Minute Field Trips</h5>
-<% end %>  
-<h5><div class='text-center'>Environmental Education, Arts</h5>
-</div>
-</div>
-<br>
-<br>
-<div class='text-center cell small-12'>
-<% link_to 'https://roots2empower.org/', :class => "button" do %>
-<h5 class='text-center'>Roots 2 Empower</h5>
-<% end %>  
-<h5><div class='text-center'>Gardening, Justice & Equity, Arts</h5>
-</div>
-</div>
+<%= partial 'partials/header' %>
+
+<article class="grid-container">
+<div class='text-center cell small-12'>  
+<em><a href=":https://www.15minutefieldtrips.org/>15 Minute Field Trips</a></em>
 
 <div class='text-center cell small-12'>
 <% link_to 'https://roots2empower.org/', :class => "button" do %>
