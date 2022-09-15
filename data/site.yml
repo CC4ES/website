@@ -45,7 +45,7 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: trees-4-sustainability
-        text: "<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability</b>" 
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability" 
       - slug: additional-resources
         text: "Additional Resources"
   - slug: connect
