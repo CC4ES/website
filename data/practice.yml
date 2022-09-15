@@ -83,6 +83,3 @@ programs:
     link: "/direct/"
     modules: |
       [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
-
-  - name: Additional Resources
-    link: "/additional-resources/"
