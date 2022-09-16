@@ -47,7 +47,7 @@ main_nav:
       - slug: trees-4-sustainability
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability" 
       - slug: additional-resources
-        text: "Additional Resources"
+        text: "Additional Resources"<br/>
   - slug: connect
     text: "CONNECT" 
     subnav:
