@@ -26,6 +26,8 @@ main_nav:
   - slug: six-modules
     text: "LEARN"
     subnav:
+      - slug: 
+        text: 
       - slug: how-CC4ES-began
         text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About CC4ES"
       - slug: six-modules
@@ -45,10 +47,16 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: trees-4-sustainability
-        text: "<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability</b>" 
+        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability" 
+      - slug: additional-resources
+        text: "Additional Resources"
+      - slug: 
+        text: 
   - slug: connect
     text: "CONNECT" 
     subnav:
+      - slug: 
+        text: 
       - slug: connect
         text: "&nbsp;&nbsp;&nbsp;&nbsp;About CONNECT"      
       - slug: hope-gardeners
@@ -57,10 +65,14 @@ main_nav:
         text: "CC4ES Conversation Circles"
       - slug: direct
         text: "CC4ES Direct"
+      - slug: 
+        text: 
         
   - slug: practice
     text: "PRACTICE"
     subnav:
+      - slug: 
+        text: 
       - slug: practice
         text: "&nbsp;&nbsp;&nbsp;&nbsp;About PRACTICE"          
       - slug: rhody-grows-hope
@@ -69,8 +81,8 @@ main_nav:
         text: "Museum of Silenced Histories & Gardens of Regeneration"
       - slug: youths-4-urban-sustainability
         text: "Youths for Urban Sustainability, Y4US"
-#  - slug: blog
-#    text: "BLOG"
+      - slug: 
+        text: 
   - slug: "donate"
     text: "DONATE"
   - slug: contact
