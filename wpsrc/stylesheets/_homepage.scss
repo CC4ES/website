@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.2), 
       rgba(0, 0, 0, 0.2)
     ),
-    url('/images/seedlings_bg.jpg');
+    url('/images/seedlings_bg.webp');
   @include breakpoint(xlarge) {
     background-image:
       linear-gradient(
