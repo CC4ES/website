@@ -30,8 +30,10 @@ main_nav:
         text:
       - slug: how-CC4ES-began
         text: "About CC4ES"
+        header: true
       - slug: six-modules
         text: "About LEARN"
+        header: true
       - slug:
         text: "<b>The Six Modules</b>"
       - slug: environmental-justice-diversity
@@ -48,8 +50,10 @@ main_nav:
         text: "6. Resilient Community Building"
       - slug: trees-4-sustainability
         text: "Trees for Sustainability"
+        header: true
       - slug: additional-resources
         text: "Additional Resources"
+        header: true
       - slug:
         text:
   - slug: connect
@@ -59,6 +63,7 @@ main_nav:
         text:
       - slug: connect
         text: "About CONNECT"
+        header: true
       - slug: hope-gardeners
         text: "Hope Gardeners"
       - slug: conversation-circles
@@ -75,6 +80,7 @@ main_nav:
         text:
       - slug: practice
         text: "About PRACTICE"
+        header: true
       - slug: rhody-grows-hope
         text: "Rhody Grows Hope"
       - slug: museum-of-SH

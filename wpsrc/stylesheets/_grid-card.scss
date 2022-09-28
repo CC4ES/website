@@ -70,14 +70,13 @@
     line-height: 1.5em;
     display: inline-block;
     padding: 0.25em 0.15em;
-    margin-bottom: 1.5*$global-padding;
+    margin-bottom: 1.5 * $global-padding;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.02em;
-  
+
     @include breakpoint(medium) {
       padding: 0.25rem $global-padding;
     }
   }
-  
 }
