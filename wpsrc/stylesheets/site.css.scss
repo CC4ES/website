@@ -1,15 +1,15 @@
-@import 'settings';
-@import '~foundation-sites/scss/foundation.scss';
+@import "settings";
+@import "~foundation-sites/scss/foundation.scss";
 
 @include foundation-everything(true);
 
-@import 'nav';
-@import 'footer';
-@import 'grid-card';
-@import 'video-fix';
-@import 'content-images';
-@import 'homepage';
-@import 'about-us';
+@import "nav";
+@import "footer";
+@import "grid-card";
+@import "video-fix";
+@import "content-images";
+@import "homepage";
+@import "about-us";
 
 // Global styles
 
@@ -19,11 +19,16 @@
   }
 }
 
+.button {
+  border-radius: 5px;
+}
+
 article {
   padding-top: 3rem;
   padding-bottom: 2rem;
 
-  p, li {
+  p,
+  li {
     font-size: 1.2rem;
   }
 }
@@ -45,10 +50,8 @@ img.full-width-photo {
 }
 
 %cc4es-box-shadow {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04),
-    0px 0px 15px rgba(0, 0, 0, 0.04),
-    0px 0px 10px rgba(0, 0, 0, 0.04),
-    0px 0px 5px rgba(0, 0, 0, 0.06),
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04), 0px 0px 15px rgba(0, 0, 0, 0.04),
+    0px 0px 10px rgba(0, 0, 0, 0.04), 0px 0px 5px rgba(0, 0, 0, 0.06),
     0px 0px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -63,12 +66,8 @@ img.full-width-photo {
   display: block;
   width: 100%;
   background-color: $light-gray;
-  background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ),
-    url('/images/aloe_leaves_bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/images/aloe_leaves_bg.jpg");
   color: $white;
   padding: 0.5rem;
   text-align: center;

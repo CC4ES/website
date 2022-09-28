@@ -8,7 +8,7 @@
   }
 
   .menu-icon {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
     width: 30px;
     height: 20px;
 
@@ -33,7 +33,7 @@
     padding: 0 0.5rem;
   }
 
-  @include breakpoint (xlarge) {
+  @include breakpoint(xlarge) {
     padding-left: 6rem;
     padding-right: 6rem;
   }
@@ -44,6 +44,10 @@
   }
 }
 
-.dropdown.menu>li.is-active>a {
+.dropdown.menu > li.is-active > a {
   color: $black;
+}
+
+.subnav-item {
+  text-align: center;
 }

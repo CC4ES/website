@@ -35,12 +35,13 @@
 <%= stylesheet_link_tag :site %>
 
 <% unless data.site.google_analytics_id == "" %>
-<script async src="https://www.googletagmanager.com/gtag/js?id=<%= data.site.google_analytics_id %>"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBBD0D9BQL"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-  gtag('config', '<%= data.site.google_analytics_id %>');
+gtag('config', 'G-BBBD0D9BQL');
 </script>
 <% end %>
