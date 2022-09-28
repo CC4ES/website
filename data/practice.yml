@@ -11,7 +11,7 @@
 #             breaks between to be rendered as a new paragraph.
 # - image: filename of the image located in /source/images/
 # - image_alt: Alt text that describes the image for screen readers
-# - link: paragraph text for the member bio. 
+# - link: paragraph text for the member bio.
 # - modules: a list of links to relevant modules, in format: [Regenerative Technologies](/regenerative-technologies/)
 #             where the first part is the text shown, and the second is the link it directs to.
 
@@ -19,67 +19,36 @@ programs:
   - name: Rhody Grows Hope
     description: |
       ## Cultivating regenerative sustainability with one garden at a time
-      
-      Rhody Grows Hope (RGH) is a container gardening project that inspires growing one's own food for food security, sovereignty, and justice.  
+
+      Rhody Grows Hope (RGH) is a container gardening project that inspires growing one's own food for food security, sovereignty, and justice.
     image: "Rhody_Grows_Hope_logo_TM(1).jpg"
     image_alt: "rhody grows hope logo"
     link: "/rhody-grows-hope/"
-  
+
   - name: Museum of Silenced Histories & Gardens of Regeneration
     description: |
       ## Rebuilding relationships with the land to heal and for regenerative sustainability
-      
+
       The Museum of Silenced Histories & Gardens of Regeneration offer a space for minority, underrepresented, and marginalized members of society to share
-      their stories and have their voices heard.  
+      their stories and have their voices heard.
     image: "MSH_logo.jpg"
     image_alt: "MSH logo"
     link: "/museum-of-SH/"
-      
-  - name: Hope Gardeners
-    description: |
-      ## Gardens are the hope we can see.
-     
-      CC4ES Hope Gardeners convenes school and community gardeners of any shape and size to share resources and support. Gardening promotes environmental stewardship that improves environmental health for the whole community. 
-    image: "Grow_UR_own_food.jpg"
-    image_alt: "Hands in circule"
-    link: "/hope-gardeners/"
-      
+
   - name: Youths for Urban Sustainability
     description: |
       ## Pipelining for Green jobs
-     
+
       Youths for Urban Sustainability (Y4US) is a youth core job training program for youths of 14 -24 years old.  Its focus on growing one's own food and environmental stewardship directly engages community youths to tackle the persistent food and job insecurities and environmental pollution in the urban communities.
     image: "Y4US_logo.jpg"
     image_alt: "Y4US logo"
     link: "/youths-4-urban-sustainability/"
-
 #  - name: Trees for Sustainability
 #    description: |
-      ## Trees are the Lungs of Our Planet.
-#      
-#      Unfortunately, not all of us get to have trees around us. Trees for Environmental Justice is a platform for raising awareness of Tree Canopy Inequity prevalent in frontline communities, and for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being. 
-#    image: Trees4EJ.jpg  
+## Trees are the Lungs of Our Planet.
+#
+#      Unfortunately, not all of us get to have trees around us. Trees for Environmental Justice is a platform for raising awareness of Tree Canopy Inequity prevalent in frontline communities, and for tree lovers (or huggers) to share their appreciation of trees, and learn about why trees are cool and important to environmental health and our well-being.
+#    image: Trees4EJ.jpg
 #    image_alt: "Tree canopy"
 #    link: "/trees-4-sustainability/"
-#      
-  - name: CC4ES Conversation Circles
-    description: |
-      ## All Problems Exist in the Absence of Good Conversation.
-      
-      CC4ES Conversation Circles is a forum for good conversations on various sustainability topics, and tips for sustainable lifestyle on composting, gardening, DIY home-made cleaners,and more. Most of all, this forum is to convene all of us who would like to take actions, no matter how small they may be, for making a more sustainable world.  This forum also features comments and good reads to keep us informed.  
-    image: "2_Indoor_plants_windowsill.jpg"
-    image_alt: "Plants by the windows"
-    link: "/conversation-circles/"
-    modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)   
-
-  - name: CC4ES Direct
-    description: |
-      ## Direct Grassroots Resource Connector for Communities in Need
-      
-      CC4ES Direct is CC4ES' community mobilization model used for realizing its outcomes at the community grassroots level. It is designed to link communities in need with essential resource in order tackle food and job insecurities and environmental issues pervasive in frontline communities. In the long term, it will transition to a kiosk on the wheels in a food-truck like vehicle serving the same purpose.  
-    image: "CC4ES-Direct-combo.jpg"
-    image_alt: "CC4ES Direct Truck with urban garden"
-    link: "/direct/"
-    modules: |
-      [Environmental Literacy Fundamentals](/environmental-literacy-fundamentals/), [Regenerative Technologies](/regenerative-technologies/)
+#

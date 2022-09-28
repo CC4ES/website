@@ -18,7 +18,7 @@
           <a><%= item[:text] %></a>
           <ul class="menu vertical">
           <% item[:subnav].each do |subitem| %>
-            <li class="<%= current_page.page_id == subitem[:slug] ? 'is-active' : '' %>">
+            <li class="subnav-item <%= current_page.page_id == subitem[:slug] ? 'is-active' : '' %>">
               <%= link_to(subitem[:text], subitem[:slug]) %>
             </li>
           <% end %>

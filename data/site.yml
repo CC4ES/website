@@ -26,14 +26,14 @@ main_nav:
   - slug: six-modules
     text: "LEARN"
     subnav:
-      - slug: 
-        text: 
+      - slug:
+        text:
       - slug: how-CC4ES-began
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About CC4ES"
+        text: "About CC4ES"
       - slug: six-modules
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About LEARN"  
-      - slug: 
-        text: "<b>&nbsp;&nbsp;&nbsp;&nbsp;The Six Modules</b>"
+        text: "About LEARN"
+      - slug:
+        text: "<b>The Six Modules</b>"
       - slug: environmental-justice-diversity
         text: "1. Environment Justice &amp; Diversity"
       - slug: environmental-literacy-fundamentals
@@ -47,42 +47,42 @@ main_nav:
       - slug: resilient-community-building
         text: "6. Resilient Community Building"
       - slug: trees-4-sustainability
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trees for &nbsp;&nbsp;&nbsp;&nbsp;Sustainability" 
+        text: "Trees for Sustainability"
       - slug: additional-resources
         text: "Additional Resources"
-      - slug: 
-        text: 
+      - slug:
+        text:
   - slug: connect
-    text: "CONNECT" 
+    text: "CONNECT"
     subnav:
-      - slug: 
-        text: 
+      - slug:
+        text:
       - slug: connect
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;About CONNECT"      
+        text: "About CONNECT"
       - slug: hope-gardeners
         text: "Hope Gardeners"
       - slug: conversation-circles
         text: "CC4ES Conversation Circles"
       - slug: direct
         text: "CC4ES Direct"
-      - slug: 
-        text: 
-        
+      - slug:
+        text:
+
   - slug: practice
     text: "PRACTICE"
     subnav:
-      - slug: 
-        text: 
+      - slug:
+        text:
       - slug: practice
-        text: "&nbsp;&nbsp;&nbsp;&nbsp;About PRACTICE"          
+        text: "About PRACTICE"
       - slug: rhody-grows-hope
         text: "Rhody Grows Hope"
       - slug: museum-of-SH
         text: "Museum of Silenced Histories & Gardens of Regeneration"
       - slug: youths-4-urban-sustainability
         text: "Youths for Urban Sustainability, Y4US"
-      - slug: 
-        text: 
+      - slug:
+        text:
   - slug: "donate"
     text: "DONATE"
   - slug: contact
@@ -112,7 +112,7 @@ modules:
       We are all interconnected
     cta_text: "Learn More"
     cta_page_key: environmental-justice-diversity
-      
+
   - image: seedlings.jpg
     module_id: 2
     label: module

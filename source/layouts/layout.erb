@@ -10,6 +10,7 @@
     <%= partial 'partials/nav' %>
     <div class="page-container">
       <%= yield %>
+      <%= partial 'partials/scroll-to-top' %>
     </div>
     <%= partial 'partials/footer' %>
     <%= javascript_include_tag :all %>
