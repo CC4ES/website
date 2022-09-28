@@ -7,8 +7,8 @@ window.addEventListener('load', (event) => {
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    console.log('onscrolling');
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    // 640px is mobile breakpoint
+    if (window.innerWidth >= 640 && (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)) {
       mybutton.style.display = "block";
     } else {
       mybutton.style.display = "none";
