@@ -196,8 +196,8 @@ export default function NavBar() {
 
 export function NavBarDesktop() {
   return (
-    <div className="px-4 sm:px-6">
-      <div className="flex items-center justify-between border-b-2 border-yellow-600 py-6 md:justify-start md:space-x-10">
+    <div className="px-4 sm:px-24">
+      <div className="flex items-center justify-between border-b-2 border-yellow-600 py-6 md:space-x-10">
         <div className="flex justify-start">
           <a href="#">
             <span className="sr-only">CC4ES</span>
@@ -235,7 +235,7 @@ export function NavBarDesktop() {
                                 return (
                                   <>
                                     {item.subItems && (
-                                      <div className="flex flex-col items-start gap-6 p-3 border-t-gray-400 border-t-2">
+                                      <div className="flex flex-col items-start gap-6 p-3">
                                         <p className="mx-auto text-lg font-bold text-gray-900">
                                           {item.name}
                                         </p>
@@ -262,7 +262,7 @@ export function NavBarDesktop() {
               <a
                 key={item.name}
                 href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
+                className="rounded-md bg-white text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
               >
                 {item.name}
               </a>
