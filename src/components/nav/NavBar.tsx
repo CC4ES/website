@@ -1,10 +1,12 @@
 import {
+  faChildren,
   faGlobe,
   faGlobeAmericas,
   faInfoCircle,
   faLink,
   faMessage,
   faMoneyCheckDollar,
+  faMountainCity,
   faScaleUnbalanced,
   faSeedling,
   faStreetView,
@@ -120,6 +122,35 @@ const connectItems: NavigationItem[] = [
     icon: faStreetView,
   },
 ];
+const practiceItems: NavigationItem[] = [
+  {
+    name: "About Practice",
+    description: "CC4ES Programs, Initiatives & On-Ground Cohorts in Practice",
+    href: "#",
+    icon: faInfoCircle,
+  },
+  {
+    name: "Rhody Grows Hope",
+    description:
+      "Cultivating regenerative sustainability with one garden at a time",
+    href: "#",
+    icon: faSeedling,
+  },
+  {
+    name: "Museum of Silenced Histories",
+    description:
+      "Rebuilding relationships with the land to heal and for regenerative sustainability",
+    href: "#",
+    icon: faMountainCity,
+  },
+  {
+    name: "Youths for Urban Sustainability, Y4US",
+    description:
+      "Youth leadership and job skill-set building for regenerative sustainability",
+    href: "#",
+    icon: faChildren,
+  },
+];
 const allItems: NavigationItem[] = [
   {
     name: "Home",
@@ -138,6 +169,11 @@ const allItems: NavigationItem[] = [
     name: "Connect",
     popover: true,
     popoverItems: connectItems,
+  },
+  {
+    name: "Practice",
+    popover: true,
+    popoverItems: practiceItems,
   },
   {
     name: "Donate",
