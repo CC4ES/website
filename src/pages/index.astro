@@ -1,18 +1,212 @@
 ---
 import Hero from "../components/Hero.astro";
+import Link from "../components/Link.astro";
+import LinkButton from "../components/LinkButton.astro";
+import ModuleCard, { Card } from "../components/ModuleCard.astro";
+import SectionHeading from "../components/SectionHeading.astro";
 import Layout from "../layouts/Layout.astro";
+
+const modules: Card[] = [
+  {
+    label: "Module 1",
+    title: "Environmental Justice & Diversity",
+    subtitle: "We are all interconnected",
+    buttonText: "Learn More",
+    href: "environmental-justice-diversity",
+  },
+  {
+    label: "Module 2",
+    title: "Environmental Literacy Fundamentals",
+    subtitle: "Environmental health & our well-being",
+    buttonText: "Learn More",
+    href: "environmental-literacy-fundamentals",
+  },
+  {
+    label: "Module 3",
+    title: "Sustainable Food Systems",
+    subtitle: "Sustainable lifestyle",
+    buttonText: "Learn More",
+    href: "sustainable-food-systems",
+  },
+  {
+    label: "Module 4",
+    title: "Regenerative Technologies",
+    subtitle: "Mimic nature",
+    buttonText: "Learn More",
+    href: "regenerative-technologies",
+  },
+  {
+    label: "Module 5",
+    title: "Sustainable Business Practices",
+    subtitle: "Green on a large scale",
+    buttonText: "Learn More",
+    href: "sustainable-business-practices",
+  },
+  {
+    label: "Module 6",
+    title: "Resilient community building",
+    subtitle: "Invest locally to build a resilient community",
+    buttonText: "Learn More",
+    href: "resilient-community-building",
+  },
+];
 ---
 
 <Layout title="Home">
   <main>
     <Hero />
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-      <!-- Replace with your content -->
-      <div class="px-4 py-6 sm:px-0">
-        <div class="h-96 rounded-lg border-4 border-dashed border-gray-200">
+    <div class="container mx-auto mt-6">
+      <article>
+        <div class="text-center text-xl">
+          <h2 class="text-4xl">
+            <strong
+              >A Grassroots Organization That Cultivates<br />Sustainable
+              Lifestyle In All Walks Of Life</strong
+            >
+          </h2>
+          <p class="mt-4">
+            Ever-emerging environmental, social and economic challenges
+            necessitate a lifestyle that fosters sustainability. Cultivating
+            sustainable lifestyles entails continual learning and diligent
+            practices. Such endeavor resonates with the CC4ES core tenets:
+            comprehensive collaboration for systemic change, community-based
+            motivation and empowerment, and establishing an environment for
+            lifelong learning and practice.
+          </p>
+
+          <p class="mt-4">
+            Food is a universal human right. As food is embedded in
+            socio-cultural systems, food justice is environmental, social and
+            economic justice. Growing one's own food provides the most impactful
+            means of ensuring environmental, social and economic sustainability.
+            CC4ES uses growing one's own food as a grassroots community
+            mobilizer to platform the collective shifts necessary for
+            cultivating community-narrated and community-empowered regenerative
+            sustainability.
+          </p>
+
+          <h4 class="mt-4 text-3xl font-bold">
+            Rhody Grows Hope is the central CC4ES program that uses growing
+            one's own food as a grassroots community mobilizer.
+            <br /><br />
+            The CC4ES WebCenter is organized into a LEARN-CONNECT-PRACTICE infrastructure.
+            <br /><br />
+          </h4>
         </div>
-      </div>
-      <!-- /End replace -->
+
+        <div class="flex">
+          <div>
+            <img
+              src="RGH_CollageTM.jpg"
+              alt="RGH collage with TM and RGH logo in the center"
+            />
+          </div>
+
+          <div class="text-center">
+            <img src="RGH-bag-4-index-2.jpg" alt="" />
+            <br /><br />
+            <p class="mb-4 text-xl">
+              Rhody Grows Hope (RGH) is a container gardening program that
+              repurposes food plastic recyclables - such as 32-oz yogurt
+              containers and salad containers - as planters to grow food while
+              reducing plastic waste. RGH also repurposes heat-treated pallets
+              as raised garden beds. <br /><br />RGH circumvents soil
+              contamination and limited or no land access prevalent in frontline
+              communities, for food security, sovereignty and justice. <br /><br
+              />Every $20 provides a RGH garden to help a family in need.
+            </p>
+            <LinkButton href="/donate">Donate Now</LinkButton>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <SectionHeading>LEARN</SectionHeading>
+        </div>
+        <div class="text-center text-xl mt-4">
+          <p>
+            CC4ES classifies the complexity of sustainability into six modules.
+            Although all six modules are interconnected, the Environmental
+            Justice & Diversity module underpins all others. Environmental
+            justice is social justice. Sustainability is only possible in a
+            society that champions justice and equity.
+          </p>
+          <p>
+            LEARN inventories and archives resources on sustainability by each
+            CC4ES Six Module, serving as a repository for continual learning.
+          </p>
+          <a href="/six-modules">
+            <h5>How to Navigate Six Modules</h5>
+          </a>
+        </div>
+
+        <div class="flex flex-wrap flex-row gap-8 justify-center mt-4">
+          {modules.map((card) => <ModuleCard card={card} />)}
+        </div>
+        <div class="mt-4">
+          <SectionHeading>CONNECT</SectionHeading>
+        </div>
+
+        <div class="flex">
+          <div class="text-center">
+            <p class="text-xl mt-4">
+              CONNECT platforms <Link href="hope-gardeners">Hope Gardeners</Link
+              >
+              network for engaging community members at grassroots level to participate
+              in <br />CC4ES programs that cultivate community-led and empowered
+              regenerative sustainability. <br /><br />CONNECT is facilitated by <Link
+                href="direct">CC4ES Direct</Link
+              > and supported through <Link href="/conversation-circles"
+                >CC4ES Conversation Circles</Link
+              >.
+            </p>
+          </div>
+
+          <div class="text-center">
+            <img src="/CC4ESHG_logo.jpg" alt="Hope Gardeners Logo" />
+            <LinkButton href="/connect">To Connect</LinkButton>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <SectionHeading>PRACTICE</SectionHeading>
+        </div>
+
+        <div class="flex mt-4">
+          <div class="text-center">
+            <img
+              src="/Rhody_Grows_Hope_logo_TM(1).jpg"
+              alt="Rhody Grows Hope TM logo"
+            />
+
+            <div class="my-4">
+              <LinkButton href="/rhody-grows-hope">Learn More</LinkButton>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <p class="text-xl">
+              PRACTICE features CC4ES programs, initiatives and on-ground
+              cohorts in practice. Although each program has its own focus,
+              Rhody Grows Hope encompasses these CC4ES programs with the common
+              thread of growing one's own food at the grassroots level,
+              initiated, narrated and empowered by community members. The
+              programs include:
+            </p>
+
+            <p class="flex flex-col my-4 text-xl">
+              <Link href="/rhody-grows-hope">Rhody Grows Hope</Link>
+              <Link href="/museum-of-SH"
+                >Museum of Silenced Histories & Gardens of Regeneration</Link
+              >
+              <Link href="/youths-4-urban-sustainability"
+                >Youths for Urban Sustainability</Link
+              >
+            </p>
+
+            <LinkButton href="/practice">To PRACTICE</LinkButton>
+          </div>
+        </div>
+      </article>
     </div>
   </main>
 </Layout>
