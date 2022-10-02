@@ -122,7 +122,7 @@ const modules: Card[] = [
         <div class="mt-4">
           <SectionHeading>LEARN</SectionHeading>
         </div>
-        <div class="text-center text-xl mt-4">
+        <div class="flex flex-col gap-6 my-4 text-center text-xl">
           <p>
             CC4ES classifies the complexity of sustainability into six modules.
             Although all six modules are interconnected, the Environmental
@@ -134,9 +134,11 @@ const modules: Card[] = [
             LEARN inventories and archives resources on sustainability by each
             CC4ES Six Module, serving as a repository for continual learning.
           </p>
-          <a href="/six-modules">
-            <h5>How to Navigate Six Modules</h5>
-          </a>
+          <div>
+            <LinkButton href="/six-modules"
+              >How to Navigate Six Modules</LinkButton
+            >
+          </div>
         </div>
 
         <div class="flex flex-wrap flex-row gap-8 justify-center mt-4">
@@ -146,9 +148,9 @@ const modules: Card[] = [
           <SectionHeading>CONNECT</SectionHeading>
         </div>
 
-        <div class="flex">
+        <div class="flex mt-4">
           <div class="text-center">
-            <p class="text-xl mt-4">
+            <p class="text-xl">
               CONNECT platforms <Link href="hope-gardeners">Hope Gardeners</Link
               >
               network for engaging community members at grassroots level to participate
