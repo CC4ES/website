@@ -21,7 +21,7 @@ import {
   ChevronRightIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline/index";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import { classNames } from "../../util/util";
 import NavIcon from "./NavIcon";
 import type { NavigationItem } from "./NavItem";
@@ -196,7 +196,7 @@ export default function NavBar() {
 
 export function NavBarDesktop() {
   return (
-    <div className="px-4 sm:px-24">
+    <div className="px-4 md:px-24">
       <div className="flex items-center justify-between border-b-2 border-yellow-600 py-6 md:space-x-10">
         <div className="flex justify-start">
           <a href="#">
@@ -213,9 +213,9 @@ export function NavBarDesktop() {
         <Popover.Group as="nav" className="hidden space-x-10 md:flex">
           {allItems.map((item) =>
             item.popover ? (
-              <Popover className="relative">
+              <Popover key={item.name} className="relative">
                 {({ open }) => (
-                  <>
+                  <React.Fragment>
                     <NavPopoverButton open={open} title={item.name} />
 
                     <Transition
@@ -233,7 +233,7 @@ export function NavBarDesktop() {
                             {item.popoverItems &&
                               item.popoverItems.map((item) => {
                                 return (
-                                  <>
+                                  <React.Fragment key={item.name}>
                                     {item.subItems && (
                                       <div className="flex flex-col items-start gap-6 p-3">
                                         <p className="mx-auto text-lg font-bold text-gray-900">
@@ -241,6 +241,7 @@ export function NavBarDesktop() {
                                         </p>
                                         {item.subItems.map((subItem) => (
                                           <NavItem
+                                            key={subItem.name}
                                             className="w-full"
                                             item={subItem}
                                           />
@@ -248,14 +249,14 @@ export function NavBarDesktop() {
                                       </div>
                                     )}
                                     {!item.subItems && <NavItem item={item} />}
-                                  </>
+                                  </React.Fragment>
                                 );
                               })}
                           </div>
                         </div>
                       </Popover.Panel>
                     </Transition>
-                  </>
+                  </React.Fragment>
                 )}
               </Popover>
             ) : (
@@ -287,7 +288,7 @@ function NavBarMobile() {
     >
       <Popover.Panel
         focus
-        className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+        className="absolute z-10 inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
       >
         <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
           <div className="px-5 pt-5 pb-6">
@@ -306,9 +307,9 @@ function NavBarMobile() {
               <nav className="grid gap-y-8">
                 {allItems.map((item) =>
                   item.popover ? (
-                    <Disclosure>
+                    <Disclosure key={item.name}>
                       {({ open }) => (
-                        <>
+                        <React.Fragment key={item.name}>
                           <Disclosure.Button className="-m-3 flex justify-between items-center rounded-md p-3 hover:bg-gray-50">
                             <span className="ml-3 text-base font-medium text-gray-900">
                               {item.name}{" "}
@@ -323,7 +324,7 @@ function NavBarMobile() {
                           <Disclosure.Panel className="ml-4">
                             {item.popoverItems &&
                               item.popoverItems.map((popoverItem) => (
-                                <>
+                                <React.Fragment key={popoverItem.name}>
                                   <NavBarMobileItem {...popoverItem} />
                                   {popoverItem.subItems &&
                                     popoverItem.subItems.map((subItem) => (
@@ -331,14 +332,14 @@ function NavBarMobile() {
                                         <NavBarMobileItem {...subItem} />
                                       </div>
                                     ))}
-                                </>
+                                </React.Fragment>
                               ))}
                           </Disclosure.Panel>
-                        </>
+                        </React.Fragment>
                       )}
                     </Disclosure>
                   ) : (
-                    <NavBarMobileItem {...item} />
+                    <NavBarMobileItem key={item.name} {...item} />
                   )
                 )}
               </nav>
