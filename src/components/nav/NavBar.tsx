@@ -187,7 +187,7 @@ const allItems: NavigationItem[] = [
 
 export default function NavBar() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="sticky top-0 bg-white">
       <NavBarDesktop />
       <NavBarMobile />
     </Popover>
@@ -196,8 +196,8 @@ export default function NavBar() {
 
 export function NavBarDesktop() {
   return (
-    <div className="px-4 md:px-24">
-      <div className="flex items-center justify-between border-b-2 border-yellow-600 py-6 md:space-x-10">
+    <div className="sticky top-0 px-4 md:px-24">
+      <div className="flex items-center justify-between py-6 md:space-x-10">
         <div className="flex justify-start">
           <a href="#">
             <span className="sr-only">CC4ES</span>

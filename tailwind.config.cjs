@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: {
         "hero-pattern":
           "linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/seedlings_bg.jpg')",
+        "footer-pattern":
+          "linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/aloe_leaves_bg.jpg')",
       },
     },
   },
