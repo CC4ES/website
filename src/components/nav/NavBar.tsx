@@ -154,11 +154,11 @@ const practiceItems: NavigationItem[] = [
 const allItems: NavigationItem[] = [
   {
     name: "Home",
-    href: "#",
+    href: "/",
   },
   {
     name: "About Us",
-    href: "#",
+    href: "/about-us",
   },
   {
     name: "Learn",
@@ -199,7 +199,7 @@ export function NavBarDesktop() {
     <div className="px-4 md:px-24">
       <div className="flex flex-wrap items-center justify-between py-6 md:space-x-10">
         <div className="flex shrink-0 justify-start">
-          <a href="#">
+          <a href="/">
             <span className="sr-only">CC4ES</span>
             <img className="h-8" src="/cc4es_logo.png" alt="" />
           </a>
@@ -262,7 +262,7 @@ export function NavBarDesktop() {
             ) : (
               <a
                 key={item.name}
-                href="#"
+                href={item.href}
                 className="rounded-md bg-lime-100 text-xl font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
               >
                 {item.name}

@@ -182,28 +182,25 @@ import Layout from "../layouts/Layout.astro";
         </div>
         <TwoColumnLayout className="mt-4">
           <div slot="first-col" class="text-xl">
-            <p>
-              Rhody Grows Hope is the central CC4ES program that uses growing
-              one's own food as a grassroots community mobilizer.
-            </p>
-            <p>
-              Museum of Silenced Histories & Gardens of Regeneration gives
-              voices for food sovereignty and justice.
-            </p>
-            <p>
-              Youths for Urban Sustainability is a skills-training program that
-              engages communities for their own narratives and empowerment.
-            </p>
-
-            <p class="flex flex-col my-4 text-xl">
-              <Link href="/rhody-grows-hope">Rhody Grows Hope</Link>
+            <div>
+              <Link href="/rhody-grows-hope">Rhody Grows Hope</Link><span>
+                is the central CC4ES program that uses growing one's own food as
+                a grassroots community mobilizer.</span
+              >
+            </div>
+            <div>
               <Link href="/museum-of-SH"
                 >Museum of Silenced Histories & Gardens of Regeneration</Link
-              >
+              ><span> gives voices for food sovereignty and justice.</span>
+            </div>
+            <div>
               <Link href="/youths-4-urban-sustainability"
                 >Youths for Urban Sustainability</Link
+              ><span>
+                is a skills-training program that engages communities for their
+                own narratives and empowerment.</span
               >
-            </p>
+            </div>
           </div>
 
           <div slot="second-col">
