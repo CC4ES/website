@@ -187,7 +187,7 @@ const allItems: NavigationItem[] = [
 
 export default function NavBar() {
   return (
-    <Popover className="sticky top-0 bg-white border-b-4 border-b-amber-600">
+    <Popover className="sticky top-0 bg-lime-100 border-b-4 border-b-amber-600">
       <NavBarDesktop />
       <NavBarMobile />
     </Popover>
@@ -197,15 +197,15 @@ export default function NavBar() {
 export function NavBarDesktop() {
   return (
     <div className="px-4 md:px-24">
-      <div className="flex items-center justify-between py-6 md:space-x-10">
-        <div className="flex justify-start">
+      <div className="flex flex-wrap items-center justify-between py-6 md:space-x-10">
+        <div className="flex shrink-0 justify-start">
           <a href="#">
             <span className="sr-only">CC4ES</span>
-            <img className="h-8 w-auto sm:h-10" src="/cc4es_logo.png" alt="" />
+            <img className="h-8" src="/cc4es_logo.png" alt="" />
           </a>
         </div>
         <div className="-my-2 -mr-2 md:hidden">
-          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-700">
+          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-lime-100 p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-700">
             <span className="sr-only">Open menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </Popover.Button>
@@ -229,7 +229,7 @@ export function NavBarDesktop() {
                     >
                       <Popover.Panel className="absolute z-10 -ml-4 mt-3 w-screen max-w-md transform px-2 sm:px-0 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2">
                         <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                          <div className="relative grid gap-6 bg-lime-100 px-5 py-6 sm:gap-8 sm:p-8">
                             {item.popoverItems &&
                               item.popoverItems.map((item) => {
                                 return (
@@ -263,7 +263,7 @@ export function NavBarDesktop() {
               <a
                 key={item.name}
                 href="#"
-                className="rounded-md bg-white text-xl font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
+                className="rounded-md bg-lime-100 text-xl font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
               >
                 {item.name}
               </a>

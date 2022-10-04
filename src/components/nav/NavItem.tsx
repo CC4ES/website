@@ -23,7 +23,7 @@ export default function NavItem({ item, className }: Props) {
       key={item.name}
       href={item.href}
       className={classNames(
-        "-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50",
+        "-m-3 flex items-start rounded-lg p-3 hover:bg-lime-50",
         className
       )}
     >
