@@ -137,7 +137,7 @@ const practiceItems: NavigationItem[] = [
     icon: faSeedling,
   },
   {
-    name: "Museum of Silenced Histories",
+    name: "Museum of Silenced History & Gardens of Regeneration",
     description:
       "Rebuilding relationships with the land to heal and for regenerative sustainability",
     href: "#",
