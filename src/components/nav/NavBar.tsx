@@ -21,7 +21,7 @@ import {
   ChevronRightIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline/index";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { classNames } from "../../util/util";
 import NavIcon from "./NavIcon";
 import type { NavigationItem } from "./NavItem";
@@ -205,7 +205,7 @@ export function NavBarDesktop() {
           </a>
         </div>
         <div className="-my-2 -mr-2 md:hidden">
-          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-lime-100 p-2 text-gray-400 hover:bg-lime-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-700">
+          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-lime-100 p-2 text-gray-800 hover:bg-lime-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-700">
             <span className="sr-only">Open menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </Popover.Button>
@@ -276,6 +276,33 @@ export function NavBarDesktop() {
 }
 
 function NavBarMobile() {
+  const [panelRef, setPanelRef] = useState<HTMLDivElement | null>(null);
+  const lockBody = () => {
+    document.body.style.overflowY = "hidden";
+  };
+  const cleanup = () => {
+    document.body.style.overflowY = "initial";
+  };
+
+  useEffect(() => {
+    if (!panelRef) return;
+    const { attributes } = panelRef;
+    const openState = attributes.getNamedItem("data-headlessui-state");
+    if (!openState) {
+      cleanup();
+      return;
+    }
+    if (openState.value === "open") {
+      lockBody();
+    } else {
+      cleanup();
+    }
+
+    return () => {
+      cleanup();
+    };
+  }, [panelRef]);
+
   return (
     <Transition
       as={Fragment}
@@ -287,6 +314,7 @@ function NavBarMobile() {
       leaveTo="opacity-0 scale-95"
     >
       <Popover.Panel
+        ref={setPanelRef}
         focus
         className="absolute z-10 inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
       >
