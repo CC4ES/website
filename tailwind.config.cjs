@@ -12,8 +12,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        // "hero-pattern":
-        //   "linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/seedlings_bg_large.jpg')",
+        "hero-pattern":
+          "linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/seedlings_bg_large.jpg')",
         "footer-pattern":
           "linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/aloe_leaves_bg.jpg')",
         "heading-pattern":
