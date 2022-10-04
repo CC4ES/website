@@ -18,7 +18,7 @@ const { name, title, image, imageAlt, bioText } = Astro.props;
   <div class="mb-6">
     <img
       class="object-center object-cover rounded-full h-36 w-36"
-      src={image}
+      src={"/" + image}
       alt={imageAlt}
     />
   </div>
