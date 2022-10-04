@@ -1,5 +1,7 @@
 ---
 import ArticleHero from "../../components/ArticleHero.astro";
+import SectionHeading from "../../components/SectionHeading.astro";
+import Team from "../../components/Team.astro";
 import Layout from "../../layouts/Layout.astro";
 ---
 
@@ -8,7 +10,66 @@ import Layout from "../../layouts/Layout.astro";
     title="ABOUT US"
     subtitle="CC4ES Team facilitates collaboration among and between organizations and communities for sustainability, starting from our own team"
   />
-  <div class="container mt-6">
-    <div>Placeholder!</div>
+  <div class="container mt-6 tracking-wide">
+    <div class="flex flex-col sm:flex-row items-center gap-5">
+      <div class="sm:w-3/5">
+        <span class="block text-4xl font-bold">Mission of CC4ES:</span>
+        <span class="block text-2xl mt-4"
+          >To link resources with communities in need for building community
+          member-narrated and led regenerative environmental, social and
+          economic sustainability that champions justice and equity.</span
+        >
+
+        <span class="block text-xl mt-4">
+          Building a community that champions justice and equity in the
+          intersection of environmental, social and economic sustainability
+          requires collaboration necessary for collective shifts. Such shifts
+          must start with awareness and continual practice at individual levels,
+          cascading to collective levels. CC4ES links organizations in
+          collaboration with communities for the shared projects. Yet, CC4ES
+          does not consolidate nor represent them. Instead, CC4ES identifies
+          each collaborating partner’s needs and resources to underscore their
+          missions, helping them realize their outcomes. This approach is
+          practiced within the CC4ES Team. CC4ES Team is categorized as Board
+          Members, Collaborators, Advisors and Participants based on the level
+          of their involvement.</span
+        >
+      </div>
+      <div class="sm:w-2/5">
+        <div
+          class="flex flex-col justify-end gap-2 p-5 rounded-lg bg-leaf-ripple bg-cover bg-top h-[500px] max-w-[360px] text-white"
+        >
+          <p class="text-2xl">
+            One small individual act starts a ripple that affects the whole
+            community. Start Yours!
+          </p>
+          <p class="text-xl">Susan Shim Gorelick</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <span class="block text-4xl font-bold"
+        >How CC4ES Team Works to Achieve the CC4ES Mission:</span
+      >
+      <span class="block text-xl mt-4">
+        CC4ES Team Members research, consult, advise, mentor, design programs
+        and curricula, lead or collaborate for projects or initiatives in
+        various capacities and institution types from businesses, academia, and
+        community organizations. Our projects also vary in sizes from creating a
+        pollinator garden to a state-wide program. We seek our own funding as
+        well as help organizations we partner with find funds -- assist them
+        with or partnering for research and writing grants and more.
+      </span>
+
+      <span class="block text-3xl font-semibold my-4"
+        >Systemic Map of CC4ES</span
+      >
+      <img src="six_modules_system_map.jpg" alt="" />
+
+      <SectionHeading>Our Team</SectionHeading>
+
+      <Team />
+    </div>
   </div>
 </Layout>

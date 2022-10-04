@@ -17,6 +17,8 @@ module.exports = {
           "linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/aloe_leaves_bg.jpg')",
         "heading-pattern":
           "linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/aloe_leaves_bg.jpg')",
+        "leaf-ripple":
+          "linear-gradient(0deg,rgba(0,0,0,.8),rgba(0,0,0,.5) 58%,transparent), url('/leaf_over_water.jpg')",
       },
     },
     screens: {

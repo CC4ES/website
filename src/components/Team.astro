@@ -1,0 +1,14 @@
+---
+import type { Props as TeamMember } from "./TeamCard.astro";
+import TeamCard from "./TeamCard.astro";
+const [team] = await Astro.glob("../data/about-us.mdx");
+const { members } = team?.frontmatter!;
+---
+
+<div
+  class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+>
+  <div class="grid grid-cols-1 sm:grid-cols-2 justify-items-center gap-6">
+    {members.map((member: TeamMember) => <TeamCard {...member} />)}
+  </div>
+</div>
