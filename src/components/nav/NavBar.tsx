@@ -102,11 +102,11 @@ const learnItems: NavigationItem[] = [
 const connectItems: NavigationItem[] = [
   { name: "About Connect", description: "", href: "#", icon: faInfoCircle },
   {
-    name: "Hope Gardeners",
+    name: "CC4ES Direct",
     description:
-      "A forum for school and community gardeners of any size and shape",
+      "Direct access to the resources referenced in the Six Modules for practical applications",
     href: "#",
-    icon: faSeedling,
+    icon: faStreetView,
   },
   {
     name: "CC4ES Conversation Circles",
@@ -115,11 +115,11 @@ const connectItems: NavigationItem[] = [
     icon: faMessage,
   },
   {
-    name: "CC4ES Direct",
+    name: "Hope Gardeners",
     description:
-      "Direct access to the resources referenced in the Six Modules for practical applications",
+      "A forum for school and community gardeners of any size and shape",
     href: "#",
-    icon: faStreetView,
+    icon: faSeedling,
   },
 ];
 const practiceItems: NavigationItem[] = [
