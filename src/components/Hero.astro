@@ -2,10 +2,10 @@
   class="bg-hero-pattern bg-cover bg-hero bg-no-repeat bg-blend-multiply"
 >
   <div
-    class="container p-0 py-2 md:p-4 flex flex-col justify-center md:w-1/2 h-40 md:h-[500px] lg:h-[600px] text-shadow-md"
+    class="container py-2 md:p-4 flex flex-col justify-center h-40 md:h-[500px] lg:h-[600px] text-shadow-md"
   >
     <h1
-      class="text-2xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white"
+      class="text-2xl hero-font-family md:hero-font-sizing tracking-tight text-white"
     >
       <span class="block flex-nowrap">Coalition Center for</span>{" "}
       <span class="block text-green-500-comment"> Environmental</span>
@@ -20,7 +20,20 @@
 </section>
 
 <style>
+  @tailwind base;
+
   .text-shadow-md {
     text-shadow: 0px 10px 30px black;
+  }
+
+  @layer base {
+    .hero-font-family {
+      font-family: Poppins, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    }
+    .hero-font-sizing {
+      font-size: 4em;
+      letter-spacing: 0.01rem;
+      line-height: 1.2em;
+    }
   }
 </style>
