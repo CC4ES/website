@@ -1,19 +1,13 @@
 import {
   faChildren,
-  faGlobe,
-  faGlobeAmericas,
   faInfoCircle,
   faLink,
   faMessage,
-  faMoneyCheckDollar,
   faMountainCity,
   faScaleUnbalanced,
   faSeedling,
   faStreetView,
-  faSun,
   faTreeCity,
-  faUsers,
-  faWind,
 } from "@fortawesome/free-solid-svg-icons";
 import { Disclosure, Popover, Transition } from "@headlessui/react";
 import {
@@ -36,54 +30,10 @@ const learnItems: NavigationItem[] = [
     icon: faInfoCircle,
   },
   {
-    name: "About LEARN",
+    name: "Six Modules",
     description: "A brief introduction to each of the CC4ES Six Modules",
     href: "#",
-    icon: faInfoCircle,
-  },
-  {
-    name: "The Six Modules",
-    description: "",
-    href: "#",
-    icon: faGlobe,
-    subItems: [
-      {
-        name: "1. Environment Justice & Diversity",
-        description: "",
-        href: "#",
-        icon: faScaleUnbalanced,
-      },
-      {
-        name: "2. Environmental Literacy Fundamentals",
-        description: "",
-        href: "#",
-        icon: faSun,
-      },
-      {
-        name: "3. Sustainable Food Systems",
-        description: "",
-        href: "#",
-        icon: faGlobeAmericas,
-      },
-      {
-        name: "4. Regenerative Technologies",
-        description: "",
-        href: "#",
-        icon: faWind,
-      },
-      {
-        name: "5. Sustainable Business Practices",
-        description: "",
-        href: "#",
-        icon: faMoneyCheckDollar,
-      },
-      {
-        name: "6. Resilient Community & Leadeship Building",
-        description: "",
-        href: "#",
-        icon: faUsers,
-      },
-    ],
+    icon: faScaleUnbalanced,
   },
   {
     name: "Trees for Sustainability",
