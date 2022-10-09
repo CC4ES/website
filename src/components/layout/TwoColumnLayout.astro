@@ -8,14 +8,14 @@ export interface Props {
 }
 
 const className = Astro.props.className;
-const classes = `flex flex-col sm:flex-row justify-center align-middle gap-4 text-center ${className}`;
+const classes = `flex flex-col sm:flex-row justify-center align-middle gap-4 ${className}`;
 ---
 
 <div class={classes}>
-  <div class="sm:w-1/2 text-center">
+  <div class="sm:w-1/2">
     <slot name="first-col" />
   </div>
-  <div class="sm:w-1/2 text-center">
+  <div class="sm:w-1/2">
     <slot name="second-col" />
   </div>
 </div>
