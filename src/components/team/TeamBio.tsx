@@ -1,6 +1,6 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useRef, useState } from "react";
-import LinkButton from "./LinkButton";
+import LinkButton from "../LinkButton";
 
 interface Props {
   name: string;

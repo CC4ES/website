@@ -1,7 +1,7 @@
 ---
 import type { Props as TeamMember } from "./TeamCard.astro";
 import TeamCard from "./TeamCard.astro";
-const [team] = await Astro.glob("../data/about-us.mdx");
+const [team] = await Astro.glob("../../data/about-us.mdx");
 const { members } = team?.frontmatter!;
 ---
 

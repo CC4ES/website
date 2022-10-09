@@ -1,55 +1,10 @@
 ---
-import Hero from "../components/Hero.astro";
+import Hero from "../components/layout/Hero.astro";
+import SectionHeading from "../components/layout/SectionHeading.astro";
+import TwoColumnLayout from "../components/layout/TwoColumnLayout.astro";
 import Link from "../components/Link.astro";
 import LinkButton from "../components/LinkButton";
-import SectionHeading from "../components/SectionHeading.astro";
-import TwoColumnLayout from "../components/TwoColumnLayout.astro";
 import Layout from "../layouts/Layout.astro";
-
-// const modules: Card[] = [
-//   {
-//     label: "Module 1",
-//     title: "Environmental Justice & Diversity",
-//     subtitle: "We are all interconnected",
-//     buttonText: "Learn More",
-//     href: "environmental-justice-diversity",
-//   },
-//   {
-//     label: "Module 2",
-//     title: "Environmental Literacy Fundamentals",
-//     subtitle: "Environmental health & our well-being",
-//     buttonText: "Learn More",
-//     href: "environmental-literacy-fundamentals",
-//   },
-//   {
-//     label: "Module 3",
-//     title: "Sustainable Food Systems",
-//     subtitle: "Sustainable lifestyle",
-//     buttonText: "Learn More",
-//     href: "sustainable-food-systems",
-//   },
-//   {
-//     label: "Module 4",
-//     title: "Regenerative Technologies",
-//     subtitle: "Mimic nature",
-//     buttonText: "Learn More",
-//     href: "regenerative-technologies",
-//   },
-//   {
-//     label: "Module 5",
-//     title: "Sustainable Business Practices",
-//     subtitle: "Green on a large scale",
-//     buttonText: "Learn More",
-//     href: "sustainable-business-practices",
-//   },
-//   {
-//     label: "Module 6",
-//     title: "Resilient community building",
-//     subtitle: "Invest locally to build a resilient community",
-//     buttonText: "Learn More",
-//     href: "resilient-community-building",
-//   },
-// ];
 ---
 
 <Layout title="Home">
@@ -100,32 +55,6 @@ import Layout from "../layouts/Layout.astro";
           </div>
         </TwoColumnLayout>
 
-        <!-- <div
-          class="flex flex-col sm:flex-row justify-center align-middle sm:gap-5"
-        >
-          <div class="sm:w-1/2">
-            <img
-              src="RGH_CollageTM.jpg"
-              alt="RGH collage with TM and RGH logo in the center"
-            />
-          </div>
-
-          <div class="sm:w-1/2 text-center">
-            <img src="RGH-bag-4-index-2.jpg" alt="" />
-            <p class="mb-4 text-xl">
-              Rhody Grows Hope (RGH) is a container gardening program that
-              repurposes food plastic recyclables - such as 32-oz yogurt
-              containers and salad containers - as planters to grow food while
-              reducing plastic waste. RGH also repurposes heat-treated pallets
-              as raised garden beds. <br /><br />RGH circumvents soil
-              contamination and limited or no land access prevalent in frontline
-              communities, for food security, sovereignty and justice. <br /><br
-              />Every $20 provides a RGH garden to help a family in need.
-            </p>
-            <LinkButton href="/donate">Donate Now</LinkButton>
-          </div>
-        </div> -->
-
         <div class="mt-4">
           <SectionHeading>LEARN</SectionHeading>
         </div>
@@ -146,10 +75,6 @@ import Layout from "../layouts/Layout.astro";
         <div class="my-4 text-center">
           <LinkButton href="/six-modules">To LEARN</LinkButton>
         </div>
-
-        <!-- <div class="flex flex-wrap flex-row gap-4 justify-evenly mt-4">
-          {modules.map((card) => <ModuleCard card={card} />)}
-        </div> -->
 
         <div class="mt-4">
           <SectionHeading>CONNECT</SectionHeading>
