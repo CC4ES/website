@@ -5,8 +5,15 @@ import LinkButton from "../LinkButton";
 interface Props {
   name: string;
   bioText: string;
+  additionalButtonText?: string | undefined;
+  additionalButtonHref?: string | undefined;
 }
-export default function TeamBio({ name, bioText }: Props) {
+export default function TeamBio({
+  name,
+  bioText,
+  additionalButtonHref,
+  additionalButtonText,
+}: Props) {
   const closeButtonRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,6 +32,13 @@ export default function TeamBio({ name, bioText }: Props) {
     <>
       <div className="mt-4">
         <LinkButton onClick={openModal}>Read Bio</LinkButton>
+        <span className="ml-2">
+          {additionalButtonText && additionalButtonHref && (
+            <LinkButton href={additionalButtonHref}>
+              {additionalButtonText}
+            </LinkButton>
+          )}
+        </span>
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>

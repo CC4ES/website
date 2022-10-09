@@ -7,9 +7,19 @@ export interface Props {
   image: string;
   imageAlt: string;
   bioText: string;
+  additionalButtonText?: string;
+  additionalButtonHref?: string;
 }
 
-const { name, title, image, imageAlt, bioText } = Astro.props;
+const {
+  additionalButtonHref,
+  additionalButtonText,
+  name,
+  title,
+  image,
+  imageAlt,
+  bioText,
+} = Astro.props;
 ---
 
 <div
@@ -25,6 +35,12 @@ const { name, title, image, imageAlt, bioText } = Astro.props;
   <div class="text-center">
     <p class="text-2xl text-gray-700 font-bold mb-2">{name}</p>
     <p class="text-xl text-gray-500 whitespace-pre-wrap">{title}</p>
-    <TeamBio client:load name={name} bioText={bioText} />
+    <TeamBio
+      client:load
+      name={name}
+      bioText={bioText}
+      additionalButtonHref={additionalButtonHref}
+      additionalButtonText={additionalButtonText}
+    />
   </div>
 </div>
