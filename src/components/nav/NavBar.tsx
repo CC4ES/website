@@ -150,7 +150,12 @@ export function NavBarDesktop() {
         <div className="flex shrink-0 justify-start">
           <a href="/">
             <span className="sr-only">CC4ES</span>
-            <img className="h-8" src="/cc4es_logo.png" alt="" />
+            <div className="flex items-center">
+              <img className="h-10" src="/cc4es_logo.png" alt="" />
+              <span className="text-3xl font-semibold tracking-wider">
+                CC4ES
+              </span>
+            </div>
           </a>
         </div>
         <div className="-my-2 -mr-2 md:hidden">
