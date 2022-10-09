@@ -15,7 +15,6 @@ export default function TeamBio({ name, bioText }: Props) {
   }
 
   function openModal() {
-    console.log("foo");
     setIsOpen(true);
   }
 

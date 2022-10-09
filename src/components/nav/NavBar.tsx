@@ -26,26 +26,26 @@ const learnItems: NavigationItem[] = [
   {
     name: "About CC4ES",
     description: "How CC4ES began",
-    href: "#",
+    href: "/how-cc4es-began",
     icon: faInfoCircle,
   },
   {
     name: "Six Modules",
     description: "A brief introduction to each of the CC4ES Six Modules",
-    href: "#",
+    href: "/six-modules",
     icon: faScaleUnbalanced,
   },
   {
     name: "Trees for Sustainability",
     description:
       "Planting trees for environmental health & community well-being",
-    href: "#",
+    href: "/trees-4-sustainability",
     icon: faTreeCity,
   },
   {
     name: "Additional Resources",
     description: "Links to websites of interest",
-    href: "#",
+    href: "/additional-resources",
     icon: faLink,
   },
 ];
@@ -55,20 +55,20 @@ const connectItems: NavigationItem[] = [
     name: "Hope Gardeners",
     description:
       "A forum for school and community gardeners of any size and shape",
-    href: "#",
+    href: "/hope-gardeners",
     icon: faSeedling,
   },
   {
     name: "CC4ES Direct",
     description:
       "Direct access to the resources referenced in the Six Modules for practical applications",
-    href: "#",
+    href: "/direct",
     icon: faStreetView,
   },
   {
     name: "CC4ES Conversation Circles",
     description: "",
-    href: "#",
+    href: "/conversation-circles",
     icon: faMessage,
   },
 ];
@@ -76,28 +76,28 @@ const practiceItems: NavigationItem[] = [
   {
     name: "About Practice",
     description: "CC4ES Programs, Initiatives & On-Ground Cohorts in Practice",
-    href: "#",
+    href: "/practice",
     icon: faInfoCircle,
   },
   {
     name: "Rhody Grows Hope",
     description:
       "Cultivating regenerative sustainability with one garden at a time",
-    href: "#",
+    href: "/rhody-grows-hope",
     icon: faSeedling,
   },
   {
     name: "Museum of Silenced History & Gardens of Regeneration",
     description:
       "Rebuilding relationships with the land to heal and for regenerative sustainability",
-    href: "#",
+    href: "/museum-of-sh",
     icon: faMountainCity,
   },
   {
     name: "Youths for Urban Sustainability, Y4US",
     description:
       "Youth leadership and job skill-set building for regenerative sustainability",
-    href: "#",
+    href: "/youths-4-urban-sustainability",
     icon: faChildren,
   },
 ];
@@ -127,11 +127,11 @@ const allItems: NavigationItem[] = [
   },
   {
     name: "Donate",
-    href: "#",
+    href: "/donate",
   },
   {
     name: "Contact",
-    href: "#",
+    href: "/contact",
   },
 ];
 
