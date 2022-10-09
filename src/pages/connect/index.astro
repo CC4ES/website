@@ -1,0 +1,35 @@
+---
+import type { Props as Program } from "../../components/connect/ConnectProgram.astro";
+import ConnectProgram from "../../components/connect/ConnectProgram.astro";
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import Layout from "../../layouts/Layout.astro";
+const [connect] = await Astro.glob("../../data/connect.mdx");
+const { connectPrograms } = connect?.frontmatter!;
+---
+
+<Layout title="Connect">
+  <ArticleHero
+    title="CONNECT"
+    subtitle="Engaging communities at the grassroots level"
+  />
+  <div class="container">
+    <div class="text-center my-8">
+      <h1 class="text-4xl">Building sustainable communities</h1>
+      <p class="text-xl">
+        CONNECT includes Hope Gardeners, CC4ES Conversation Circles, and CC4ES
+        Direct
+      </p>
+    </div>
+  </div>
+  <article class="container">
+    <div>
+      {
+        connectPrograms.map((program: Program) => (
+          <div class="my-4">
+            <ConnectProgram {...program} />
+          </div>
+        ))
+      }
+    </div>
+  </article>
+</Layout>
