@@ -44,7 +44,12 @@ const learnItems: NavigationItem[] = [
   },
 ];
 const connectItems: NavigationItem[] = [
-  { name: "About Connect", description: "", href: "#", icon: faInfoCircle },
+  {
+    name: "About Connect",
+    description: "",
+    href: "/connect",
+    icon: faInfoCircle,
+  },
   {
     name: "Hope Gardeners",
     description:
