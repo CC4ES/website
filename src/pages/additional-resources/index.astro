@@ -12,7 +12,7 @@ const { additionalResources } = addl?.frontmatter!;
     title="Additional Resources"
     subtitle="Links to websites of interest"
   />
-  <article class="container mt-4 text-center">
+  <article class="container mt-4 space-y-4">
     {
       additionalResources.map((resource: AdditionalResourceType) => (
         <AdditionalResource {...resource} />
