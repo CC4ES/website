@@ -3,28 +3,28 @@ import ArticleHero from "../../components/layout/ArticleHero.astro";
 import type { Props as Program } from "../../components/program/ProgramCard.astro";
 import ConnectProgram from "../../components/program/ProgramCard.astro";
 import Layout from "../../layouts/Layout.astro";
-const [connect] = await Astro.glob("../../data/connect.mdx");
-const { connectPrograms } = connect?.frontmatter!;
+const [practice] = await Astro.glob("../../data/practice.mdx");
+const { programs } = practice?.frontmatter!;
 ---
 
-<Layout title="Connect">
+<Layout title="Practice">
   <ArticleHero
-    title="CONNECT"
-    subtitle="Engaging communities at the grassroots level"
+    title="PRACTICE"
+    subtitle="CC4ES Programs, Initiatives & On-Ground Cohorts in Practice"
   />
   <div class="container">
     <div class="text-center my-8">
-      <h1 class="text-4xl">Building sustainable communities</h1>
+      <h1 class="text-4xl">Interact - Share - Support</h1>
       <p class="text-xl">
-        CONNECT includes Hope Gardeners, CC4ES Conversation Circles, and CC4ES
-        Direct
+        PRACTICE includes Rhody Grows Hope, Museum of Silenced Histories &
+        Gardens of Regeneration, and Youths for Urban Sustainability, Y4US
       </p>
     </div>
   </div>
   <article class="container">
     <div>
       {
-        connectPrograms.map((program: Program) => (
+        programs.map((program: Program) => (
           <div class="my-4">
             <ConnectProgram {...program} />
           </div>
