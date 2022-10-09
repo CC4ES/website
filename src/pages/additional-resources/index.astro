@@ -1,0 +1,22 @@
+---
+import type { Props as AdditionalResourceType } from "../../components/additional-resources/AdditionalResource.astro";
+import AdditionalResource from "../../components/additional-resources/AdditionalResource.astro";
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import Layout from "../../layouts/Layout.astro";
+const [addl] = await Astro.glob("../../data/additional-resources.mdx");
+const { additionalResources } = addl?.frontmatter!;
+---
+
+<Layout title="Additional Resources">
+  <ArticleHero
+    title="Additional Resources"
+    subtitle="Links to websites of interest"
+  />
+  <article class="container mt-4 text-center">
+    {
+      additionalResources.map((resource: AdditionalResourceType) => (
+        <AdditionalResource {...resource} />
+      ))
+    }
+  </article>
+</Layout>
