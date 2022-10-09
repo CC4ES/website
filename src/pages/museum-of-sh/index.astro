@@ -1,0 +1,115 @@
+---
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import Blockquote from "../../components/layout/Blockquote.astro";
+import SectionHeading from "../../components/layout/SectionHeading.astro";
+import TwoColumnLayout from "../../components/layout/TwoColumnLayout.astro";
+import LinkButton from "../../components/LinkButton";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Museum of Silenced Histories">
+  <ArticleHero
+    title="Museum of Silenced Histories"
+    subtitle="Rebuilding relationships with the land to heal and for regenerative sustainability"
+  />
+  <article class="container">
+    <div class="sm:mx-32">
+      <Blockquote author="Juana Ines de la Cruz (d.1695)"
+        >Silence is not having nothing to say, but not having words for all that
+        needs to be said.</Blockquote
+      >
+    </div>
+    <div class="space-y-4">
+      <h3 class="text-3xl text-center">Re-Anchoring Ourselves with the Land</h3>
+      <p class="text-xl">
+        The land is essential for human survival and its natural designs dictate
+        where we must anchor. In the name of prosperity and progress, we have
+        lost much of our ability to hear the voices of the land in the wake of
+        ecological destruction echoing the social and economic disparity in our
+        society. It is time we re-anchor ourselves with land aligning the common
+        root causes we share to tackle systemic issues such as climate changes
+        and systemic oppression.
+      </p>
+      <h3 class="text-3xl text-center">
+        Connecting to re-establish relationships
+      </h3>
+    </div>
+    <div class="mt-2">
+      <img src="/MSH_collage_full.jpg" alt="people in the park" />
+    </div>
+    <div class="mt-4 space-y-4">
+      <SectionHeading>MSH & Gardens of Regeneration</SectionHeading>
+      <p class="text-xl">
+        Museum of Silenced Histories (MSH) project embodies the CC4ES' mission
+        in two platforms for realizing CC4ES' outcomes of transformative justice
+        and equity: a living museum in both digital and physical forms
+        accompanied by a community-convening space; and a community collective
+        regenerative garden to showcase such gardens established by the
+        communities of the silenced.
+      </p>
+    </div>
+    <TwoColumnLayout className="my-4">
+      <div slot="first-col" class="space-y-4">
+        <h3 class="text-center text-3xl">Museum of Silenced Histories, MSH</h3>
+        <p class="text-xl">
+          The Museum of Silenced Histories offers a space for minority,
+          underrepresented, and marginalized members of society to share their
+          stories and have their voices heard, perhaps, for the first time. It
+          is a place that such members can identify with, and a place of healing
+          and reconciliation.
+        </p>
+        <p class="text-xl">
+          Its accompanying community-convening space includes:
+        </p>
+        <ul class="list-disc list-inside text-xl">
+          <li>spaces for in-person meetings and events</li>
+          <li>
+            a reading room and library holding history and knowledge recorded
+            orally, visually and in writings by members of the target
+            communities, as well as books and digital resources focusing on
+            issues these communities face
+          </li>
+          <li>
+            a street-facing gallery (matched by an online version) celebrating
+            the rich and diverse creativity of these communities, especially as
+            it articulates their histories, their journeys through space and
+            time, and their relationships with the land as reflected in their
+            food, clay, and fiber traditions.
+          </li>
+          <li>a quiet space for personal or group reflection and meditation</li>
+          <li>
+            a garden-centered green space as a site of healing, hope and
+            nurturance within parameters designed by nature
+          </li>
+        </ul>
+      </div>
+      <div slot="second-col" class="space-y-4">
+        <h3 class="text-center text-3xl">Gardens of Regeneration</h3>
+        <p class="text-xl">
+          Gardens as institutions have stood as sites of healing, hope, and
+          nurturance because they reflect gardeners' paradigms within the
+          parameters designed by nature.
+        </p>
+        <p class="text-xl">
+          The MSH Gardens of Regeneration is a verdant space where those whose
+          voices have been silenced can openly and freely reflect, value, and
+          honor their own cultural knowledge and wisdom.
+        </p>
+        <p class="text-xl">
+          The garden serves as an urban wildlife habitat, a place for
+          cultivating environmental stewardship, and as an incubator of
+          regenerative agriculture approaches and knowledge that re-establishes
+          our bonds with the land. At the same time, it joins with the existing
+          community gardens in the area and related community land stewardship
+          initiatives in offering a model of environmental sustainability to
+          surrounding neighborhoods and the region.
+        </p>
+      </div>
+    </TwoColumnLayout>
+    <div class="text-center">
+      <LinkButton href="https://cc4es2.wixsite.com/museum"
+        >To MSH & Gardens of Regeneration</LinkButton
+      >
+    </div>
+  </article>
+</Layout>
