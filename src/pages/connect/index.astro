@@ -1,7 +1,7 @@
 ---
 import ArticleHero from "../../components/layout/ArticleHero.astro";
 import type { Props as Program } from "../../components/program/ProgramCard.astro";
-import ConnectProgram from "../../components/program/ProgramCard.astro";
+import ProgramCard from "../../components/program/ProgramCard.astro";
 import Layout from "../../layouts/Layout.astro";
 const [connect] = await Astro.glob("../../data/connect.mdx");
 const { connectPrograms } = connect?.frontmatter!;
@@ -26,7 +26,7 @@ const { connectPrograms } = connect?.frontmatter!;
       {
         connectPrograms.map((program: Program) => (
           <div class="my-4">
-            <ConnectProgram {...program} />
+            <ProgramCard {...program} />
           </div>
         ))
       }
