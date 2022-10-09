@@ -24,12 +24,6 @@ import NavPopoverButton from "./NavPopoverButton";
 
 const learnItems: NavigationItem[] = [
   {
-    name: "About CC4ES",
-    description: "How CC4ES began",
-    href: "/how-cc4es-began",
-    icon: faInfoCircle,
-  },
-  {
     name: "Six Modules",
     description: "A brief introduction to each of the CC4ES Six Modules",
     href: "/six-modules",
