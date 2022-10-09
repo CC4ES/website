@@ -1,0 +1,13 @@
+---
+export interface Props {
+  src: string;
+  alt: string;
+}
+const { src, alt } = Astro.props;
+---
+
+<img
+  class="mt-4 border-solid border-4 border-stone-200 p-2 mx-auto"
+  src={src}
+  alt={alt}
+/>
