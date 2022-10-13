@@ -46,7 +46,7 @@ const learnItems: NavigationItem[] = [
 const connectItems: NavigationItem[] = [
   {
     name: "About Connect",
-    description: "",
+    description: "Engaging communities at the grassroots level",
     href: "/connect",
     icon: faInfoCircle,
   },
@@ -66,7 +66,7 @@ const connectItems: NavigationItem[] = [
   },
   {
     name: "CC4ES Conversation Circles",
-    description: "",
+    description: "Coming soon",
     href: "/conversation-circles",
     icon: faMessage,
   },
