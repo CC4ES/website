@@ -30,15 +30,13 @@ export default function TeamBio({
   }
   return (
     <>
-      <div className="mt-4">
+      <div className="mt-4 flex flex-wrap justify-center gap-2">
         <LinkButton onClick={openModal}>Read Bio</LinkButton>
-        <span className="ml-2">
-          {additionalButtonText && additionalButtonHref && (
-            <LinkButton href={additionalButtonHref}>
-              {additionalButtonText}
-            </LinkButton>
-          )}
-        </span>
+        {additionalButtonText && additionalButtonHref && (
+          <LinkButton href={additionalButtonHref}>
+            {additionalButtonText}
+          </LinkButton>
+        )}
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>
