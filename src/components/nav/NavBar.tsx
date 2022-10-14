@@ -152,7 +152,10 @@ export function NavBarDesktop() {
             <span className="sr-only">CC4ES</span>
             <div className="flex items-center">
               <img className="h-10" src="/cc4es_logo.png" alt="" />
-              <span className="text-3xl font-semibold tracking-wider">
+              <span
+                className="text-3xl font-semibold tracking-wider"
+                style={{ fontFamily: "Zen Kaku Gothic New, sans-serif" }}
+              >
                 CC4ES
               </span>
             </div>
