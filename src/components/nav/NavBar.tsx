@@ -38,7 +38,7 @@ const learnItems: NavigationItem[] = [
   },
   {
     name: "Additional Resources",
-    description: "Links to websites of interest",
+    description: "Organizations that CC4ES frequently collaborates with",
     href: "/additional-resources",
     icon: faLink,
   },
