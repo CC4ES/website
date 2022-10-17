@@ -2,7 +2,6 @@
 import ArticleHero from "../../components/layout/ArticleHero.astro";
 import Blockquote from "../../components/layout/Blockquote.astro";
 import SectionHeading from "../../components/layout/SectionHeading.astro";
-import TwoColumnLayout from "../../components/layout/TwoColumnLayout.astro";
 import LinkButton from "../../components/LinkButton";
 import Layout from "../../layouts/Layout.astro";
 ---
@@ -21,11 +20,12 @@ import Layout from "../../layouts/Layout.astro";
     <div class="space-y-4">
       <h3 class="text-3xl text-center">What is Rhody Grows Hope?</h3>
       <p class="text-xl">
-        Rhody Grows Hope (RGH) is a container gardening program that repurposes food plastic recyclables - such as 32-oz yogurt 
-        containers and salad containers - as planters to grow food while reducing plastic waste. 
-        RGH also repurposes heat-treated pallets as raised garden beds. 
-        RGH circumvents soil contamination and limited or no land access prevalent in frontline communities, 
-        for food security, sovereignty and justice.
+        Rhody Grows Hope (RGH) is a container gardening program that repurposes
+        food plastic recyclables - such as 32-oz yogurt containers and salad
+        containers - as planters to grow food while reducing plastic waste. RGH
+        also repurposes heat-treated pallets as raised garden beds. RGH
+        circumvents soil contamination and limited or no land access prevalent
+        in frontline communities, for food security, sovereignty and justice.
       </p>
       <h3 class="text-3xl text-center">
         Growing one's own food as a social mobilizer tool for building
@@ -65,7 +65,7 @@ import Layout from "../../layouts/Layout.astro";
         community.
       </p>
     </div>
-    <TwoColumnLayout className="my-4">
+    <div class="grid sm:grid-cols-2 gap-4 my-4">
       <div slot="first-col" class="space-y-4">
         <h3 class="text-center text-3xl">Grow a Garden</h3>
         <p class="text-xl">
@@ -101,6 +101,6 @@ import Layout from "../../layouts/Layout.astro";
           <LinkButton href="/donate">Donate Now</LinkButton>
         </div>
       </div>
-    </TwoColumnLayout>
+    </div>
   </article>
 </Layout>

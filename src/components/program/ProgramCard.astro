@@ -1,5 +1,4 @@
 ---
-import TwoColumnLayout from "../layout/TwoColumnLayout.astro";
 import Link from "../Link.astro";
 
 interface Module {
@@ -26,11 +25,11 @@ const { description, image, imageAlt, link, modules, name, title } =
     {name}
   </h4>
   <div class="flex gap-6 border-solid border-2 border-violet-200 p-4">
-    <TwoColumnLayout className="text-center sm:text-left">
-      <div slot="first-col">
+    <div class="grid sm:grid-cols-2 gap-4 text-center sm:text-left">
+      <div>
         <img src={image} alt={imageAlt} />
       </div>
-      <div slot="second-col">
+      <div>
         <div class="space-y-4">
           <h2 class="text-4xl">{title}</h2>
           <p>{description}</p>
@@ -48,6 +47,6 @@ const { description, image, imageAlt, link, modules, name, title } =
           }
         </div>
       </div>
-    </TwoColumnLayout>
+    </div>
   </div>
 </div>

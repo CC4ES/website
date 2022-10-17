@@ -2,7 +2,6 @@
 import ArticleHero from "../../components/layout/ArticleHero.astro";
 import Blockquote from "../../components/layout/Blockquote.astro";
 import SectionHeading from "../../components/layout/SectionHeading.astro";
-import TwoColumnLayout from "../../components/layout/TwoColumnLayout.astro";
 import LinkButton from "../../components/LinkButton";
 import Layout from "../../layouts/Layout.astro";
 ---
@@ -22,8 +21,8 @@ import Layout from "../../layouts/Layout.astro";
     <SectionHeading
       >Sustainable food systems to platform career paths</SectionHeading
     >
-    <TwoColumnLayout className="my-4">
-      <div slot="first-col" class="text-xl space-y-4">
+    <div class="grid sm:grid-cols-2 gap-4 my-4">
+      <div class="text-xl space-y-4">
         <h5>
           Food systems intersect all three dimensions of sustainability
           --environmental, social and economic.
@@ -45,7 +44,7 @@ import Layout from "../../layouts/Layout.astro";
           class="mx-auto"
         />
       </div>
-      <div slot="second-col" class="text-xl space-y-4">
+      <div class="text-xl space-y-4">
         <img
           src="/seedlings_in_jars.jpg"
           alt="seedlings in jars of coins"
@@ -64,13 +63,13 @@ import Layout from "../../layouts/Layout.astro";
 
         <img src="/vertical_garden.jpg" alt="vertical garden" class="mx-auto" />
       </div>
-    </TwoColumnLayout>
+    </div>
 
     <SectionHeading
       >Collaboration to pipeline for collective changes</SectionHeading
     >
-    <TwoColumnLayout className="my-4">
-      <div slot="first-col" class="text-xl space-y-4">
+    <div class="grid sm:grid-cols-2 gap-4 my-4">
+      <div class="text-xl space-y-4">
         <h5>
           Y4US platforms an accreditation infrastructure that various
           organizations with the common causes can base to develop or modify to
@@ -82,10 +81,10 @@ import Layout from "../../layouts/Layout.astro";
           resilient with social, environmental, and economic justice and equity.
         </p>
       </div>
-      <div slot="second-col" class="text-xl space-y-4">
+      <div class="text-xl space-y-4">
         <img src="/hands.jpg" alt="hands over a table" class="mx-auto" />
       </div>
-    </TwoColumnLayout>
+    </div>
     <div class="text-xl space-y-4">
       <h3 class="text-3xl">Y4US' Outcomes</h3>
       <h5>

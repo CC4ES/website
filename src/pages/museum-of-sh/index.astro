@@ -2,7 +2,6 @@
 import ArticleHero from "../../components/layout/ArticleHero.astro";
 import Blockquote from "../../components/layout/Blockquote.astro";
 import SectionHeading from "../../components/layout/SectionHeading.astro";
-import TwoColumnLayout from "../../components/layout/TwoColumnLayout.astro";
 import LinkButton from "../../components/LinkButton";
 import Layout from "../../layouts/Layout.astro";
 ---
@@ -48,7 +47,7 @@ import Layout from "../../layouts/Layout.astro";
         communities of the silenced.
       </p>
     </div>
-    <TwoColumnLayout className="my-4">
+    <div class="grid sm:grid-cols-2 gap-4 my-4">
       <div slot="first-col" class="space-y-4">
         <h3 class="text-center text-3xl">Museum of Silenced Histories, MSH</h3>
         <p class="text-xl">
@@ -105,7 +104,7 @@ import Layout from "../../layouts/Layout.astro";
           surrounding neighborhoods and the region.
         </p>
       </div>
-    </TwoColumnLayout>
+    </div>
     <div class="text-center">
       <LinkButton href="https://cc4es2.wixsite.com/museum"
         >Explore Further</LinkButton

@@ -1,7 +1,6 @@
 ---
 import Hero from "../components/layout/Hero.astro";
 import SectionHeading from "../components/layout/SectionHeading.astro";
-import TwoColumnLayout from "../components/layout/TwoColumnLayout.astro";
 import Link from "../components/Link.astro";
 import LinkButton from "../components/LinkButton";
 import Layout from "../layouts/Layout.astro";
@@ -18,14 +17,14 @@ import Layout from "../layouts/Layout.astro";
             Lifestyle In All Walks Of Life</strong
           >
         </h2>
-        <TwoColumnLayout className="mt-4 text-center">
-          <div slot="first-col">
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div>
             <img
               src="RGH_CollageTM.jpg"
               alt="RGH collage with TM and RGH logo in the center"
             />
           </div>
-          <div slot="second-col" class="text-xl">
+          <div class="text-xl">
             <p class="mt-4">
               Ever-emerging environmental, social and economic challenges
               necessitate a lifestyle that fosters sustainability. Cultivating
@@ -53,13 +52,13 @@ import Layout from "../layouts/Layout.astro";
               <br /><br />
             </h4>
           </div>
-        </TwoColumnLayout>
+        </div>
 
         <div class="mt-4">
           <SectionHeading>LEARN</SectionHeading>
         </div>
-        <TwoColumnLayout className="mt-4 text-center">
-          <div slot="first-col">
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div>
             <p class="text-xl">
               CC4ES classifies the complexity of sustainability into six
               modules. Although all six modules are interconnected, the
@@ -68,10 +67,10 @@ import Layout from "../layouts/Layout.astro";
               possible in a society that champions justice and equity.
             </p>
           </div>
-          <div slot="second-col">
+          <div>
             <img src="/Six Modules Logo.jpg" alt="" />
           </div>
-        </TwoColumnLayout>
+        </div>
         <div class="my-4 text-center">
           <LinkButton href="/six-modules">To LEARN</LinkButton>
         </div>
@@ -79,8 +78,8 @@ import Layout from "../layouts/Layout.astro";
         <div class="mt-4">
           <SectionHeading>CONNECT</SectionHeading>
         </div>
-        <TwoColumnLayout className="mt-4 text-center">
-          <div slot="first-col">
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div>
             <p class="text-xl">
               CONNECT platforms <em
                 ><Link href="hope-gardeners">Hope Gardeners</Link>
@@ -97,10 +96,10 @@ import Layout from "../layouts/Layout.astro";
             </p>
           </div>
 
-          <div slot="second-col" class="my-4">
+          <div class="my-4">
             <img src="/CC4ESHG_logo.jpg" alt="Hope Gardeners Logo" />
           </div>
-        </TwoColumnLayout>
+        </div>
         <div class="my-4 text-center">
           <LinkButton href="/connect">To CONNECT</LinkButton>
         </div>
@@ -108,8 +107,8 @@ import Layout from "../layouts/Layout.astro";
         <div>
           <SectionHeading>PRACTICE</SectionHeading>
         </div>
-        <TwoColumnLayout className="mt-4 text-center">
-          <div slot="first-col" class="text-xl">
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div class="text-xl">
             <div>
               <em
                 ><Link href="/rhody-grows-hope">Rhody Grows Hope</Link>
@@ -137,13 +136,13 @@ import Layout from "../layouts/Layout.astro";
             </div>
           </div>
 
-          <div slot="second-col">
+          <div>
             <img
               src="/Rhody_Grows_Hope_logo_TM(1).jpg"
               alt="Rhody Grows Hope TM logo"
             />
           </div>
-        </TwoColumnLayout>
+        </div>
         <div class="my-4 text-center">
           <LinkButton href="/practice">To PRACTICE</LinkButton>
         </div>
