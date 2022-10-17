@@ -1,0 +1,22 @@
+---
+import type { Props as AdditionalResourceType } from "../../components/additional-resources/AdditionalResource.astro";
+import AdditionalResource from "../../components/additional-resources/AdditionalResource.astro";
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import Layout from "../../layouts/Layout.astro";
+const [addl] = await Astro.glob("../../data/additional-resources.mdx");
+const { additionalResources } = addl?.frontmatter!;
+---
+
+<Layout title="Additional Resources">
+  <ArticleHero
+    title="Additional Resources"
+    subtitle="CC4ES frequently collaborates with organizations that have a shared focus"
+  />
+  <article class="container mt-4 space-y-4">
+    {
+      additionalResources.map((resource: AdditionalResourceType) => (
+        <AdditionalResource {...resource} />
+      ))
+    }
+  </article>
+</Layout>

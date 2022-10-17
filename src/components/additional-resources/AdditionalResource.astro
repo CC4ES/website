@@ -1,0 +1,16 @@
+---
+import LinkButton from "../LinkButton";
+
+export interface Props {
+  title: string;
+  linkText: string;
+  linkHref: string;
+}
+
+const { title, linkText, linkHref } = Astro.props;
+---
+
+<div>
+  <LinkButton href={linkHref}>{linkText}</LinkButton>
+  <span class="text-lg font-medium mt-12 mb-4"> - {title}</span>
+</div>

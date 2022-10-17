@@ -1,0 +1,52 @@
+---
+import Link from "../Link.astro";
+
+interface Module {
+  name: string;
+  link: string;
+}
+
+export interface Props {
+  name: string;
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  link: string;
+  modules?: Module[];
+}
+
+const { description, image, imageAlt, link, modules, name, title } =
+  Astro.props;
+---
+
+<div class="">
+  <h4 class="mx-auto w-full text-center text-2xl bg-violet-200 py-4">
+    {name}
+  </h4>
+  <div class="flex gap-6 border-solid border-2 border-violet-200 p-4">
+    <div class="grid sm:grid-cols-2 gap-4 text-center sm:text-left">
+      <div>
+        <img src={image} alt={imageAlt} />
+      </div>
+      <div>
+        <div class="space-y-4">
+          <h2 class="text-4xl">{title}</h2>
+          <p>{description}</p>
+          <p class="text-xl"><Link href={link}>Learn more »</Link></p>
+          {
+            modules && modules.length > 0 && (
+              <p class="text-xl font-semibold mb-4">Relevant modules:</p>
+            )
+          }
+          {
+            modules &&
+              modules
+                .map((mod: Module) => <Link href={mod.link}>{mod.name}</Link>)
+                .reduce((prev, curr) => [prev, ", ", curr])
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

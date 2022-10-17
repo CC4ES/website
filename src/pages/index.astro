@@ -1,0 +1,152 @@
+---
+import Hero from "../components/layout/Hero.astro";
+import SectionHeading from "../components/layout/SectionHeading.astro";
+import Link from "../components/Link.astro";
+import LinkButton from "../components/LinkButton";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Home">
+  <main>
+    <Hero />
+    <div class="container mt-6">
+      <article>
+        <h2 class="text-center text-4xl">
+          <strong
+            >A Grassroots Organization That Cultivates<br />Sustainable
+            Lifestyle In All Walks Of Life</strong
+          >
+        </h2>
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div>
+            <img
+              src="RGH_CollageTM.jpg"
+              alt="RGH collage with TM and RGH logo in the center"
+            />
+          </div>
+          <div class="text-xl">
+            <p class="mt-4">
+              Ever-emerging environmental, social and economic challenges
+              necessitate a lifestyle that fosters sustainability. Cultivating
+              sustainable lifestyles entails continual learning and diligent
+              practices. Such endeavor resonates with the CC4ES core tenets:
+              comprehensive collaboration for systemic change, community-based
+              motivation and empowerment, and establishing an environment for
+              lifelong learning and practice.
+            </p>
+
+            <p class="mt-4">
+              Food is a universal human right. As food is embedded in
+              socio-cultural systems, food justice is environmental, social and
+              economic justice. Growing one's own food provides the most
+              impactful means of ensuring environmental, social and economic
+              sustainability. CC4ES uses growing one's own food as a grassroots
+              community mobilizer to platform the collective shifts necessary
+              for cultivating community-narrated and community-empowered
+              regenerative sustainability.
+            </p>
+
+            <h4 class="mt-4 text-2xl font-bold">
+              The CC4ES Website is organized into a LEARN-CONNECT-PRACTICE
+              infrastructure.
+              <br /><br />
+            </h4>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <SectionHeading>LEARN</SectionHeading>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div>
+            <p class="text-xl">
+              CC4ES classifies the complexity of sustainability into six
+              modules. Although all six modules are interconnected, the
+              Environmental Justice & Diversity module underpins all others.
+              Environmental justice is social justice. Sustainability is only
+              possible in a society that champions justice and equity.
+            </p>
+          </div>
+          <div>
+            <img src="/Six Modules Logo.jpg" alt="" />
+          </div>
+        </div>
+        <div class="my-4 text-center">
+          <LinkButton href="/six-modules">To LEARN</LinkButton>
+        </div>
+
+        <div class="mt-4">
+          <SectionHeading>CONNECT</SectionHeading>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div>
+            <p class="text-xl">
+              CONNECT platforms <em
+                ><Link href="hope-gardeners">Hope Gardeners</Link>
+              </em>
+              network for engaging community members at grassroots level to participate
+              in <br />CC4ES programs that cultivate community-led and empowered
+              regenerative sustainability. <br /><br />CONNECT is facilitated by <em
+                ><Link href="direct">CC4ES Direct</Link>
+              </em> and supported through <em
+                ><Link href="/conversation-circles"
+                  >CC4ES Conversation Circles</Link
+                >
+              </em>.
+            </p>
+          </div>
+
+          <div class="my-4">
+            <img src="/CC4ESHG_logo.jpg" alt="Hope Gardeners Logo" />
+          </div>
+        </div>
+        <div class="my-4 text-center">
+          <LinkButton href="/connect">To CONNECT</LinkButton>
+        </div>
+
+        <div>
+          <SectionHeading>PRACTICE</SectionHeading>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4 mt-4 text-center">
+          <div class="text-xl">
+            <div>
+              <em
+                ><Link href="/rhody-grows-hope">Rhody Grows Hope</Link>
+              </em><span>
+                is the central CC4ES program that uses growing one's own food as
+                a grassroots community mobilizer.</span
+              >
+            </div>
+            <div>
+              <em
+                ><Link href="/museum-of-SH"
+                  >Museum of Silenced Histories & Gardens of Regeneration</Link
+                >
+              </em><span> gives voices for food sovereignty and justice.</span>
+            </div>
+            <div>
+              <em
+                ><Link href="/youths-4-urban-sustainability"
+                  >Youths for Urban Sustainability</Link
+                >
+              </em><span>
+                is a skills-training program that engages communities for their
+                own narratives and empowerment.</span
+              >
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="/Rhody_Grows_Hope_logo_TM(1).jpg"
+              alt="Rhody Grows Hope TM logo"
+            />
+          </div>
+        </div>
+        <div class="my-4 text-center">
+          <LinkButton href="/practice">To PRACTICE</LinkButton>
+        </div>
+      </article>
+    </div>
+  </main>
+</Layout>

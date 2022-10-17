@@ -1,0 +1,72 @@
+---
+import Footer from "../components/layout/Footer.astro";
+import NavBar from "../components/nav/NavBar";
+
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/png" href="/cc4es_favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Zen+Kaku+Gothic+New&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="CC4ES Coalition Center for Environmental Sustainability"
+    />
+    <title>CC4ES | {title}</title>
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQVV848M64"
+  ></script>
+  <script>
+    // @ts-ignore
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      // @ts-ignore
+      dataLayer.push(arguments);
+    }
+    // @ts-ignore
+    gtag("js", new Date());
+
+    // @ts-ignore
+    gtag("config", "G-BQVV848M64");
+  </script>
+  <body>
+    <NavBar client:load />
+    <slot />
+    <Footer />
+    <style is:global>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Poppins, Helvetica Neue, Helvetica, Roboto, Arial,
+          sans-serif;
+      }
+
+      ul {
+        list-style-type: disc;
+        list-style-position: inside;
+      }
+
+      ol {
+        list-style-type: decimal;
+        list-style-position: inside;
+      }
+    </style>
+  </body>
+</html>

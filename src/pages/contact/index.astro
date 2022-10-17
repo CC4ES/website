@@ -1,0 +1,141 @@
+---
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Contact">
+  <ArticleHero title="Contact" />
+  <article class="container mt-8">
+    <div class="text-center text-4xl">
+      <h2>Contact Form</h2>
+      <p class="text-2xl">
+        Please fill out the form below and we will contact you as soon as
+        possible.
+      </p>
+    </div>
+    <form name="contact" method="POST" data-netlify="true" class="space-y-4">
+      <div class="grid sm:grid-cols-2 gap-8 mt-4">
+        <label
+          >First Name<span class="text-red-500">*</span>
+          <input
+            type="text"
+            name="first_name"
+            required
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          />
+        </label>
+        <label
+          >Last Name<span class="text-red-500">*</span>
+          <input
+            type="text"
+            name="last_name"
+            required
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          />
+        </label>
+      </div>
+      <div>
+        <label
+          >Email<span class="text-red-500">*</span>
+          <input
+            type="email"
+            name="email"
+            required
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          />
+        </label>
+      </div>
+      <div>
+        <label
+          >Affiliated Organization
+          <input
+            type="text"
+            name="organization"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          />
+        </label>
+      </div>
+      <fieldset class="[&_label]:ml-2">
+        <legend class="my-2"
+          ><strong
+            ><span class="text-lg"
+              >Select CC4ES Programs if you are interested to participate</span
+            >
+          </strong>
+        </legend>
+        <div>
+          <input id="module1" name="module1" type="checkbox" /><label
+            for="module1">Rhody Grows Hope</label
+          >
+        </div>
+        <div>
+          <input id="module2" name="module2" type="checkbox" /><label
+            for="module2"
+            >Museum of Silenced Histories and Gardens of Regeneration</label
+          >
+        </div>
+        <div>
+          <input id="module3" name="module3" type="checkbox" /><label
+            for="module3">Youths for Urban Sustainability, Y4US</label
+          >
+        </div>
+        <div>
+          <input id="module4" name="module4" type="checkbox" /><label
+            for="module4">Hope Gardeners</label
+          >
+        </div>
+        <div>
+          <input id="module5" name="module5" type="checkbox" /><label
+            for="module5">CC4ES Conversation Circles</label
+          >
+        </div>
+        <div>
+          <input id="module6" name="module6" type="checkbox" /><label
+            for="module6">CC4ES Direct</label
+          >
+        </div>
+      </fieldset>
+      <fieldset class="[&_label]:ml-2">
+        <legend class="my-2"
+          ><strong><span class="text-lg">CC4ES Mailing List</span></strong>
+        </legend>
+        <input
+          id="mailing_list"
+          name="mailing_list"
+          type="checkbox"
+          checked
+        /><label for="mailing_list">Please add me to your mailing list.</label>
+      </fieldset>
+      <fieldset class="[&_label]:ml-2">
+        <legend class="my-2"
+          ><strong
+            ><span class="text-lg"
+              >Become a CC4ES Collaborator, Advisor or Participant to help build
+              sustainable communities</span
+            >
+          </strong>
+        </legend>
+        <input id="member_signup" name="member_signup" type="checkbox" /><label
+          for="dot_signup">I am interested to join the CC4ES Team.</label
+        >
+      </fieldset>
+      <div>
+        <label>
+          Comment or Message
+          <textarea
+            rows="5"
+            name="message"
+            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+          ></textarea>
+        </label>
+      </div>
+      <div>
+        <button
+          type="submit"
+          class="inline-flex justify-center cursor-pointer py-2 px-3 text-lg font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >Submit</button
+        >
+      </div>
+    </form>
+  </article>
+</Layout>

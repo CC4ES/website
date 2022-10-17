@@ -1,0 +1,55 @@
+---
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import Blockquote from "../../components/layout/Blockquote.astro";
+import LinkButton from "../../components/LinkButton";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Hope Gardeners">
+  <ArticleHero
+    title="Hope Gardeners"
+    subtitle="A forum for school and community gardeners of any size and shape"
+  />
+  <div class="container">
+    <div class="sm:mx-32">
+      <Blockquote author="Audrey Hepburn"
+        >To plant a garden is to believe in tomorrow.</Blockquote
+      >
+    </div>
+    <article>
+      <div class="text-xl space-y-4">
+        <p class="mt-16">
+          Growing our own food is the simplest and most direct action for
+          sustainability. CC4ES implements outreach education on gardening at a
+          grassroots level. CC4ES Hope Gardeners convenes school and community
+          gardeners of any shape and size to share resources and support.
+          Gardening promotes environmental stewardship that improves
+          environmental health for the whole community. Gardens provide a
+          platform that embraces and celebrates diversity, building communities
+          sustainable and resilient with environmental, economic and social
+          equity and justice.
+        </p>
+        <p>
+          Hope Gardeners is an expansion of Providence School Gardeners, created
+          for the same purposes:
+        </p>
+        <ul class="list-disc list-inside">
+          <li>
+            to convene and support outreach education for sustainable lifestyle
+            through gardening
+          </li>
+          <li>
+            to share resources and information for continual learning to build
+            resilient and sustainable communities with environmental, social and
+            economic justice and equity.
+          </li>
+        </ul>
+      </div>
+      <div class="text-center my-4">
+        <LinkButton href="https://cc4es2.wixsite.com/hopegardeners"
+          >Explore Further</LinkButton
+        >
+      </div>
+    </article>
+  </div>
+</Layout>

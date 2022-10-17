@@ -1,0 +1,29 @@
+---
+import LinkButton from "./LinkButton";
+
+export interface Card {
+  label: string;
+  title: string;
+  subtitle: string;
+  buttonText: string;
+  href: string;
+}
+
+export interface Props {
+  card: Card;
+}
+
+const { card } = Astro.props;
+---
+
+<div
+  class="text-center h-72 w-80 flex flex-col flex-shrink justify-between p-4 bg-white rounded-lg border border-gray-200 shadow-md"
+>
+  <h5 class="mb-2 uppercase text-xl font-bold tracking-tight text-gray-900">
+    {card.label}
+  </h5>
+  <hr class="border-2 border-amber-900 mb-2 w-36 self-center" />
+  <p class="mb-3 text-2xl font-bold text-gray-700">{card.title}</p>
+  <p class="mb-3 text-xl font-normal text-gray-700">{card.subtitle}</p>
+  <LinkButton href={card.href}>{card.buttonText}</LinkButton>
+</div>
