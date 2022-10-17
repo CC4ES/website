@@ -12,12 +12,12 @@ const { title, subtitle } = Astro.props;
     class="container text-center py-4 md:p-4 flex flex-col justify-center h-40 md:h-[200px] text-shadow-sm"
   >
     <h1 class="text-xl sm:text-5xl tracking-tight text-white">
-      <span class="block">{title}</span>
+      <span class="block"><Fragment set:html={title} /></span>
     </h1>
     <h2
       class="text-subtitle mt-0 pt-2 text-white md:mt-3 text-md lg:text-2xl lg:mx-0 italic"
     >
-      <span class="block">{subtitle}</span>
+      <span class="block"><Fragment set:html={subtitle} /></span>
     </h2>
   </div>
 </section>
