@@ -1,7 +1,7 @@
 ---
 export interface Props {
   title: string;
-  subtitle: string;
+  subtitle?: string;
 }
 
 const { title, subtitle } = Astro.props;
@@ -14,11 +14,15 @@ const { title, subtitle } = Astro.props;
     <h1 class="text-xl sm:text-5xl tracking-tight text-white">
       <span class="block"><Fragment set:html={title} /></span>
     </h1>
-    <h2
-      class="text-subtitle mt-0 pt-2 text-white md:mt-3 text-md lg:text-2xl lg:mx-0 italic"
-    >
-      <span class="block"><Fragment set:html={subtitle} /></span>
-    </h2>
+    {
+      subtitle && (
+        <h2 class="text-subtitle mt-0 pt-2 text-white md:mt-3 text-md lg:text-2xl lg:mx-0 italic">
+          <span class="block">
+            <Fragment set:html={subtitle} />
+          </span>
+        </h2>
+      )
+    }
   </div>
 </section>
 
