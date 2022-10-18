@@ -220,7 +220,7 @@ export function NavBarDesktop() {
               <a
                 key={item.name}
                 href={item.href}
-                className="rounded-md bg-lime-100 text-xl font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
+                className="rounded-md bg-lime-100 text-xl font-medium text-gray-900 hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
               >
                 {item.name}
               </a>
