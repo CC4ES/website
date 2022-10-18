@@ -36,13 +36,13 @@ const learnItems: NavigationItem[] = [
     href: "/trees-4-sustainability",
     icon: faTreeCity,
   },
-//#region   {
+#region   {
     name: "New Page",
     description:
       "Here is how we test a new page",
     href: "/New-Page",
     icon: faTreeCity,
-//#endregion  },
+#endregion  },
   {
     name: "Additional Resources",
     description: "Organizations that CC4ES frequently collaborates with",
