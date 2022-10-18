@@ -20,15 +20,5 @@ const { connectPrograms } = connect?.frontmatter!;
       </p>
     </div>
   </div>
-  <article class="container">
-    <div>
-      {
-        connectPrograms.map((program: Program) => (
-          <div class="my-4">
-            <ProgramCard {...program} />
-          </div>
-        ))
-      }
-    </div>
-  </article>
+  
 </Layout>
