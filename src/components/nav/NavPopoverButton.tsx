@@ -12,15 +12,15 @@ export default function NavPopoverButton({
   return (
     <Popover.Button
       className={classNames(
-        open ? "text-gray-900" : "text-gray-500",
-        "group inline-flex items-center rounded-md bg-lime-100 text-xl font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
+        open ? "text-blue-500" : "text-gray-900",
+        "group inline-flex items-center rounded-md bg-lime-100 text-xl font-medium hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-offset-2"
       )}
     >
       <span>{title}</span>
       <ChevronDownIcon
         className={classNames(
-          open ? "text-gray-600" : "text-gray-400",
-          "ml-2 h-5 w-5 group-hover:text-gray-500"
+          open ? "text-blue-500" : "text-gray-900",
+          "ml-2 h-5 w-5 group-hover:text-blue-500"
         )}
         aria-hidden="true"
       />
