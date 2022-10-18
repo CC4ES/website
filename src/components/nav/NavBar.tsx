@@ -37,6 +37,13 @@ const learnItems: NavigationItem[] = [
     icon: faTreeCity,
   },
   {
+    name: "New Page",
+    description:
+      "Here is how we test a new page",
+    href: "/Testing-New-Page",
+    icon: faTreeCity,
+  },
+  {
     name: "Additional Resources",
     description: "Organizations that CC4ES frequently collaborates with",
     href: "/additional-resources",
