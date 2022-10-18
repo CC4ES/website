@@ -1,24 +1,43 @@
 ---
 import ArticleHero from "../../components/layout/ArticleHero.astro";
-import type { Props as Program } from "../../components/program/ProgramCard.astro";
-import ProgramCard from "../../components/program/ProgramCard.astro";
+import Blockquote from "../../components/layout/Blockquote.astro";
+import LinkButton from "../../components/LinkButton";
 import Layout from "../../layouts/Layout.astro";
-const [connect] = await Astro.glob("../../data/connect.mdx");
-const { connectPrograms } = connect?.frontmatter!;
 ---
 
 <Layout title="Testing New Page">
   <ArticleHero
     title="New Page"
-    subtitle="This is a new page"
+    subtitle="This is a way to add a page"
   />
   <div class="container">
-    <div class="text-center my-8">
-      <h1 class="text-4xl">This is how I add a page</h1>
-      <p class="text-xl">
-        Does this work well?
-      </p>
+    <div class="sm:mx-32">
+      <Blockquote author="David G"
+        >Adding pages can be fun.</Blockquote
+      >
     </div>
+    <article>
+      <div class="text-xl space-y-4">
+        <p class="mt-16">
+          Once upon a time, I decided it would be good to add a page.
+        </p>
+        <p>
+          There are various reasons to add pages:
+        </p>
+        <ul class="list-disc list-inside">
+          <li>
+            new content
+          </li>
+          <li>
+            new users need more stuff.
+          </li>
+        </ul>
+      </div>
+      <div class="text-center my-4">
+        <LinkButton href="https://cc4es2.wixsite.com/hopegardeners"
+          >Explore Further</LinkButton
+        >
+      </div>
+    </article>
   </div>
-  
 </Layout>
