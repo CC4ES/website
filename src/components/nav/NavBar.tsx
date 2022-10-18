@@ -40,7 +40,7 @@ const learnItems: NavigationItem[] = [
     name: "New Page",
     description:
       "Here is how we test a new page",
-    href: "/Testing-New-Page",
+    href: "/New-Page",
     icon: faTreeCity,
   },
   {
