@@ -1,0 +1,34 @@
+---
+import ArticleHero from "../../components/layout/ArticleHero.astro";
+import type { Props as Program } from "../../components/program/ProgramCard.astro";
+import ProgramCard from "../../components/program/ProgramCard.astro";
+import Layout from "../../layouts/Layout.astro";
+const [connect] = await Astro.glob("../../data/connect.mdx");
+const { connectPrograms } = connect?.frontmatter!;
+---
+
+<Layout title="Testing New Page">
+  <ArticleHero
+    title="New Page"
+    subtitle="Is adding a new page doable?"
+  />
+  <div class="container">
+    <div class="text-center my-8">
+      <h1 class="text-4xl">Creating new pages can be fun</h1>
+      <p class="text-xl">
+        NEW PAGE includes stuff
+      </p>
+    </div>
+  </div>
+  <article class="container">
+    <div>
+      {
+        connectPrograms.map((program: Program) => (
+          <div class="my-4">
+            <ProgramCard {...program} />
+          </div>
+        ))
+      }
+    </div>
+  </article>
+</Layout>
