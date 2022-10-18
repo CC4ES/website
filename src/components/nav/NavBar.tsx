@@ -136,7 +136,7 @@ const allItems: NavigationItem[] = [
 
 export default function NavBar() {
   return (
-    <Popover className="sticky z-50 top-0 bg-lime-100 border-b-4 border-b-amber-600">
+    <Popover className="sticky z-[999] top-0 bg-lime-100 border-b-4 border-b-amber-600">
       <NavBarDesktop />
       <NavBarMobile />
     </Popover>
