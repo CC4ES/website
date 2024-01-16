@@ -86,18 +86,18 @@ const practiceItems: NavigationItem[] = [
     icon: faSeedling,
   },
   {
-    name: "Museum of Silenced Histories & Gardens of Regeneration",
-    description:
-      "Rebuilding relationships with the land to heal and for regenerative sustainability",
-    href: "/museum-of-sh",
-    icon: faMountainCity,
-  },
-  {
     name: "Youths for Urban Sustainability, Y4US",
     description:
       "Youth leadership and job skill-set building for regenerative sustainability",
     href: "/youths-4-urban-sustainability",
     icon: faChildren,
+  },
+  {
+    name: "Museum of Silenced Histories",
+    description:
+      "Rebuilding relationships with the land to heal and for regenerative sustainability",
+    href: "/museum-of-sh",
+    icon: faMountainCity,
   },
 ];
 const allItems: NavigationItem[] = [
